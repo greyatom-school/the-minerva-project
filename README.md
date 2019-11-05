@@ -6,7 +6,7 @@ The entire learning path has been divided into 6 sprints which will help you lea
 Learn more about GreyAtom's philosphy of curating learning paths over [here](https://github.com/greyatom-school/the-minerva-project/blob/master/content_curation_guidelines.md)
 
 ## Contribution
-The Minerva Project is an open source project. This means that if anyone comes across a resource that is better than what is currently included in our lessons, that person is free (and encouraged!) to add them, which improves our curriculum over time and helps it to stay up to date. Read our contribution guidelines for detailed information.
+The Minerva Project is an open source project. This means that if anyone comes across a resource that is better than what is currently included in our lessons, that person is free (and encouraged!) to add them, which improves our curriculum over time and helps it to stay up to date. Read our (contribution guidelines)[https://github.com/greyatom-school/the-minerva-project/blob/master/contribution_guidelines.md] for detailed information.
 
 # Learning Path
 
