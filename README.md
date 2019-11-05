@@ -3,29 +3,53 @@ Coding is the most sought after skill today. The Minerva Project aims at providi
 
 
 ## Sprint 0: Prep Work
-### Overview
-This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.
 
-### Learning Outcomes
+**Overview**
+
+This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. 
+
+Begin your first step in becoming a front end developer. Familiarize yourself with Basics of Web Development, HTML & CSS
+
+
+**Learning Outcomes**
+
 After this sprint, you will have an understanding of
-- How the worldwide web works?
-- What do web developers do?
-- What are the different roles in web development?
-- Role of HTML, CSS and JavaScript in web development?
-- Tools of the trade for a web developer
-  - Command Line
-  - Git & GitHub
-  - Agile Development (GitHub project board, Trello)
-  - StackOverflow
 
-### Prerequisites
-Before you start learning this concept, be sure you have loads of enthusiasm and curiosity :)
+- How does web work?
+- What is web development?
+- What are the different web development roles?
+- What are the different web technologies?
+- What is the role of HTML & CSS in a web page?
+- How to structure a page using HTML?
+- How to format/style a page using CSS?
 
-### Concepts
-- Web 101
-- Web Development 101
-- Command-Line and Version Control
+**Project:** Create a Personal Portfolio Page
 
+**Concept 1:** Introduction to web development
+
+**Associated topics**
+
+- How does web work?
+- What is web development?
+- Introduction to web technologies
+
+
+
+**Concept 2:** Introduction to HTML
+
+**Associated topics**
+- Intro to HTML
+- Text Data
+- HTML Links
+- Head
+
+
+**Concept 3:** Introduction to CSS
+
+**Associated topics**
+- What is CSS?
+- CSS Box Model
+- CSS Units
 <hr>
 
 ## Sprint 1: Foundations of Web Development
