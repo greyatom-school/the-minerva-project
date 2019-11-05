@@ -1,6 +1,6 @@
 # The Minerva Project
 
-# Mission Statement
+## Mission Statement
 
 Our main focus is the cultivation and sequencing of the best free resources around the internet. We believe wholeheartedly that everything one needs to know to become employed can be found for free online. However, for the average new learner, the vast quantity (and widely varying quality) of resources makes it difficult to make meaningful progress. Therefore, we have devised three basic steps to fix this.
 
