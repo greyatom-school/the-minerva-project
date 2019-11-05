@@ -25,35 +25,7 @@ You will be building a simple personal portfolio to highlight your personal bio.
 ![portfolio](https://github.com/greyatom-school/the-minerva-project/raw/master/sprint_0/4.%20Project/profile.PNG)
 
 
-### Learning Outcomes
-After this sprint, you will have an understanding of
-
-**Concept 1: Foundations of Web Dev**
-- How does web work?
-- What is web development?
-- Introduction to web technologies
-- Assesment Quiz
-
-
-**Concept 2: Foundations of HTML**
-- Intro to HTML
-- Text Data
-- HTML Links
-- Head
-- Assesment Quiz
-
-
-**Concept 3: Introduction to CSS**
-
-- What is CSS?
-- CSS Box Model
-- CSS Units
-- Assesment Quiz
-
-
-
-
-### Projects for practice
+### Projects for further practice
 
 - https://codeclubprojects.org/en-GB/webdev/
 
