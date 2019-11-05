@@ -25,31 +25,16 @@ After this sprint, you will have an understanding of
 
 **Project:** Create a Personal Portfolio Page
 
-**Concept 1:** Introduction to web development
-
-**Associated topics**
-
-- How does web work?
-- What is web development?
-- Introduction to web technologies
+**Associated Concepts:**
 
 
+***Concept 1:*** [Introduction to web development](https://github.com/the-minerva-project/the-minerva-project/tree/master/sprint_0/1.%20Foundations%20of%20Web%20Dev)
 
-**Concept 2:** Introduction to HTML
+***Concept 2:*** [Introduction to HTML](https://github.com/the-minerva-project/the-minerva-project/tree/master/sprint_0/2.%20Foundations%20of%20HTML)
 
-**Associated topics**
-- Intro to HTML
-- Text Data
-- HTML Links
-- Head
+***Concept 3:*** [Introduction to CSS](https://github.com/the-minerva-project/the-minerva-project/tree/master/sprint_0/3.%20Introduction%20to%20CSS)
 
 
-**Concept 3:** Introduction to CSS
-
-**Associated topics**
-- What is CSS?
-- CSS Box Model
-- CSS Units
 <hr>
 
 ## Sprint 1: Foundations of Web Development
