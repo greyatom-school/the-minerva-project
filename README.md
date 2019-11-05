@@ -28,9 +28,9 @@ After this sprint, you will have an understanding of
 **Associated Concepts:**
 
 
-***Concept 1:*** [Introduction to web development](https://github.com/the-minerva-project/the-minerva-project/tree/master/sprint_0/1.%20Foundations%20of%20Web%20Dev)
+***Concept 1:*** [Foundations of Web Dev](https://github.com/the-minerva-project/the-minerva-project/tree/master/sprint_0/1.%20Foundations%20of%20Web%20Dev)
 
-***Concept 2:*** [Introduction to HTML](https://github.com/the-minerva-project/the-minerva-project/tree/master/sprint_0/2.%20Foundations%20of%20HTML)
+***Concept 2:*** [Foundations of HTML](https://github.com/the-minerva-project/the-minerva-project/tree/master/sprint_0/2.%20Foundations%20of%20HTML)
 
 ***Concept 3:*** [Introduction to CSS](https://github.com/the-minerva-project/the-minerva-project/tree/master/sprint_0/3.%20Introduction%20to%20CSS)
 
