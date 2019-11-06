@@ -6,7 +6,7 @@ Using the concepts, you have learnt in this sprint, you will be creating a repli
 
 A typical Trello page looks like this:
 
-
+![trello](Trello&#32;Sample.png)
  
 
 
