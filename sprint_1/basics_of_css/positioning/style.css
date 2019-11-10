@@ -87,10 +87,12 @@ header .wrapper {
   width: 100%;
   max-width: 936px;
   margin: 0 auto;
-  padding: 1rem 0;
-  display: flex;
-  justify-content: space-between;
+  padding: 2rem 0;
   align-items: center;
+}
+
+nav {
+  float: right;
 }
 
 .logo {
@@ -100,12 +102,9 @@ header .wrapper {
   color: aliceblue;
 }
 
-.navigation {
-  display: flex;
-}
-
 .navigation li {
   padding-left: 1rem;
+  display: inline-block;
 }
 
 .navigation li:first-child {
