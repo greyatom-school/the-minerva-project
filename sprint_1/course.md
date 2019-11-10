@@ -25,9 +25,9 @@ After this sprint, you will have an understanding of
 
 ### What will you build?
 
-You will be building a layout that mocks the YouTube page.
+You will be a website of a studio that helps with IT services
 
-![News App](news_aggregator/news_aggregator_ui.png)
+![ARK Studio](ark studio/template.png)
 
 ### Learning Outcomes
 

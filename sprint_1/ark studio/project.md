@@ -1,24 +1,36 @@
 ## Assignment: ARK Studio
 
-### Problem Statement
+### Objective
 
-We have provided you with the template of the project that you are supposed to recreate by looking at the image. Assume that your client is a IT Firm that provides digital media services to it's clientele. The name of this imaginary firm is ARK studio. You are supposed to create a portfolio site for this company.
+Build the site for a IT Firm that provides digital media services to it's clientele. Fulfill the below user stories and get all of the tests to pass.
+
+You can use HTML and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS.
 
 ![Template.png](./template.png)
 
-##### Task 1
+##### User Story #1
 
-Create the HTML Structure of the page looking at the template.
+Create the HTML Structure for my page looking at the design of the site provided to you. I want you to use `header`, `nav`, `section` tags that you learnt in HTML5 unit.
 
-Openn any other HTML file that resides within your folder on clicking the button `GET IN TOUCH WITH US`.
+##### User Story #2
 
-We have provided the necessary images and font you would need for the site.
+I need to see a page which says work in progress. Create an HTML file within the folder which will display work in progress. On clicking, the button `GET IN TOUCH WITH US` take me to this new page.
 
-On clicking on the social media icons present at the bottom, it should open in the new tab.
+##### User Story #3
 
-##### Task 2
+I need users to be shown a link opening in a new tab on clicking the social media icons present at the bottom. You can link your social media pages with the icon.
 
-Apply the CSS to your HTML structure. Your site should look similar to the site you see in the template.
+##### User Story #4
+
+I want you to add necessary classes like `<p class="description"></p>` so thst you can style my site later.
+
+##### User Story #5
+
+I should see necessary heading tags used to show section and site headings
+
+##### User Story #6
+
+my site should look similar to the site you see in the template. So, apply necessary css to the html structure.
 
 Below is the list of primary colors that have been used:
 
@@ -37,9 +49,9 @@ Below is the list of primary colors that have been used:
 - Now, you can pick colors from the image
 - :)
 
-##### Task 3
+##### User Story #7
 
-Add transition effects on hovering over the buttons and the image gallery on top of the testimonial.
+I need to some sort of transitioning/animating effects on hovering over the site buttons and the image gallery on top of the testimonial.
 
 #### Input
 
