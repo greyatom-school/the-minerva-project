@@ -76,33 +76,11 @@ a {
 }
 
 /* Header */
-header {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  background: cadetblue;
-  z-index: 10;
-}
-
-header .wrapper {
-  width: 100%;
-  max-width: 936px;
-  margin: 0 auto;
-  padding: 1rem 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .logo {
   font-family: 'Raleway', sans-serif;
   padding: 1rem;
   background: darkslategrey;
   color: aliceblue;
-}
-
-.navigation {
-  display: flex;
 }
 
 .navigation li {
@@ -116,12 +94,10 @@ header .wrapper {
 .navigation li a {
   padding-bottom: 0.2rem;
   color: white;
-  transition: all 0.4s;
 }
 
 .navigation li a:hover {
   color: darkslategray;
-  transition: all 0.4s;
 }
 
 /* Body */
@@ -155,58 +131,15 @@ h1 {
   font-size: 0.95rem;
 }
 
-.current-slide {
-  position: relative;
-}
-
 .caption {
-  position: absolute;
-  left: 0;
-  bottom: 20px;
   padding: 0.5rem 1rem;
   color: white;
   background: black;
 }
 
-.thumbnails {
-  display: flex;
-  justify-content: space-between;
-}
-
 .thumbnail {
   width: 24.6%;
-  position: relative;
   cursor: pointer;
-}
-
-.thumbnail::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.5);
-  transition: all 0.4s;
-}
-
-.thumbnail:hover::after {
-  background: rgba(0, 0, 0, 0.3);
-  transition: all 0.4s;
-}
-
-.current::after {
-  background: rgba(0, 0, 0, 0);
-}
-
-.current:hover::after {
-  background: rgba(0, 0, 0, 0);
-}
-
-ul.info-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 1rem;
 }
 
 .info-item {
@@ -248,15 +181,15 @@ address div:last-child span {
 }
 
 form {
-  display: flex;
-  flex-direction: column;
   padding-bottom: 1rem;
 }
 
 .input {
+  width: 100%;
   border: 1px solid #ccc;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
+  display: block;
   font-size: 1rem;
 }
 
@@ -274,10 +207,8 @@ form {
   font-size: 1rem;
   text-transform: capitalize;
   opacity: 1;
-  transition: all 0.4s;
 }
 
 .btn:hover {
   opacity: 0.9;
-  transition: all 0.4s;
 }
