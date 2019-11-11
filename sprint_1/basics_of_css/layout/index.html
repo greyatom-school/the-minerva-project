@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Intro to HTML</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="wrapper">
+        <a class="logo" href="#">Homestay</a>
+
+        <nav>
+          <ul class="navigation">
+            <li class="nav-item"><a href="#">INR</a></li>
+            <li class="nav-item"><a href="#">Help</a></li>
+            <li class="nav-item"><a href="#">Login</a></li>
+            <li class="nav-item"><a href="#">Sign up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <main>
+      <h1>Studio in Bandra Apartment</h1>
+
+      <section class="slides">
+        <div class="current-slide">
+          <img src="images/livingroom.jpg" alt="Living Room" />
+
+          <span class="caption">Living Room</span>
+        </div>
+
+        <ul class="thumbnails">
+          <li class="thumbnail current"><img src="images/livingroom.jpg" alt="Living Room"></li>
+          <li class="thumbnail"><img src="images/livingroom2.jpg" alt="Living Room 2"></li>
+          <li class="thumbnail"><img src="images/diningroom.jpg" alt="Dining Room"></li>
+          <li class="thumbnail"><img src="images/bedroom.jpg" alt="Bedroom"></li>
+        </ul>
+      </section>
+
+      <section class="room-info">
+        <h4 class="section-title">
+          The space
+        </h4>
+
+        <ul class="info-list">
+          <li class="info-item"><i class="fa fa-fw fa-male"></i><span>Max people: 4</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-clock-o"></i><span>Check In: After 3PM</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-bath"></i><span>Bathrooms: 2</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-clock-o"></i><span>Check Out: 12PM</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-bed"></i><span>Bedrooms: 1</span></li>
+        </ul>
+      </section>
+
+      <section class="room-info">
+        <h4 class="section-title">
+          Amenities
+        </h4>
+
+        <ul class="info-list">
+          <li class="info-item"><i class="fa fa-fw fa-shower"></i><span>Shower</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-cutlery"></i><span>Kitchen</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-wifi"></i><span>WiFi</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-thermometer"></i><span>Heating</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-tv"></i><span>TV</span></li>
+          <li class="info-item"><i class="fa fa-fw fa-wheelchair"></i><span>Accessible</span></li>
+        </ul>
+      </section>
+
+      <section class="room-description">
+        <h4 class="section-title">Extra Info</h4>
+
+        <p class="section-description">Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <span class="section-description">
+          <span>We accept:</span> 
+          
+          <i class="fa fa-credit-card"></i>
+          <i class="fa fa-cc-mastercard"></i>
+          <i class="fa fa-cc-amex"></i>
+          <i class="fa fa-cc-paypal"></i>
+        </span>
+      </section>
+
+      <section class="room-description">
+        <h4 class="section-title">Rules</h4>
+
+        <p class="section-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <p>
+          Subscribe to receive updates on available dates and special offers.
+        </p>
+
+        <button type="button">Subscribe</button>
+      </section>
+    </main>
+
+    <footer>
+      <section class="contact">
+        <address>
+          <span><i class="fa"></i> Chicago, US</span>
+          <span><i class="fa"></i> Phone: +00 151515</span>
+          <span><i class="fa"></i> Email: mail@mail.com</span>
+        </address>
+
+        <span>Questions? Go ahead, ask them:</span>
+        
+        <form action="/">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea rows="1" placeholder="Message"></textarea>
+          
+          <input type="submit" value="submit" />
+        </form>
+      </section>
+    </footer>
+  </div>
+</body>
+</html>
