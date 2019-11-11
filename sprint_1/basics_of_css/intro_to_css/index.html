@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>CSS Layout</title>
+  <title>Intro to CSS</title>
 
   <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -96,11 +96,11 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
 
-        <p>
+        <p class="section-description">
           Subscribe to receive updates on available dates and special offers.
         </p>
 
-        <button type="button">Subscribe</button>
+        <button type="button" class="btn">Subscribe</button>
       </section>
     </main>
 
@@ -109,19 +109,19 @@
         <h4 class="section-title">Contact</h4>
         
         <address>
-          <span><i class="fa"></i> Chicago, US</span>
-          <span><i class="fa"></i> Phone: +00 151515</span>
-          <span><i class="fa"></i> Email: mail@mail.com</span>
+          <div><i class="fa fa-map-marker"></i> <span>Chicago, US</span></div>
+          <div><i class="fa fa-phone"></i> <span>Phone: +00 151515</span></div>
+          <div><i class="fa fa-envelope"></i> <span>Email: mail@mail.com</span></div>
         </address>
 
-        <span>Questions? Go ahead, ask them:</span>
+        <span class="go-ahead">Questions? Go ahead, ask them:</span>
         
         <form action="/">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <textarea rows="1" placeholder="Message"></textarea>
+          <input type="text" placeholder="Name" class="input" />
+          <input type="email" placeholder="Email" class="input" />
+          <textarea rows="1" placeholder="Message" class="input"></textarea>
           
-          <input type="submit" value="submit" />
+          <input type="submit" value="submit" class="btn" />
         </form>
       </section>
     </footer>
