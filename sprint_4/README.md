@@ -25,7 +25,7 @@ After this sprint, you will have an understanding of
 
 You will be building a Finance Portfolio Tracker as shown in the figure:
 
-![finace-portfolio-tracker](Project&#32;-&#32;Finance&#32;Portfolio&#32;Tracker/Finance&#32;Portfolio&#32;Tracker.jpg)
+![finace-portfolio-tracker](Project&#32;-&#32;Finance&#32;Portfolio&#32;Tracker/Finance&#32;Portfolio&#32;Tracker&#32;-&#32;Home&#32;Page.png)
 
 <br />
 
