@@ -68,8 +68,8 @@ For each concept, the chapters along with topics in each chapter and whether the
 ## 3. Review
 **Internal GA review**
 
-GA would provide the feedback via bitbucket issues. 
-For every feedback regarding the content, the GA team will create a bitbucket issue. Once the feedback is incorporated, the content creator can mark the issue as resolved along with an acknowledgement that the feedback is locked in.
+GA would provide the feedback via github issues. 
+For every feedback regarding the content, the GA team will create a github issue. Once the feedback is incorporated, the content creator can mark the issue as resolved along with an acknowledgement that the feedback is locked in.
 
 In case, the content creator feels that the feedback cannot be incorporated, the content creator can comment on the issue - why the feedback won’t be incorporated.
 
@@ -94,67 +94,208 @@ We will discuss how to actually curate the content for GreyAtom. These procedure
 
 Before you start curating the content, it is important to understand the content hierarchy. The hierarchy of content as defined from the top to bottom is as follows:
 
-Program ->Sprint -> Concept -> Learning Units
 
-## Program
+![](images/content_hierarchy.PNG)
+
+
+
+**Program**
 
 A program is top most element of the content hierarchy. A program typically lasts 4-6 months depending on the modules that are defined within the module. 
-Ex: Data Science Master Program
+Ex: Front End Web Development
 
-## Sprint
+**Sprint**
 
-The next logical entity in the program. A sprint contains a set of concepts that together make up an important component of the program. A sprint is planned for a period of two weeks with a estimated time to be spent as 16hours. A sprint consists of learning units and projects. 
-
-## Concept/Course
-
-At the end of learning a particular concept, the learner should to acquire a tangible skill which is demonstrable. Example: Foundations of JavaScript. Each concept should ideally consisy of following learning units.
+The next logical entity in the program. A sprint contains a set of concepts that together make up an important component of the program. A sprint is planned for a period of two weeks with an estimated time to be spent as 16hours. A sprint consists of learning units and projects.
 
 
-### Concept Onboarding
-It primarily consists list of select resources (3 at the most) that are required to be completed by the learner to have understanding of the concept. While onbaording a concept, always Go back to the - Sprint project - summarize why you are learning this concept in corelation with the project - The components that they will build at the end.
+Ex: 
 
-### Tutorial
-These are one or two tutorials which are building upon the onboarded concept.
+Program: Front End Web Development
+- Sprint: Foundations of JavaScript 
 
-### Self paced code exercises
+
+
+**Concept**
+
+At the end of learning a particular concept, the learner should acquire a tangible skill which is demonstrable. 
+
+Ex: 
+
+Program: Front End Web Development 
+- Sprint: Foundations of JavaScript 
+    - Concepts: 
+        - Basics of Javascript Programming
+        - Ajax & DOM 
+        -  Advanced Javascript Concepts
+
+
+**Topic/ Learning Units**
+
+Inside each concept, there are topics which is the actual consumable unit for learners.
+It consists of the curated content that learners have to go in a prescriptive way.
+
+Following is a visual representation of hierarchy mentioned:
+
+![](images/content_tree.PNG)
+
+
+---
+---
+After Content Creator(CC) understands the hierarchy, following are the content deliverables:
+
+- Sprint Content Tree
+- Sprint Topics
+- Sprint Project
+
+## Sprint Content Tree
+
+The first step during creation of sprint is to identify the content tree. Content tree is a hierarchical breakdown of sprint into concepts/ project and then into topics.
+
+Creation of Content Tree provides two benefits:
+Gives CC overall a better clarity on their content curation journey
+Helps GA get a bird’s eye view of the content expected to be curated
+
+Following is an example of content tree:
+
+![](images/content_tree2.PNG)
+
+As mentioned before, creation of content tree consists of identifying the concepts associated with the sprints as well as breakdown of the concepts into topics/project.
+
+Additionally, after the topic curation[to be discussed later],CC will also fill in the additional columns of the content tree
+
+- *Quiz(Yes/No) - Whether the topic has a quiz*
+- *Difficulty Level - The level of difficulty associated while learning the topic(Easy, Medium, Hard)*
+- *Estimated Time(hrs)- The time estimate for the topic completion by the learner(in hours)*
+
+
+## Sprint Topic
+
+After creation of content tree, the next step is to create topics. 
+
+The topic consists of the following structure:
+- Overview
+- Learning Outcome
+- Introduction
+- What you must do
+- Additional References
+- Topic Quiz
+- Concept Quiz
+
+
+Let’s look at them one by one(with the example topic:  Rest, ajax promises & fetch)
+
+***Overview:***
+
+A couple of sentences explaining what they will learn in the topic
+
+![](images/overview.PNG)
+
+
+***Learning Outcome:***
+
+An extension of overview. The learning outcome consists of questions that the learner will be able to answer after they go through the topic
+
+![](images/learning_outcome.PNG)
+
+***Introduction:***
+
+This consists of giving the learners a brief 1-2 paragraph introduction of the subtopic.
+ 
+While going through the curated content, the learner might feel overwhelmed. It’s important therefore that they familiarise themselves with the topic before exploring
+
+![](images/intro.PNG)
+
+***What you must do:***
+
+This is where the curated content is presented in a prescriptive way for learners.
+
+Following can be the different types of curated content
+
+- Topic blog   
+
+It primarily consists of providing topic blogs that are required to be completed by the learner to have an understanding of the concept. 
+
+- Video Tutorial
+
+Video tutorials consisting of explanation via code walkthrough which learner has to watch and code along with for understanding of the topic
+
+
+- Self paced code exercises
+
 These are small coding assignment / challenges in form of embeddable code pane which a learner has to complete is order to have hands-on experience of topics learnt. 
 
-### Project
-This forms the part of assessmet for this concept. A learner has to apply all the topics learnt in this concept and all the concepts prior to this in order to complete this project.
 
-### Any additional references
-Curated list of additional references a learne can go through to dive deep into the concept. This would also include link to official documentations.
+*Note:* A topic can have multiple sub-topics depending upon the topic division
 
-### Checklist of items
-This is a checklist of items that a learner has to finish for completing the sprint successfully.
+![](images/wymd.PNG)
 
-### Other interesting projects on GitHub
-Curated list of relevant projects of GitHub / Blogs which a learner can refer to.
+***Additional references:***
 
-### Assessment Quiz
-This is an end of concept assessment in form a multi choice question quiz of upto 10 questions.
+This is a curated list of additional references a learner can go through to dive deep into the concept(If the learner has time). This would also include link to official documentations for them to refer to in the future if needed.
 
-## Sprint End Project
-A learner has to complete a project at the end of every sprint as part of the assessment. The project consists of following elements
+The purpose of additional references is to show the learner the depth of the given topic.
 
-### Learning pre-requisites
-This is a checklist of the essentials topics a learner must have completed in order to attempt this project.
+![](images/additional_ref.PNG)
 
-### Project overview
+***Topic quiz:***
+
+This consists of 5 mcq questions to test whether the learner has gone through the above resources. This is a crucial part of our assessment framework.
+
+These questions should be formative in nature i.e. It should check whether the learner was able to learn the concepts correctly. Difficulty level of questions should be easy to medium
+
+![](images/topic_quiz.PNG)
+
+***Concept quiz:***
+
+Note: This quiz is not at the topic level but at concept level
+
+The concept quiz consists of 10 mcq questions. These questions should be summative in nature i.e. test whether the learner has truly understood the concept.  Difficulty level of questions should be medium to hard.
+
+## Sprint Project
+
+Every sprint has a project associated with it which forms the part of assessment for this sprint. A learner has to apply all the topics learnt in this sprint and all the concepts prior to this in order to complete this project.
+
+The project consists of the following structure:
+- Overview
+- Learning prerequisites
+- Screen Mockups
+- Boilerplate
+- Assets
+- User Stories
+
+Let’s look at them one by one(with the example project: Personal Profile Page)
+
+*Project overview:*
+
 This is a high level overview of the project describing the details of the web page / app that the learner has to build.
 
-### Screen mock ups
-Mockups of the screens required for the project.
+![](images/proj_overview.PNG)
 
-### Boiler plate
+*Learning prerequisites:*
+
+This is a checklist of the essentials topics a learner must have completed in order to attempt this project.
+
+![](images/learning_prereq.PNG)
+
+*Screen mockups:*
+
+Mockups of the screens that is expected for the project.
+
+![](images/screen_mockup.PNG)
+
+*Boilerplate(If required):*
+
 This is a repository of boilerplate code that can be provided to the learners that would help them in getting a headstart in the project.
 
-### Assets
-Any assets in form of fonts, images,etc required for the project. Assets will be part of the boiler plate repository. 
+*Assets(If required):*
 
-### User stories
-Break down the project into small units of work. User stories are generally written in non technical language detailing out the functionality that the story would add to the larger project.
+Any assets in form of fonts, images,etc required for the project. Assets will be part of the boilerplate repository. 
 
+*User stories:*
 
+User stories are breakdown of the project into small units of work.
 
+User stories are generally written in non technical language detailing out the functionality that the story would add to the larger project.
 
+![](images/user_story.PNG)
