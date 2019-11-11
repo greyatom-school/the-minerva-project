@@ -45,6 +45,10 @@ c)	Using the API above, you will fetch data using Axios and feed it to the web p
 
 e)	Store only values relevant to the design, in the state & add to the cards.
 
+f) When you check out Alphavantage, you will notice that only 5 API calls per minute are allowed. So, kindly ensure that you add a counter or a handler in your code which keeps a track of the API calls you will be making.
+
+g) Additionally, Alphavantage only shows data for the weekdays. For weekends, you should pick the data which is shown last. For example, if November 9/10 is Satuday and Sunday, the table showing Current Price will show data for November 8, Friday and a message would be shown above citing the same.
+
 <br />
 
 ## Web page mockup
@@ -90,7 +94,8 @@ Create the lower container by fetching the data from Firebase and using it to po
 
 ### User Story #6
 
-When the user clicks on the button, use the concept of event handling to get the value of the button clicked and using Axios calls, connect with the Alphavantage database and fetch the data related to that particular stock. Additionally, a modal should pop up which asks the user to enter the number of shares. The modal should have pre-filled with the stock name, buy price and date of buying the stocks. On clicking OK, this entry should be made in the database on Firebase.
+When the user clicks on the button, use the concept of event handling to get the value of the button clicked and using Axios calls, connect with the Alphavantage database and fetch the data related to that particular stock. Additionally, a modal should pop up which asks the user to enter the number of shares. The modal should have pre-filled with the stock name, buy price and date of buying the stocks. On clicking OK, this entry should be made in the database on Firebase. <br />
+*Note: Since Alphavantage only allows 5 API calls per minute, add a condition that only 5 stocks can be selected for tracking. If user has selected 5 stocks to track, you should conditionally render a message telling the user that he/she has selected 5 stocks and the buttons with the stocks names should not be shown.*
 
 
 ### User Story #7
