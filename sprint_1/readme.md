@@ -35,26 +35,40 @@ After this sprint, you will have understanding of
 
 
 
-*what you will be building?*
+### What will you build?
 
-- studio page layout
+You will be build a website of a studio that helps with IT services
 
+![ARK Studio](ark studio/template.png)
 
-![studio](template.png)
+### Learning Outcomes
 
+After this sprint, you will have an understanding of
 
+**Basics of HTML (BH)**
 
-In order to get you more familiar with the HTML and CSS way of coding, we will create a xyz page along with topics which you are learning 
+- [Introduction to HTML & Document Types, Elements, Tags & Attributes](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/1.Intro%20to%20HTML.md)
+- [HTML Texts, Images and Styles](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/2.%20HTML%20Texts%2C%20Images%20and%20Styles.md)
+- [HTML Lists](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/3.HTML%20Lists.md)
+- [HTML Tables](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/4.%20HTML%20Tables.md)
+- [HTML Forms](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/5.%20HTML%20Forms.md)
+- [HTML Iframes](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/6.%20HTML%20Iframes.md)
+- [HTML5 & Features](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/7.%20HTML5%20%26%20Features.md)
+- Assessment Quiz
+- Assignment
 
-- 'xyz' Project
+**Basics of CSS (BC)**
 
-### image required
-
-
-
-
-
-By the end of the sprint, you should be able to build a good looking  studio page.
+- [Introduction to CSS, Selectors, Properties & Values](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/1.%20Intro%20to%20CSS.md)
+- [CSS Box Model & Sizing](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/2.%20CSS%20Box%20Model%20%26%20Sizing.md)
+- [CSS Colors, Text formatting, Background and Lists](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/3.%20CSS%20Colors%2C%20Text%20formatting%2C%20Background%20and%20Lists.md)
+- [CSS Scrollbars, Visibility & Display](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/4.%20CSS%20Scrollbars%2C%20Visibility%20%26%20Display.md)
+- [CSS Layout & Positioning](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/5.%20CSS%20Layout%20and%20Positioning.md)
+- [CSS3 Flexbox](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/6.%20CSS%20Flexbox.md)
+- [CSS3 Transition, Transformation and Gradient](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/7.%20CSS3%20Transition%2C%20Transformation%20and%20Gradient.md)
+- [CSS3 Animations](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/8.%20CSS3%20Animations.md)
+- Assessment Quiz
+- Assignment
 
 ## Projects on GitHub
 
