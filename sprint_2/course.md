@@ -117,7 +117,7 @@ After this sprint, you will have an understanding of
 <td>1 hour</td>
 </tr>
 <tr>
-<td>SASS Mixins & Extend/Inheritance</td>
+<td>SASS Flow Controls, Mixins & Extend/Inheritance</td>
 <td>Yes</td>
 <td>Medium</td>
 <td>1 hour</td>
