@@ -25,7 +25,7 @@ After this sprint, you will have an understanding of
 
 ### What will you build?
 
-You will be a website of a studio that helps with IT services
+You will be build a website of a studio that helps with IT services
 
 ![ARK Studio](ark studio/template.png)
 
@@ -35,193 +35,29 @@ After this sprint, you will have an understanding of
 
 **Basics of HTML (BH)**
 
-- Introduction to HTML & Document Types, Elements, Tags & Attributes
-- HTML Texts, Images and Styles
-- HTML Lists
-- HTML Tables
-- HTML Forms
-- HTML Iframes
-- HTML5 & Features
+- [Introduction to HTML & Document Types, Elements, Tags & Attributes](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/1.Intro%20to%20HTML.md)
+- [HTML Texts, Images and Styles](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/2.%20HTML%20Texts%2C%20Images%20and%20Styles.md)
+- [HTML Lists](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/3.HTML%20Lists.md)
+- [HTML Tables](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/4.%20HTML%20Tables.md)
+- [HTML Forms](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/5.%20HTML%20Forms.md)
+- [HTML Iframes](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/6.%20HTML%20Iframes.md)
+- [HTML5 & Features](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/7.%20HTML5%20%26%20Features.md)
 - Assessment Quiz
 - Assignment
 
 **Basics of CSS (BC)**
 
-- Introduction to CSS, Selectors, Properties & Values
-- CSS Dimensions, Margins and Padding
-- CSS Borders
-- CSS Box Model & Sizing
-- CSS Colors, Text formatting, Background and Lists
-- CSS Scrollbars, Visibility & Display
-- CSS Layout & Positioning
-- CSS3 Flexbox
-- CSS3 Transition, Transformation and Gradient
-- CSS3 Animations
+- [Introduction to CSS, Selectors, Properties & Values](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/1.%20Intro%20to%20CSS.md)
+- [CSS Box Model & Sizing](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/2.%20CSS%20Box%20Model%20%26%20Sizing.md)
+- [CSS Colors, Text formatting, Background and Lists](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/3.%20CSS%20Colors%2C%20Text%20formatting%2C%20Background%20and%20Lists.md)
+- [CSS Scrollbars, Visibility & Display](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/4.%20CSS%20Scrollbars%2C%20Visibility%20%26%20Display.md)
+- [CSS Layout & Positioning](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/5.%20CSS%20Layout%20and%20Positioning.md)
+- [CSS3 Flexbox](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/6.%20CSS%20Flexbox.md)
+- [CSS3 Transition, Transformation and Gradient](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/7.%20CSS3%20Transition%2C%20Transformation%20and%20Gradient.md)
+- [CSS3 Animations](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_css/8.%20CSS3%20Animations.md)
 - Assessment Quiz
 - Assignment
 
-## Content Tree
-
-<table>
-<tr>
-<th>Sprint</th>
-<th>Concept</th>
-<th>Topic</th>
-<th>Quiz (Yes/No)</th>
-<th>Difficulty Level</th>
-<th>Estimated Time</th>
-</tr>
-<tr>
-<td  rowspan="50">Sprint 3: Foundations of HTML & CSS</td>
-<td  rowspan="10">Basics of HTML</td>
-<td>Introduction to HTML, Document Types, Elements, Tags & Attributes</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>30 mins</td>
-</tr>
-<tr>
-<td>HTML Texts, Images and Styles</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>30 mins</td>
-</tr>
-<tr>
-<td>HTML Lists</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>30 mins</td>
-</tr>
-<tr>
-<td>HTML Tables</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>1 hour</td>
-</tr>
-<tr>
-<td>HTML Forms</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>1 hour</td>
-</tr>
-<tr>
-<td>HTML Iframes</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>30 mins</td>
-</tr>
-<tr>
-<td>HTML5 & Features</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>1 hours</td>
-</tr>
-<tr>
-<td>Assessment concept quiz</td>
-<td></td>
-<td>Easy</td>
-<td>30 mins</td>
-</tr>
-<tr>
-<td>Assignment: HTML Layout Mockup</td>
-<td></td>
-<td>Easy</td>
-<td>1 hour</td>
-</tr>
-<tr>
-<td  colspan="5"></td>
-</tr>
-<tr>
-<td  rowspan="10">Basics of CSS</td>
-<td>Introduction to CSS, Selectors, Properties & Values</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>30 mins</td>
-</tr>
-<tr>
-<td>CSS Box Model & Sizing</td>
-<td>Yes</td>
-<td>Medium</td>
-<td>1 hour</td>
-</tr>
-<tr>
-<td>CSS Colors, Text formatting, Background and Lists</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>30 mins</td>
-</tr>
-<tr>
-<td>CSS Scrollbars, Visibility & Display</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>30 mins</td>
-</tr>
-<tr>
-<td>CSS Layout & Positioning</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>1 hour</td>
-</tr>
-<tr>
-<td>CSS3 Flexbox</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>2 hours</td>
-</tr>
-<tr>
-<td>CSS3 Transition, Transformation and Gradient</td>
-<td>Yes</td>
-<td>Medium</td>
-<td>1 hours</td>
-</tr>
-<tr>
-<td>CSS3 Animations</td>
-<td>Yes</td>
-<td>High</td>
-<td>1 hours</td>
-</tr>
-<tr>
-<td>Assessment concept quiz</td>
-<td></td>
-<td></td>
-<td>20 min</td>
-</tr>
-<tr>
-<td>Assignment: CSS Layout Mockup</td>
-<td></td>
-<td></td>
-<td>1 hour</td>
-</tr>
-<tr>
-<td  colspan="5"></td>
-</tr>
-<tr>
-<td  rowspan=5">Landing page for a fictitious product company</td>
-<td>Readiness Checklist</td>
-<td  rowspan="5"></td>
-<td  rowspan="5">Medium</td>
-<td  rowspan="5">8 hours</td>
-</tr>
-<tr>
-<td>Project Overview</td>
-</tr>
-<tr>
-<td>Screen Mockups</td>
-</tr>
-<tr>
-<td>Boiler plate &amp; Assets</td>
-</tr>
-<tr>
-<td>User Stories Board</td>
-</tr>
-<tr>
-<td  colspan="5"></td>
-</tr>
-<tr>
-<td  colspan="3"></td>
-<td>Total</td>
-<td>40 hours</td>
-</tr>
-</table>
 
 ## Projects on GitHub
 
