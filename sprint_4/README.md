@@ -45,18 +45,18 @@ In order to get you more familiar with the ‘React’ way of coding, we will re
 
 - 'My Burger' Project
 
-![](images/BMB0.png)
+![](images/BMB0.PNG)
 
 It's features will include:
 1. Choosing the ingredients
 
-![](images/BMB1.png)
+![](images/BMB1.PNG)
 
 2. Placing an order
 
 |Order View 1|Order View 2|
 |---|---|
-|![](images/BMB2.png)|![](images/BMB8.png)|
+|![](images/BMB2.PNG)|![](images/BMB8.PNG)|
 
 
 ---
