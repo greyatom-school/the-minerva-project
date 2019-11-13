@@ -2,9 +2,8 @@
 
 ## Overview
 
-Use the concepts of React you’ve learnt in the Sprint to create a basic web application of Finance Portfolio Tracker and deploy it to Firebase.
+Use the concepts of React you’ve learnt in the Sprint 4 to create a Finance Portfolio Tracker Application and deploy it to Firebase.
 
-<br />
 
 ## Learning pre-requisites
 
@@ -34,7 +33,15 @@ Before you begin this session, kindly ensure that you have completed learning th
 
 •	Deploying React application to Firebase.
 
-Additionally, to complete the project successfully, you need to have an understanding of [Alphavantage](https://www.alphavantage.co/documentation/#daily) - a website that stores datasets and helps you fetch them using API calls. We will use API services to fetch data and then use it in our project.
+Additionally, to complete the project successfully,
+
+- External pre-requisite 1:
+
+You need to have a high level domain understanding of [what is financial portfolio](https://www.investopedia.com/terms/p/portfolio.asp) and [how a financial portfolio tracker helps](https://www.benzinga.com/money/best-portfolio-tracker/) 
+
+- External pre-requisite 2:
+  
+You also need to have an understanding of [Alphavantage](https://www.alphavantage.co/documentation/#daily) - a website that stores datasets and helps you fetch them using API calls. We will use API services to fetch data and then use it in our project.
 
 We will be using the TIME_SERIES_DAILY stock prices to populate our web application. 
 a)	To use Alphavantage, go to the web page and create a free account to get the API key. *_You will need the API key for any API calls._*
@@ -49,20 +56,38 @@ f) When you check out Alphavantage, you will notice that only 5 API calls per mi
 
 g) Additionally, Alphavantage only shows data for the weekdays. For weekends, you should pick the data which is shown last. For example, if November 9/10 is Satuday and Sunday, the table showing Current Price will show data for November 8, Friday and a message would be shown above citing the same.
 
-<br />
 
-## Web page mockup
+## Web Page Mock Up
 
-Following is the sample of how your final page should look like. Follow the step by step tasks in order to recreate the page shown below.
+Following is the sample of how your final page should look like. 
 
-![Home Page](Finance&#32;Portfolio&#32;Tracker&#32;-&#32;Home&#32;Page.png)
+#### Home Page
+
+![Home Page](screens/FPT_HomePage.png)
 This is how your home page will look like.
 
-![Modal](Finance&#32;Portfolio&#32;Tracker&#32;-&#32;Add&#32;stock.png)
-On clicking the stock button in **Add stocks to my stocks** section, this modal will open which will show data relevant to the stock, fetched from the API.
+At any point it should always show the user's stocks('My Stocks')
+and display the list of stocks that can be added('Add stocks to my stocks')
 
-![Weekend Page](Finance&#32;Portfolio&#32;Tracker&#32;-&#32;Weekend&#32;Page.png)
+#### Add Stocks Page
+
+![Modal](screens/FPT_AddStock.png)
+(update this image)
+
+On clicking the stock button in **Add stocks to my stocks** section, this modal will open up with the following details:
+
+- Company Name(Already Populated)
+- No. of Shares
+- Buy Price
+- Buy Date
+
+
+#### Home Page(Weekend)
+
+![Weekend Page](screens/FPT_WeekendPage.png)
 The above API only works on the weekdays, so for the weekends, you need to show the following message at the top.
+
+Follow the user stories in order to recreate the page shown below.
 
 ## User stories
 
@@ -103,11 +128,9 @@ When the user clicks on the button, use the concept of event handling to get the
 Now, the stock which had been clicked should be removed from the list shown in the bottom container. Instead, it should now appear in a table in the upper container as shown in the diagram. You need to show the latest current price and calculate the profit/loss as (current price – buy price) * no. of shares. Show these values as shown in the table.
 
 
+The above functionalities are the minimum expected of you. You are free to add as much personalization as you want in terms of style.
 
-<hr />
-
-These tasks are the minimum expected of you. You are free to add as much personalization as you want in terms of style.
-
+# Submission Details left(To be added after our product is live) 
 
 
 
