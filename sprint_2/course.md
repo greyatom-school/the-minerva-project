@@ -22,10 +22,6 @@ After this sprint, you will have an understanding of
 
 ### What will you build?
 
-You will be building a responsive landing page of a dummy sports website.
-
-![News App](news_aggregator/news_aggregator_ui.png)
-
 ### Learning Outcomes
 
 After this sprint, you will have an understanding of
@@ -41,18 +37,14 @@ After this sprint, you will have an understanding of
 
 **CSS Pre-processor**
 
-- Introduction to CSS Pre-processors
-- Introduction to SASS and setting it up
-- SASS Variables and Nesting
-- SASS Modules and Partials
-- SASS Mixins
-- SASS Extend/Inheritance
+- Introduction to CSS Pre-processors, SASS and setting it up
+- SASS Variables, Nesting, Modules and Partials
+- SASS Mixins & Extend/Inheritance
 - Assessment Quiz
 - Assignment
 
 **Bootstrap**
 
-- Popular libraries to help build responsive websites
 - Introduction to Twitter Bootstrap 4
 - Bootstrap Grid System and Content
 - Bootstrap Components and Utilities
@@ -112,41 +104,23 @@ After this sprint, you will have an understanding of
 <td  colspan="5"></td>
 </tr>
 <tr>
-<td  rowspan="9">SASS</td>
-<td>Introduction to CSS Pre-processors</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>10 mins</td>
-</tr>
-<tr>
-<td>Introduction to SASS and setting it up</td>
+<td  rowspan="6">SASS</td>
+<td>Introduction to CSS Pre-processors, SASS and setting it up</td>
 <td>Yes</td>
 <td>Easy</td>
 <td>30 mins</td>
 </tr>
 <tr>
-<td>SASS Variables and Nesting</td>
-<td>Yes</td>
-<td>Medium</td>
-<td>30 min</td>
-</tr>
-<tr>
-<td>SASS Modules and Partials</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>30 mins</td>
-</tr>
-<tr>
-<td>SASS Mixins</td>
+<td>SASS Variables, Nesting, Modules and Partials</td>
 <td>Yes</td>
 <td>Easy</td>
 <td>1 hour</td>
 </tr>
 <tr>
-<td>SASS Extend/Inheritance</td>
+<td>SASS Flow Controls, Mixins & Extend/Inheritance</td>
 <td>Yes</td>
-<td>Easy</td>
-<td>30 mins</td>
+<td>Medium</td>
+<td>1 hour</td>
 </tr>
 <tr>
 <td>Assessment concept quiz</td>
@@ -165,13 +139,7 @@ After this sprint, you will have an understanding of
 <td  colspan="5"></td>
 </tr>
 <tr>
-<td  rowspan="7">Bootstrap</td>
-<td>Popular libraries to help build responsive websites</td>
-<td>Yes</td>
-<td>Easy</td>
-<td>30 mins</td>
-</tr>
-<tr>
+<td  rowspan="6">Bootstrap</td>
 <td>Introduction to Twitter Bootstrap 4</td>
 <td>Yes</td>
 <td>Easy</td>
