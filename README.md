@@ -10,6 +10,10 @@ The Minerva Project is an open source project. This means that if anyone comes a
 
 # Learning Path
 
+Following is a Front End Journey roadmap highlighting the tech stack you will learn, the projects that you will build and the expertise you will gain
+
+![](images/FERoadMap.jpg)
+
 ## Sprint 0: Prep Work
 
 **Overview**
