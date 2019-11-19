@@ -86,8 +86,38 @@ By the end of the sprint, you should be able to build a Finance Portfolio Tracke
 - [Phase 6 & 7: Deployment + Maintenance](sprint_4/1.%20End%20to%20end%20development%20workflow/4.1.6%20Deployment%20%26%20Maintenance.md)
 - [Wrap Up](sprint_4/1.%20End%20to%20end%20development%20workflow/Wrap%20up.md) 
 
+**Introduction to ReactJS**
+
+- [History of front-end development](sprint_4/2.%20Introduction%20to%20ReactJS/4.2.1%20History%20of%20Front-end%20Development.md)
+- [Single Page Applications(SPAs)](sprint_4/2.%20Introduction%20to%20ReactJS/4.2.2%20Single%20Page%20Applications%20(SPAs).md)
+- [What', 'How' and 'Why' of React](sprint_4/2.%20Introduction%20to%20ReactJS/4.2.3%20Introduction%20to%20ReactJS.md)
+- [Introduction to JSX](sprint_4/2.%20Introduction%20to%20ReactJS/4.2.4%20Introduction%20to%20JSX.md)
+- [Writing the first React code](sprint_4/2.%20Introduction%20to%20ReactJS/4.2.5%20The%20First%20ReactJS%20Code.md)
+- [Wrap Up](sprint_4/2.%20Introduction%20to%20ReactJS/Wrap%20Up.md)
+
+
+
 
 **Foundations of ReactJS**
+
+- [Adding React to a website](sprint_4/3.%20Foundations%20of%20ReactJS/4.3.1%20Adding%20React%20to%20a%20website.md)
+- [Introducing Create React App (CRA)](sprint_4/3.%20Foundations%20of%20ReactJS/4.3.2%20Introducing%20Create%20React%20App.md)
+- [Components and their types](sprint_4/3.%20Foundations%20of%20ReactJS/4.3.3%20Components%20and%20their%20types.md)
+- [States & Component life-cycle](sprint_4/3.%20Foundations%20of%20ReactJS/4.3.4%20States%20and%20Component%20Lifecycle.md)
+- [Event handling in React](sprint_4/3.%20Foundations%20of%20ReactJS/4.3.6%20Event%20Handling%20in%20React.md)
+- [Conditional rendering and rendering lists in React](sprint_4/3.%20Foundations%20of%20ReactJS/4.3.7%20Conditional%20rendering%20and%20rendering%20lists%20in%20React.md)
+- [Prop types](sprint_4/3.%20Foundations%20of%20ReactJS/4.3.8%20PropTypes%20in%20React.md)
+- [Control vs uncontrolled elements](sprint_4/3.%20Foundations%20of%20ReactJS/4.3.9%20Controlled%20vs%20uncontrolled%20elements.md)
+- [Reaching out to the web](sprint_4/3.%20Foundations%20of%20ReactJS/4.3.10%20Reaching%20out%20to%20the%20web.md)
+- [Wrap Up](sprint_4/3.%20Foundations%20of%20ReactJS/Wrap%20up.md)
+
+
+**Deployment of Web Apps**
+
+Introduction to web deployment and deployment apps (e.g. Github pages, Heroku, Firebase etc.)
+Webpack + Webpack vs CRA
+Deploying React application to Firebase
+Wrap Up 
 
 
 
