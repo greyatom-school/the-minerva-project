@@ -1,4 +1,4 @@
-# Sprint 4: Foundations of ReactJS
+﻿# Sprint 4: Foundations of ReactJS
 
 ## Overview
 
@@ -73,6 +73,21 @@ By the end of the sprint, you should be able to build a Finance Portfolio Tracke
 - Adding a stock(from the given list of companies)
 
 - Viewing your stocks compared to the current price(Fetched by an API)
+
+## Associated Concepts
+
+**End to End Development Workflow**
+
+- [Organization & team structure in a web development product team](sprint_4/1.%20End%20to%20end%20development%20workflow/4.1.1%20Organization%20and%20team%20structure%20in%20a%20web%20development%20product%20team.md)
+- [Software Development Life Cycle (SDLC)](sprint_4/1.%20End%20to%20end%20development%20workflow/4.1.2%20Software%20Development%20Life%20Cycle%20(SDLC).md)
+- [Phase 1 & 2: Requirement Gathering + Low-fidelity & high-fidelity product designs (UX)](sprint_4/1.%20End%20to%20end%20development%20workflow/4.1.3%20Requirement%20Gathering%20%2B%20UX_UI%20Design.md)
+- [Phase 3: Proof of Concept + Contract discussions](sprint_4/1.%20End%20to%20end%20development%20workflow/4.1.4%20Proof%20of%20Concepts%20%2B%20Contract%20Discussions.md)
+- [Phase 4 & 5: Development + Testing](sprint_4/1.%20End%20to%20end%20development%20workflow/4.1.5%20Development%20and%20Testing.md)
+- [Phase 6 & 7: Deployment + Maintenance](sprint_4/1.%20End%20to%20end%20development%20workflow/4.1.6%20Deployment%20%26%20Maintenance.md)
+- [Wrap Up](sprint_4/1.%20End%20to%20end%20development%20workflow/Wrap%20up.md) 
+
+
+**Foundations of ReactJS**
 
 
 

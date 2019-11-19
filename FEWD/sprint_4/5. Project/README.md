@@ -1,4 +1,4 @@
-# **Project – Finance Portfolio Tracker**
+﻿# **Project – Finance Portfolio Tracker**
 
 ## Overview
 
@@ -63,7 +63,7 @@ Following is the sample of how your final page should look like.
 
 #### Home Page
 
-![Home Page](screens/FPT_HomePage.png)
+![Home Page](Screens/FPT_HomePage.png)
 This is how your home page will look like.
 
 At any point it should always show the user's stocks('My Stocks')
@@ -71,7 +71,7 @@ and display the list of stocks that can be added('Add stocks to my stocks')
 
 #### Add Stocks Page
 
-![Modal](screens/FPT_AddStock.png)
+![Modal](Screens/FPT_AddStock.png)
 (update this image)
 
 On clicking the stock button in **Add stocks to my stocks** section, this modal will open up with the following details:
@@ -84,7 +84,7 @@ On clicking the stock button in **Add stocks to my stocks** section, this modal 
 
 #### Home Page(Weekend)
 
-![Weekend Page](screens/FPT_WeekendPage.png)
+![Weekend Page](Screens/FPT_WeekendPage.png)
 The above API only works on the weekdays, so for the weekends, you need to show the following message at the top.
 
 Follow the user stories in order to recreate the page shown below.

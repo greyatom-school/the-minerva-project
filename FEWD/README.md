@@ -24,16 +24,16 @@ After this sprint, you will have an understanding of
 - How to structure a page using HTML?
 - How to format/style a page using CSS?
 
-**Project:** Create a Personal Portfolio Page
+**Project:** [Create a Personal Portfolio Page](sprint_0/4.%20Project)
 
 **Associated Concepts:**
 
 
-***Concept 1:*** [Foundations of Web Dev](https://github.com/the-minerva-project/the-minerva-project/tree/master/sprint_0/1.%20Foundations%20of%20Web%20Dev)
+***Concept 1:*** [Foundations of Web Dev](sprint_0/1.%20Foundations%20of%20Web%20Dev)
 
-***Concept 2:*** [Foundations of HTML](https://github.com/the-minerva-project/the-minerva-project/tree/master/sprint_0/2.%20Foundations%20of%20HTML)
+***Concept 2:*** [Foundations of HTML](sprint_0/2.%20Foundations%20of%20HTML)
 
-***Concept 3:*** [Introduction to CSS](https://github.com/the-minerva-project/the-minerva-project/tree/master/sprint_0/3.%20Introduction%20to%20CSS)
+***Concept 3:*** [Introduction to CSS](sprint_0/3.%20Introduction%20to%20CSS)
 
 
 <hr>
@@ -108,27 +108,38 @@ Build a replica of TripAdvisor
 <hr>
 
 ## Sprint 4: Development Workflow & React JS
-### Overview
-You will begin this sprint with understanding the web development lifecycle right from the information gathering phase to the deployment of products. Post that you will begin your journey with React JS. React was created by facebook in 2013 to help with creating user interfaces. It quickly became a popular framework and many companies use it for their own web development needs. It is often used to create single-page applications. At the end of the sprint, you will learn about deploying your web apps on the world wide web.
 
-### Learning Outcomes
+**Overview**
+
+The previous sprint introduced you to the world of JS programming which promises reusable components, simplified coding and unbelievable rendering performances. In this sprint, we will deep-dive into Web development methodologies and ReactJS. 
+
+We will understand how exactly does ReactJS simplify the life of front-end developers 
+
+**Learning Outcomes**
+
 After this sprint, you will have an understanding of
-- Product requirement gathering
-- Role of Back End and Front End developers
-- QA -> UAT -> Prod workflow
+
+- Entire Web Development Life Cycle
+
 - What are JS libraries and frameworks? Why use them?
 - Why React?
 - Foundations of ReactJS
 - Deploying web apps on the world wide web
 
-### Concepts
-- End to end web development workflow
-- Introduction to ReactJS
-- Foundations of ReactJS
-- Deploying web apps using (Surge, GitHub pages, Heroku)
 
-### Project
-Create a Financial Portfolio Tracker web app
+**Project:** [Create a Financial Portfolio Tracker](sprint_4/5.%20Project)
+
+**Associated Concepts:**
+
+
+***Concept 1:*** [End to End Development Workflow](sprint_4/1.%20End%20to%20end%20development%20workflow)
+
+***Concept 2:*** [Introduction to ReactJS](sprint4/2.%20Introduction%20to%20ReactJS)
+
+***Concept 3:*** [Foundations of ReactJS](sprint_4/3.%20Foundations%20of%20ReactJS)
+
+***Concept 4:*** [Foundations of ReactJS](sprint_4/4.%20Deployment%20of%20web%20apps)
+
 
 <hr>
 
