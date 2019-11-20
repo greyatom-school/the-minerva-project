@@ -22,7 +22,7 @@ After this sprint, you will have an understanding of
 
 You will be building a simple personal portfolio to highlight your personal bio.
 
-![portfolio](https://github.com/greyatom-school/the-minerva-project/raw/master/sprint_0/4.%20Project/profile.PNG)
+![portfolio](4.%20Project/profile.PNG)
 
 
 ### Associated Concepts
