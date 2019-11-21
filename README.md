@@ -1,5 +1,5 @@
 # The Minerva Project
-Coding is the most sought after skill today. The Minerva Project aims at providing a platform to learn to code and hack it on your own. The Minerva Project consists of a carefully curated learning path with set goals to learn Web Development.
+Coding is the most sought after skill today. The Minerva Project aims at providing a platform to learn to code and hack it on your own. The Minerva Project consists of two carefully curated learning paths with set goals to learn Web Development. The two paths are [Front End Web Development (FEWD)](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD) and Back End Web Development (BEWD).
 
 We believe that with the right motivation anyone can learn to code. There are ample amount of resources freely available online to learn anything, however many learners get lost due to this sheer volume of resources available. The Minerva Project aims to break this clutter and provide a guided path to the learners. All the resources used to build The Minerva Project are available for free.
 
