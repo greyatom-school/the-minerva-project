@@ -37,7 +37,7 @@ With the flipped model, learners come prepared with the content to the sessions,
 
 # Content Curation Process
 The content building process can be broken up into the following phases 
-![](images/process.png)
+![](FEWD/images/process.png)
 
 CC corresponds to the content creator while GA corresponds to GreyAtom. Let’s look at each of the phases in detail.
 
@@ -95,7 +95,7 @@ We will discuss how to actually curate the content for GreyAtom. These procedure
 Before you start curating the content, it is important to understand the content hierarchy. The hierarchy of content as defined from the top to bottom is as follows:
 
 
-![](images/content_hierarchy.PNG)
+![](FEWD/images/content_hierarchy.PNG)
 
 
 
@@ -137,7 +137,7 @@ It consists of the curated content that learners have to go in a prescriptive wa
 
 Following is a visual representation of hierarchy mentioned:
 
-![](images/content_tree.PNG)
+![](FEWD/images/content_tree.PNG)
 
 
 ---
@@ -158,7 +158,7 @@ Helps GA get a bird’s eye view of the content expected to be curated
 
 Following is an example of content tree:
 
-![](images/content_tree2.PNG)
+![](FEWD/images/content_tree2.PNG)
 
 As mentioned before, creation of content tree consists of identifying the concepts associated with the sprints as well as breakdown of the concepts into topics/project.
 
@@ -189,14 +189,14 @@ Let’s look at them one by one(with the example topic:  Rest, ajax promises & f
 
 A couple of sentences explaining what they will learn in the topic
 
-![](images/overview.PNG)
+![](FEWD/images/overview.PNG)
 
 
 ***Learning Outcome:***
 
 An extension of overview. The learning outcome consists of questions that the learner will be able to answer after they go through the topic
 
-![](images/learning_outcome.PNG)
+![](FEWD/images/learning_outcome.PNG)
 
 ***Introduction:***
 
@@ -204,7 +204,7 @@ This consists of giving the learners a brief 1-2 paragraph introduction of the s
  
 While going through the curated content, the learner might feel overwhelmed. It’s important therefore that they familiarise themselves with the topic before exploring
 
-![](images/intro.PNG)
+![](FEWD/images/intro.PNG)
 
 ***What you must do:***
 
@@ -228,7 +228,7 @@ These are small coding assignment / challenges in form of embeddable code pane w
 
 *Note:* A topic can have multiple sub-topics depending upon the topic division
 
-![](images/wymd.PNG)
+![](FEWD/images/wymd.PNG)
 
 ***Additional references:***
 
@@ -236,7 +236,7 @@ This is a curated list of additional references a learner can go through to dive
 
 The purpose of additional references is to show the learner the depth of the given topic.
 
-![](images/additional_ref.PNG)
+![](FEWD/images/additional_ref.PNG)
 
 ***Topic quiz:***
 
@@ -244,7 +244,7 @@ This consists of 5 mcq questions to test whether the learner has gone through th
 
 These questions should be formative in nature i.e. It should check whether the learner was able to learn the concepts correctly. Difficulty level of questions should be easy to medium
 
-![](images/topic_quiz.PNG)
+![](FEWD/images/topic_quiz.PNG)
 
 ***Concept quiz:***
 
@@ -270,19 +270,19 @@ Let’s look at them one by one(with the example project: Personal Profile Page)
 
 This is a high level overview of the project describing the details of the web page / app that the learner has to build.
 
-![](images/proj_overview.PNG)
+![](FEWD/images/proj_overview.PNG)
 
 *Learning prerequisites:*
 
 This is a checklist of the essentials topics a learner must have completed in order to attempt this project.
 
-![](images/learning_prereq.PNG)
+![](FEWD/images/learning_prereq.PNG)
 
 *Screen mockups:*
 
 Mockups of the screens that is expected for the project.
 
-![](images/screen_mockup.PNG)
+![](FEWD/images/screen_mockup.PNG)
 
 *Boilerplate(If required):*
 
@@ -298,4 +298,4 @@ User stories are breakdown of the project into small units of work.
 
 User stories are generally written in non technical language detailing out the functionality that the story would add to the larger project.
 
-![](images/user_story.PNG)
+![](FEWD/images/user_story.PNG)
