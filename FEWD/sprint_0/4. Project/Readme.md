@@ -62,7 +62,7 @@ body {
 ```
 
 *The above code will result in the following page view*
-![](images/profile_0.PNG)
+![](images/profile_1.PNG)
 
 #### User Story 3
 
@@ -85,7 +85,7 @@ The add the following styling to the css file
 
 ```
 *Adding the above code should result in the following view:*
-![](images/profile_2.png)
+![](images/profile_2.PNG)
 
 
 (Feel free to play around with the values)
