@@ -4,23 +4,19 @@
 
 ## Overview
 
-Hi guys!
+In the previous sprint, you have already learned some basics of HTML and CSS. In this sprint, you'll learn the advance concepts of HTML and CSS. 
 
-As most of the comapnies working on sprint basis. sprint is something working on perticular task for 15 days. You are also going to learn this course in sprint wise so that you will get a feel like working some companies project. The course has been divided in sprints. Each sprint will get you closer to be a rockstar Web developer. Let's start the journey.
-
-In the sprint zero you have already learn some basics of HTML and CSS. In sprint 1, you'll deep-div and learn what is web development and the building blocks (HTML and CSS) of web development. 
-
-We will understand importance of HTML and CSS in front-end developers life.
+We will understand the importance of HTML and CSS in front-end developer's life.
 
 
-## pre - requisites
+## Pre requisites
 
 - You just need mindset that everything you are learning is important in your front-end developer journey
 
 - You must have gone trough the sprint 0
 
 
-## Learning outcome
+## Learning outcomes
 
 After this sprint, you will have understanding of 
 
@@ -37,13 +33,22 @@ After this sprint, you will have understanding of
 
 ### What will you build?
 
-You will be build a website of a studio that helps with IT services
+At the end of html module you will be able to build basic html page
 
-![ARK Studio](ark studio/template.png)
+![airbnb html](basics_of_html/images/wrap_up.png)
 
-### Learning Outcomes
 
-After this sprint, you will have an understanding of
+At the end of css module you should be able to build good looking css page
+
+![airbnb project](basics_of_css/images/final.png)
+
+- Sprint project: ARK studio
+
+At the end of this project you should be able to build ARK Studio landing page.
+
+![ARK Studio](ark_studio/template.png)
+
+# Associated Concepts
 
 **Basics of HTML (BH)**
 
