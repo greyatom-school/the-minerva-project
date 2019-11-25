@@ -41,7 +41,11 @@ Add the following HTML code to get started
 </html>
 ```
 
-Now, create a new file named `style.css` and add the following CSS code to the same to get started. Add your own title between the `<title>` tags
+Add your own title between the `<title>` tags
+
+*The above code is the boilerplate code to be included everytime you create an HTML file for your website.*
+
+Now, create a new file named `style.css` and add the following CSS code to the same to get started. 
 
 ```css
 * {
@@ -57,14 +61,18 @@ body {
   }
 ```
 
+*The above code will result in the following page view*
+![](images/profile_0.PNG)
+
 #### User Story 3
 
 In the `<head>` section, link the CSS stylesheet to the HTML file
 
-#### User Story 4
-Create a `<div>` tag with class name as 'profileBody'.
-Add the following styling to the css file (Feel free to play around with the values)
+Use the link tag (`<link href="style.css" type="text/css" rel="stylesheet">`)
 
+#### User Story 4
+Create a `<div>` tag with class name as 'profileBody' in the HTML file
+The add the following styling to the css file 
 ```css
 .profileBody {
     display: inline-block;
@@ -76,6 +84,11 @@ Add the following styling to the css file (Feel free to play around with the val
   }
 
 ```
+*Adding the above code should result in the following view:*
+![](images/profile_2.png)
+
+
+(Feel free to play around with the values)
 
 #### User Story 5
 
@@ -115,7 +128,8 @@ Add a horizontal break(`<hr />`)
 Using `<p>` & `<a>`, write down your email contact info. Remember to emphasise the 'Contact Details' heading using `<strong>`
 
 -------------------
-The above tasks are the minimum expected of you. You are free to add as much personalization as you want in the portfolio page.
 
+The above tasks are the minimum expected of you. 
 
+You are free to add as much personalization as you want in the portfolio page.
 
