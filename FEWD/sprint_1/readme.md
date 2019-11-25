@@ -33,12 +33,12 @@ After this sprint, you will have understanding of
 
 ### What will you build?
 
-At the end of html module you will be able to create
+At the end of html module you will be able to build basic html page
 
 ![airbnb html](basics_of_html/images/wrap_up.png)
 
 
-At the end of css module you will be able to create
+At the end of css module you should be able to build good looking css page
 
 ![airbnb project](basics_of_css/images/final.png)
 
