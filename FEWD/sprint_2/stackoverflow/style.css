@@ -45,6 +45,18 @@ img {
   height: auto;
 }
 
+.separator {
+  margin: 0 auto 32px;
+  background: #f2720c;
+  display: block;
+  width: 80px;
+  height: 6px;
+}
+
+.link {
+  color: #f48024;
+}
+
 /* ----------------------------------------------------------------------------------------- */
 /* Header */
 /* ----------------------------------------------------------------------------------------- */
@@ -371,9 +383,34 @@ main {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%);
 }
 
+.padding64 {
+  padding: 64px 0;
+}
+
+.padding128 {
+  padding: 128px 0;
+}
+
+.block-title {
+  margin-bottom: 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 2.61538461rem;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.section-description {
+  max-width: 40.5128205rem;
+  text-align: center;
+  font-size: 1.30769231rem;
+  margin: auto;
+  margin-bottom: 48px;
+}
+
+/* Banner */
 .banner {
   background: url(./images/banner.svg) #ffcf10 no-repeat top center;
-  padding: 128px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -404,10 +441,6 @@ h1 {
   margin-right: 8px;
 }
 
-.block-title {
-  font-family: "Roboto Slab", serif;
-}
-
 @media (max-width: 640px) {
   .banner {
     background: url(./images/banner-small.svg) #ffcf10 no-repeat top center;
@@ -427,6 +460,72 @@ h1 {
 
   .banner-btns li:first-child {
     margin-bottom: 8px;
+  }
+}
+
+/* For developers */
+.dev-features {
+  max-width: 81.025641rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.dev-feature-item {
+  flex-basis: 33.33333333%;
+  max-width: 24.3076923rem;
+  box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
+  text-align: center;
+  font-size: 1.15384615rem;
+  padding: 32px;
+  border-radius: 7px;
+}
+
+.dev-feature-item:hover {
+  box-shadow: 0 4px 12px rgba(36, 39, 41, 0.2);
+}
+
+.dev-feature-item:first-child,
+.dev-feature-item:last-child {
+  margin-top: 64px;
+}
+
+.dev-feature-item:first-child {
+  margin-right: 64px;
+}
+
+.dev-feature-item:last-child {
+  margin-left: 64px;
+}
+
+.dev-feature-item h4 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 1.61538462rem;
+  margin: 16px 0;
+}
+
+.dev-feature-item p {
+  margin-bottom: 24px;
+  line-height: 1.3;
+}
+
+@media (max-width: 767px) {
+  .dev-features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dev-feature-item:first-child,
+  .dev-feature-item:last-child {
+    margin: 0;
+  }
+
+  .dev-feature-item {
+    margin: 0;
+    margin-bottom: 32px !important;
   }
 }
 
