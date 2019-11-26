@@ -1,14 +1,58 @@
-/*
-  Author: Rahul Shetty
-  Organization: GreyAtom
-
-  Make sure you have installed SASS on your system. Open terminal and run 
-
-  `sass -v` 
-
-  If the version is displayed correctly, run `sass style.scss style.css` o your terminal. 
-  Make sure your terminal is pointing to the current working project directory
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* partial file */
 html {
   box-sizing: border-box;
   font-size: 13px;
@@ -87,6 +131,17 @@ img {
     width: auto;
   }
 }
+/*
+  Author: Rahul Shetty
+  Organization: GreyAtom
+
+  Make sure you have installed SASS on your system. Open terminal and run 
+
+  `sass -v` 
+
+  If the version is displayed correctly, run `sass style.scss style.css` o your terminal. 
+  Make sure your terminal is pointing to the current working project directory
+*/
 /* ----------------------------------------------------------------------------------------- */
 /* Header */
 /* ----------------------------------------------------------------------------------------- */
@@ -731,22 +786,20 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  font-family: "Roboto Slab", sans-serif;
-  font-size: 1.15384615rem;
-  line-height: 1.30769231;
-  font-weight: 700;
 }
 .unlock-knowledge .awards .award {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 16px;
-}
-.unlock-knowledge .awards .award:not(:first-child):not(:last-child) {
-  margin: 0 24px;
+  margin: 16px;
 }
 .unlock-knowledge .awards .award a {
   color: #bbc0c4;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.15384615rem;
+  line-height: 1.30769231;
+  font-weight: 700;
+  color: white;
   margin-left: 8px;
 }
 

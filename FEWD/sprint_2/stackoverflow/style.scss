@@ -10,99 +10,10 @@
   Make sure your terminal is pointing to the current working project directory
 */
 
-$purple: #2b2d6e;
-$tango: #f48024;
-$black: #242729;
-$border: #d6d9dc;
-$silverSand: #bbc0c4;
-$ipad: 767px;
-$small-1: 640px;
-
-@mixin font($size, $fontName: "Roboto", $fontWeight: 400) {
-  font-family: $fontName, sans-serif;
-  font-size: $size;
-  line-height: 1.30769231;
-  font-weight: $fontWeight;
-}
-
-html {
-  box-sizing: border-box;
-  font-size: 13px;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.30769231;
-}
-
-body *,
-body *::after,
-body *::before {
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: #fff;
-  background-color: $tango;
-  border-radius: 3px;
-  text-align: center;
-  border: 0;
-  font-size: 1.1rem;
-  cursor: pointer;
-}
-
-.btn-white {
-  background-color: #fff;
-  border: 1px solid $tango;
-  color: $tango;
-}
-
-.btn-purple {
-  background-color: $purple;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.separator {
-  margin: 0 auto 32px;
-  background: #f2720c;
-  display: block;
-  width: 80px;
-  height: 6px;
-}
-
-.link {
-  color: $tango;
-}
-
-.col-12 {
-  max-width: 97.2307692rem;
-  margin: auto;
-  width: 90%;
-}
-
-.col-4-card {
-  width: 33.33333%;
-  max-width: 32.4102564rem;
-  padding: 32px;
-  border-radius: 7px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
-}
-
-@media (max-width: $ipad) {
-  .col-4-card {
-    width: auto;
-  }
-}
+// Always use @use for importing rather than @import. Read the official documentatio for more details
+@use "reset.scss";
+@use "config.scss" as *;
+@use "_common.scss";
 
 /* ----------------------------------------------------------------------------------------- */
 /* Header */
@@ -749,8 +660,6 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
 
-    @include font(1.15384615rem, "Roboto Slab", 700);
-
     .award {
       display: flex;
       justify-content: center;
@@ -760,6 +669,7 @@ h1 {
 
     .award a {
       color: $silverSand;
+      @include font(1.15384615rem, "Roboto Slab", 700, true);
       margin-left: 8px;
     }
   }
