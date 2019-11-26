@@ -3,12 +3,13 @@
   Organization: GreyAtom
 
   Make sure you have installed SASS on your system. Open terminal and run 
-
+  
   `sass -v` 
-
+  
   If the version is displayed correctly, run `sass style.scss style.css` o your terminal. 
   Make sure your terminal is pointing to the current working project directory
 */
+
 html {
   box-sizing: border-box;
   font-size: 13px;
@@ -86,6 +87,7 @@ img {
     width: auto;
   }
 }
+
 /* ----------------------------------------------------------------------------------------- */
 /* Header */
 /* ----------------------------------------------------------------------------------------- */
@@ -399,6 +401,7 @@ header {
     padding: 0.6;
   }
 }
+
 /* ----------------------------------------------------------------------------------------- */
 /* Main */
 /* ----------------------------------------------------------------------------------------- */
@@ -496,6 +499,7 @@ h1 {
     margin-bottom: 8px;
   }
 }
+
 /* For developers */
 .dev-features {
   max-width: 81.025641rem;
@@ -552,7 +556,7 @@ h1 {
   }
 
   .dev-feature-item:first-child,
-.dev-feature-item:last-child {
+  .dev-feature-item:last-child {
     margin: 0;
   }
 
@@ -561,6 +565,7 @@ h1 {
     margin-bottom: 32px !important;
   }
 }
+
 /* For business */
 .for-business {
   background-color: #f7f6f9;
@@ -600,9 +605,9 @@ h1 {
     margin: 48px 0;
   }
 }
+
 /* Unlock Knowledge */
+
 /* ----------------------------------------------------------------------------------------- */
 /* Footer */
 /* ----------------------------------------------------------------------------------------- */
-
-/*# sourceMappingURL=style.css.map */
