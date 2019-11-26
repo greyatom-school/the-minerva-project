@@ -10,6 +10,9 @@
   Make sure your terminal is pointing to the current working project directory
 */
 
+$purple: #2b2d6e;
+$tango: #f48024;
+
 html {
   box-sizing: border-box;
   font-size: 13px;
@@ -30,7 +33,7 @@ a {
 .btn {
   padding: 12px 24px;
   color: #fff;
-  background-color: #f48024;
+  background-color: $tango;
   border-radius: 3px;
   text-align: center;
   border: 0;
@@ -39,12 +42,12 @@ a {
 
 .btn-white {
   background-color: #fff;
-  border: 1px solid #f48024;
-  color: #f48024;
+  border: 1px solid $tango;
+  color: $tango;
 }
 
-.btn-indigo {
-  background-color: #2b2d6e;
+.btn-purple {
+  background-color: $purple;
 }
 
 img {
@@ -61,7 +64,7 @@ img {
 }
 
 .link {
-  color: #f48024;
+  color: $tango;
 }
 
 .col-12 {
@@ -93,7 +96,7 @@ img {
 /* ----------------------------------------------------------------------------------------- */
 header {
   width: 100%;
-  border-top: 3px solid #f48024;
+  border-top: 3px solid $tango;
   position: fixed;
   top: 0;
   left: 0;
@@ -201,7 +204,7 @@ header {
 
 .hambuger-menu .menu-item:hover {
   font-weight: bold;
-  border-right: 3px solid #f48024;
+  border-right: 3px solid $tango;
   background: rgba(12, 13, 14, 0.05);
 }
 
@@ -234,7 +237,7 @@ header {
 }
 
 .team-item-active {
-  background-color: #f48024;
+  background-color: $tango;
 }
 
 .team-item-active:hover {
