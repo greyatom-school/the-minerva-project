@@ -1,153 +1,26 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: "";
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* partial file */
-html {
-  box-sizing: border-box;
-  font-size: 13px;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.30769231;
-}
-
-body *,
-body *::after,
-body *::before {
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: #fff;
-  background-color: #f48024;
-  border-radius: 3px;
-  text-align: center;
-  border: 0;
-  font-size: 1.1rem;
-  cursor: pointer;
-}
-
-.btn-white {
-  background-color: #fff;
-  border: 1px solid #f48024;
-  color: #f48024;
-}
-
-.btn-purple {
-  background-color: #2b2d6e;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.separator {
-  margin: 0 auto 32px;
-  background: #f2720c;
-  display: block;
-  width: 80px;
-  height: 6px;
-}
-
-.link {
-  color: #f48024;
-}
-
-.col-12 {
-  max-width: 97.2307692rem;
-  margin: auto;
-  width: 90%;
-}
-
-.col-4-card {
-  width: 33.33333%;
-  max-width: 32.4102564rem;
-  padding: 32px;
-  border-radius: 7px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
-}
-
-@media (max-width: 767px) {
-  .col-4-card {
-    width: auto;
-  }
-}
 /*
   Author: Rahul Shetty
   Organization: GreyAtom
 
   Make sure you have installed SASS on your system. Open terminal and run 
-
+  
   `sass -v` 
-
+  
   If the version is displayed correctly, run `sass style.scss style.css` o your terminal. 
   Make sure your terminal is pointing to the current working project directory
 */
+
+// Always use @use for importing rather than @import. Read the official documentatio for more details
+@use "reset.scss";
+@use "config.scss" as *;
+@use "_common.scss";
+
 /* ----------------------------------------------------------------------------------------- */
 /* Header */
 /* ----------------------------------------------------------------------------------------- */
 header {
   width: 100%;
-  border-top: 3px solid #f48024;
+  border-top: 3px solid $tango;
   position: fixed;
   top: 0;
   left: 0;
@@ -255,7 +128,7 @@ header {
 
 .hambuger-menu .menu-item:hover {
   font-weight: bold;
-  border-right: 3px solid #f48024;
+  border-right: 3px solid $tango;
   background: rgba(12, 13, 14, 0.05);
 }
 
@@ -288,7 +161,7 @@ header {
 }
 
 .team-item-active {
-  background-color: #f48024;
+  background-color: $tango;
 }
 
 .team-item-active:hover {
@@ -387,7 +260,7 @@ header {
   box-shadow: inset 0 1px 0 #3af;
 }
 
-@media (max-width: 767px) {
+@media (max-width: $ipad) {
   .logo-link {
     width: 25px;
   }
@@ -455,6 +328,7 @@ header {
     padding: 0.6;
   }
 }
+
 /* ----------------------------------------------------------------------------------------- */
 /* Main */
 /* ----------------------------------------------------------------------------------------- */
@@ -465,9 +339,8 @@ main {
 .slope-right {
   -webkit-clip-path: polygon(0 0, 100% 4vw, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 4vw, 100% 100%, 0 100%);
-}
-@media (min-width: 767px) {
-  .slope-right {
+
+  @media (min-width: $ipad) {
     -webkit-clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0 100%);
   }
@@ -476,9 +349,8 @@ main {
 .slope-left {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%);
-}
-@media (min-width: 767px) {
-  .slope-left {
+
+  @media (min-width: $ipad) {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%);
   }
@@ -489,24 +361,12 @@ main {
   margin-top: -4vw;
   -webkit-clip-path: polygon(0 0, 100% 4vw, 100% calc(100% - 4vw), 0 100%);
   clip-path: polygon(0 0, 100% 4vw, 100% calc(100% - 4vw), 0 100%);
-}
-@media (min-width: 767px) {
-  .team-slope {
+
+  @media (min-width: $ipad) {
     margin-bottom: -2vw;
     margin-top: -2vw;
     -webkit-clip-path: polygon(0 0, 100% 2vw, 100% calc(100% - 2vw), 0 100%);
     clip-path: polygon(0 0, 100% 2vw, 100% calc(100% - 2vw), 0 100%);
-  }
-}
-
-.talent-slope {
-  -webkit-clip-path: polygon(0 4vw, 100% 0, 100% calc(100% - 4vw), 0 100%);
-  clip-path: polygon(0 4vw, 100% 0, 100% calc(100% - 4vw), 0 100%);
-}
-@media (min-width: 767px) {
-  .talent-slope {
-    -webkit-clip-path: polygon(0 2vw, 100% 0, 100% calc(100% - 2vw), 0 100%);
-    clip-path: polygon(0 2vw, 100% 0, 100% calc(100% - 2vw), 0 100%);
   }
 }
 
@@ -569,7 +429,7 @@ h1 {
   margin-right: 8px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: $small-1) {
   .banner {
     background: url(./images/banner-small.svg) #ffcf10 no-repeat top center;
   }
@@ -590,6 +450,7 @@ h1 {
     margin-bottom: 8px;
   }
 }
+
 /* For developers */
 .dev-features {
   max-width: 81.025641rem;
@@ -639,14 +500,14 @@ h1 {
   line-height: 1.3;
 }
 
-@media (max-width: 767px) {
+@media (max-width: $ipad) {
   .dev-features {
     flex-direction: column;
     align-items: center;
   }
 
   .dev-feature-item:first-child,
-.dev-feature-item:last-child {
+  .dev-feature-item:last-child {
     margin: 0;
   }
 
@@ -655,6 +516,7 @@ h1 {
     margin-bottom: 32px !important;
   }
 }
+
 /* For business */
 .for-business {
   background-color: #f7f6f9;
@@ -684,7 +546,7 @@ h1 {
   line-height: 1.3;
 }
 
-@media (max-width: 767px) {
+@media (max-width: $ipad) {
   .business-features {
     flex-direction: column;
     align-items: center;
@@ -694,159 +556,127 @@ h1 {
     margin: 48px 0;
   }
 }
+
 /* Unlock Knowledge */
 .unlock-knowledge {
-  background: #2b2d6e;
+  background: $purple;
   color: white;
-}
-.unlock-knowledge .section-description button {
-  margin-top: 24px;
-}
-.unlock-knowledge .packages {
-  max-width: 81.025641rem;
-  margin: 0 auto;
-  display: flex;
-  align-items: flex-end;
-}
-@media (max-width: 767px) {
-  .unlock-knowledge .packages {
-    flex-direction: column;
+
+  .section-description button {
+    margin-top: 24px;
+  }
+
+  .packages {
+    max-width: 81.025641rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+
+    @media (max-width: $ipad) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .package {
+      max-width: 24.3076923rem;
+      width: 100%;
+      flex-basis: 33.33333333%;
+      background-color: white;
+      color: $black;
+      border-radius: 7px;
+      box-shadow: 0 2px 8px rgba(59, 64, 69, 0.1);
+    }
+
+    .package:not(:first-child):not(:last-child) {
+      margin: 0 48px;
+
+      @media (max-width: $ipad) {
+        margin: 48px 0;
+      }
+    }
+
+    .package-header {
+      padding: 16px;
+      border-bottom: 1px solid $border;
+      text-align: center;
+
+      h4 {
+        margin-bottom: 8px;
+        @include font(1.61538462rem, "Roboto Slab", 700);
+      }
+
+      p {
+        @include font(1.15384615rem);
+      }
+    }
+
+    .package-detail {
+      padding: 16px;
+
+      .package-detail-title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+      }
+
+      .package-detail-subtitle span {
+        display: block;
+      }
+
+      .bold-700 {
+        @include font(1.61538462rem, "Roboto Slab", 700);
+      }
+
+      .bolder-700 {
+        @include font(2.61538461rem, "Roboto Slab", 700);
+        margin-right: 8px;
+      }
+
+      .package-features {
+        @include font(1.15384615rem);
+        margin-bottom: 24px;
+      }
+
+      .package-feature-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 12px;
+
+        span {
+          margin-left: 6px;
+        }
+      }
+    }
+
+    .btn {
+      width: 100%;
+    }
+  }
+
+  .awards {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
+    .award {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 16px;
+    }
+
+    .award a {
+      color: $silverSand;
+      @include font(1.15384615rem, "Roboto Slab", 700, true);
+      margin-left: 8px;
+    }
   }
-}
-.unlock-knowledge .packages .package {
-  max-width: 24.3076923rem;
-  width: 100%;
-  flex-basis: 33.33333333%;
-  background-color: white;
-  color: #242729;
-  border-radius: 7px;
-  box-shadow: 0 2px 8px rgba(59, 64, 69, 0.1);
-}
-.unlock-knowledge .packages .package:not(:first-child):not(:last-child) {
-  margin: 0 48px;
-}
-@media (max-width: 767px) {
-  .unlock-knowledge .packages .package:not(:first-child):not(:last-child) {
-    margin: 48px 0;
-  }
-}
-.unlock-knowledge .packages .package-header {
-  padding: 16px;
-  border-bottom: 1px solid #d6d9dc;
-  text-align: center;
-}
-.unlock-knowledge .packages .package-header h4 {
-  margin-bottom: 8px;
-  font-family: "Roboto Slab", sans-serif;
-  font-size: 1.61538462rem;
-  line-height: 1.30769231;
-  font-weight: 700;
-}
-.unlock-knowledge .packages .package-header p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.15384615rem;
-  line-height: 1.30769231;
-  font-weight: 400;
-}
-.unlock-knowledge .packages .package-detail {
-  padding: 16px;
-}
-.unlock-knowledge .packages .package-detail .package-detail-title {
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
-}
-.unlock-knowledge .packages .package-detail .package-detail-subtitle span {
-  display: block;
-}
-.unlock-knowledge .packages .package-detail .bold-700 {
-  font-family: "Roboto Slab", sans-serif;
-  font-size: 1.61538462rem;
-  line-height: 1.30769231;
-  font-weight: 700;
-}
-.unlock-knowledge .packages .package-detail .bolder-700 {
-  font-family: "Roboto Slab", sans-serif;
-  font-size: 2.61538461rem;
-  line-height: 1.30769231;
-  font-weight: 700;
-  margin-right: 8px;
-}
-.unlock-knowledge .packages .package-detail .package-features {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.15384615rem;
-  line-height: 1.30769231;
-  font-weight: 400;
-  margin-bottom: 24px;
-}
-.unlock-knowledge .packages .package-detail .package-feature-item {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 12px;
-}
-.unlock-knowledge .packages .package-detail .package-feature-item span {
-  margin-left: 6px;
-}
-.unlock-knowledge .packages .btn {
-  width: 100%;
-}
-.unlock-knowledge .awards {
-  margin-top: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.unlock-knowledge .awards .award {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 16px;
-}
-.unlock-knowledge .awards .award a {
-  color: #bbc0c4;
-  font-family: "Roboto Slab", sans-serif;
-  font-size: 1.15384615rem;
-  line-height: 1.30769231;
-  font-weight: 700;
-  color: white;
-  margin-left: 8px;
 }
 
 /* Hire */
-.hire {
-  background-color: #f7f6f9;
-}
-.hire .hire-details {
-  max-width: 81.025641rem;
-  width: 90%;
-  margin: auto;
-}
-.hire .hire-details .hire-detail {
-  margin-top: 24px;
-}
-.hire .hire-details img {
-  width: 20%;
-  margin-bottom: 6px;
-}
-.hire .hire-details h4 {
-  margin-bottom: 12px;
-  font-family: "Roboto Slab", sans-serif;
-  font-size: 2.07692308rem;
-  line-height: 1.30769231;
-  font-weight: 700;
-}
-.hire .hire-details p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.15384615rem;
-  line-height: 1.30769231;
-  font-weight: 400;
-  margin-bottom: 24px;
-}
 
 /* ----------------------------------------------------------------------------------------- */
 /* Footer */
 /* ----------------------------------------------------------------------------------------- */
-
-/*# sourceMappingURL=style.css.map */

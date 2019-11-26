@@ -370,6 +370,16 @@ main {
   }
 }
 
+.talent-slope {
+  -webkit-clip-path: polygon(0 4vw, 100% 0, 100% calc(100% - 4vw), 0 100%);
+  clip-path: polygon(0 4vw, 100% 0, 100% calc(100% - 4vw), 0 100%);
+
+  @media (min-width: $ipad) {
+    -webkit-clip-path: polygon(0 2vw, 100% 0, 100% calc(100% - 2vw), 0 100%);
+    clip-path: polygon(0 2vw, 100% 0, 100% calc(100% - 2vw), 0 100%);
+  }
+}
+
 .padding64 {
   padding: 64px 0;
 }
@@ -676,7 +686,34 @@ h1 {
 }
 
 /* Hire */
+.hire {
+  background-color: $purpleLight;
 
+  .hire-details {
+    max-width: 81.025641rem;
+    width: 90%;
+    margin: auto;
+
+    .hire-detail {
+      margin-top: 24px;
+    }
+
+    img {
+      width: 20%;
+      margin-bottom: 6px;
+    }
+
+    h4 {
+      margin-bottom: 12px;
+      @include font(2.07692308rem, "Roboto Slab", 700);
+    }
+
+    p {
+      @include font(1.15384615rem);
+      margin-bottom: 24px;
+    }
+  }
+}
 /* ----------------------------------------------------------------------------------------- */
 /* Footer */
 /* ----------------------------------------------------------------------------------------- */

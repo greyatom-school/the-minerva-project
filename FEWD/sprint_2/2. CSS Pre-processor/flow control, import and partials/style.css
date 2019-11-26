@@ -499,17 +499,6 @@ main {
   }
 }
 
-.talent-slope {
-  -webkit-clip-path: polygon(0 4vw, 100% 0, 100% calc(100% - 4vw), 0 100%);
-  clip-path: polygon(0 4vw, 100% 0, 100% calc(100% - 4vw), 0 100%);
-}
-@media (min-width: 767px) {
-  .talent-slope {
-    -webkit-clip-path: polygon(0 2vw, 100% 0, 100% calc(100% - 2vw), 0 100%);
-    clip-path: polygon(0 2vw, 100% 0, 100% calc(100% - 2vw), 0 100%);
-  }
-}
-
 .padding64 {
   padding: 64px 0;
 }
@@ -815,36 +804,6 @@ h1 {
 }
 
 /* Hire */
-.hire {
-  background-color: #f7f6f9;
-}
-.hire .hire-details {
-  max-width: 81.025641rem;
-  width: 90%;
-  margin: auto;
-}
-.hire .hire-details .hire-detail {
-  margin-top: 24px;
-}
-.hire .hire-details img {
-  width: 20%;
-  margin-bottom: 6px;
-}
-.hire .hire-details h4 {
-  margin-bottom: 12px;
-  font-family: "Roboto Slab", sans-serif;
-  font-size: 2.07692308rem;
-  line-height: 1.30769231;
-  font-weight: 700;
-}
-.hire .hire-details p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.15384615rem;
-  line-height: 1.30769231;
-  font-weight: 400;
-  margin-bottom: 24px;
-}
-
 /* ----------------------------------------------------------------------------------------- */
 /* Footer */
 /* ----------------------------------------------------------------------------------------- */
