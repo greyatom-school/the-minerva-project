@@ -34,6 +34,7 @@ a {
   text-align: center;
   border: 0;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .btn-white {
@@ -42,7 +43,7 @@ a {
   color: #f48024;
 }
 
-.btn-indigo {
+.btn-purple {
   background-color: #2b2d6e;
 }
 
@@ -406,14 +407,41 @@ main {
   padding-top: 55px;
 }
 
-.slope-left {
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%);
+.slope-right {
+  -webkit-clip-path: polygon(0 0, 100% 4vw, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 4vw, 100% 100%, 0 100%);
+}
+@media (min-width: 767px) {
+  .slope-right {
+    -webkit-clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0 100%);
+  }
 }
 
-.slope-right {
-  -webkit-clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0 100%);
+.slope-left {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%);
+}
+@media (min-width: 767px) {
+  .slope-left {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%);
+  }
+}
+
+.team-slope {
+  margin-bottom: -4vw;
+  margin-top: -4vw;
+  -webkit-clip-path: polygon(0 0, 100% 4vw, 100% calc(100% - 4vw), 0 100%);
+  clip-path: polygon(0 0, 100% 4vw, 100% calc(100% - 4vw), 0 100%);
+}
+@media (min-width: 767px) {
+  .team-slope {
+    margin-bottom: -2vw;
+    margin-top: -2vw;
+    -webkit-clip-path: polygon(0 0, 100% 2vw, 100% calc(100% - 2vw), 0 100%);
+    clip-path: polygon(0 0, 100% 2vw, 100% calc(100% - 2vw), 0 100%);
+  }
 }
 
 .padding64 {
@@ -601,6 +629,128 @@ h1 {
   }
 }
 /* Unlock Knowledge */
+.unlock-knowledge {
+  background: #2b2d6e;
+  color: white;
+}
+.unlock-knowledge .section-description button {
+  margin-top: 24px;
+}
+.unlock-knowledge .packages {
+  max-width: 81.025641rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+}
+@media (max-width: 767px) {
+  .unlock-knowledge .packages {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.unlock-knowledge .packages .package {
+  max-width: 24.3076923rem;
+  width: 100%;
+  flex-basis: 33.33333333%;
+  background-color: white;
+  color: #242729;
+  border-radius: 7px;
+  box-shadow: 0 2px 8px rgba(59, 64, 69, 0.1);
+}
+.unlock-knowledge .packages .package:not(:first-child):not(:last-child) {
+  margin: 0 48px;
+}
+@media (max-width: 767px) {
+  .unlock-knowledge .packages .package:not(:first-child):not(:last-child) {
+    margin: 48px 0;
+  }
+}
+.unlock-knowledge .packages .package-header {
+  padding: 16px;
+  border-bottom: 1px solid #d6d9dc;
+  text-align: center;
+}
+.unlock-knowledge .packages .package-header h4 {
+  margin-bottom: 8px;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.61538462rem;
+  line-height: 1.30769231;
+  font-weight: 700;
+}
+.unlock-knowledge .packages .package-header p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.15384615rem;
+  line-height: 1.30769231;
+  font-weight: 400;
+}
+.unlock-knowledge .packages .package-detail {
+  padding: 16px;
+}
+.unlock-knowledge .packages .package-detail .package-detail-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.unlock-knowledge .packages .package-detail .package-detail-subtitle span {
+  display: block;
+}
+.unlock-knowledge .packages .package-detail .bold-700 {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.61538462rem;
+  line-height: 1.30769231;
+  font-weight: 700;
+}
+.unlock-knowledge .packages .package-detail .bolder-700 {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 2.61538461rem;
+  line-height: 1.30769231;
+  font-weight: 700;
+  margin-right: 8px;
+}
+.unlock-knowledge .packages .package-detail .package-features {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.15384615rem;
+  line-height: 1.30769231;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.unlock-knowledge .packages .package-detail .package-feature-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+.unlock-knowledge .packages .package-detail .package-feature-item span {
+  margin-left: 6px;
+}
+.unlock-knowledge .packages .btn {
+  width: 100%;
+}
+.unlock-knowledge .awards {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.15384615rem;
+  line-height: 1.30769231;
+  font-weight: 700;
+}
+.unlock-knowledge .awards .award {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.unlock-knowledge .awards .award:not(:first-child):not(:last-child) {
+  margin: 0 24px;
+}
+.unlock-knowledge .awards .award a {
+  color: #bbc0c4;
+  margin-left: 8px;
+}
+
+/* Hire */
 /* ----------------------------------------------------------------------------------------- */
 /* Footer */
 /* ----------------------------------------------------------------------------------------- */

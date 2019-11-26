@@ -12,6 +12,18 @@
 
 $purple: #2b2d6e;
 $tango: #f48024;
+$black: #242729;
+$border: #d6d9dc;
+$silverSand: #bbc0c4;
+$ipad: 767px;
+$small-1: 640px;
+
+@mixin font($size, $fontName: "Roboto", $fontWeight: 400) {
+  font-family: $fontName, sans-serif;
+  font-size: $size;
+  line-height: 1.30769231;
+  font-weight: $fontWeight;
+}
 
 html {
   box-sizing: border-box;
@@ -38,6 +50,7 @@ a {
   text-align: center;
   border: 0;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .btn-white {
@@ -85,7 +98,7 @@ img {
   box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
 }
 
-@media (max-width: 767px) {
+@media (max-width: $ipad) {
   .col-4-card {
     width: auto;
   }
@@ -336,7 +349,7 @@ header {
   box-shadow: inset 0 1px 0 #3af;
 }
 
-@media (max-width: 767px) {
+@media (max-width: $ipad) {
   .logo-link {
     width: 25px;
   }
@@ -412,14 +425,38 @@ main {
   padding-top: 55px;
 }
 
-.slope-left {
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%);
+.slope-right {
+  -webkit-clip-path: polygon(0 0, 100% 4vw, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 4vw, 100% 100%, 0 100%);
+
+  @media (min-width: $ipad) {
+    -webkit-clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0 100%);
+  }
 }
 
-.slope-right {
-  -webkit-clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0 100%);
+.slope-left {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%);
+
+  @media (min-width: $ipad) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%);
+  }
+}
+
+.team-slope {
+  margin-bottom: -4vw;
+  margin-top: -4vw;
+  -webkit-clip-path: polygon(0 0, 100% 4vw, 100% calc(100% - 4vw), 0 100%);
+  clip-path: polygon(0 0, 100% 4vw, 100% calc(100% - 4vw), 0 100%);
+
+  @media (min-width: $ipad) {
+    margin-bottom: -2vw;
+    margin-top: -2vw;
+    -webkit-clip-path: polygon(0 0, 100% 2vw, 100% calc(100% - 2vw), 0 100%);
+    clip-path: polygon(0 0, 100% 2vw, 100% calc(100% - 2vw), 0 100%);
+  }
 }
 
 .padding64 {
@@ -481,7 +518,7 @@ h1 {
   margin-right: 8px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: $small-1) {
   .banner {
     background: url(./images/banner-small.svg) #ffcf10 no-repeat top center;
   }
@@ -552,7 +589,7 @@ h1 {
   line-height: 1.3;
 }
 
-@media (max-width: 767px) {
+@media (max-width: $ipad) {
   .dev-features {
     flex-direction: column;
     align-items: center;
@@ -598,7 +635,7 @@ h1 {
   line-height: 1.3;
 }
 
-@media (max-width: 767px) {
+@media (max-width: $ipad) {
   .business-features {
     flex-direction: column;
     align-items: center;
@@ -610,6 +647,125 @@ h1 {
 }
 
 /* Unlock Knowledge */
+.unlock-knowledge {
+  background: $purple;
+  color: white;
+
+  .section-description button {
+    margin-top: 24px;
+  }
+
+  .packages {
+    max-width: 81.025641rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+
+    @media (max-width: $ipad) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .package {
+      max-width: 24.3076923rem;
+      width: 100%;
+      flex-basis: 33.33333333%;
+      background-color: white;
+      color: $black;
+      border-radius: 7px;
+      box-shadow: 0 2px 8px rgba(59, 64, 69, 0.1);
+    }
+
+    .package:not(:first-child):not(:last-child) {
+      margin: 0 48px;
+
+      @media (max-width: $ipad) {
+        margin: 48px 0;
+      }
+    }
+
+    .package-header {
+      padding: 16px;
+      border-bottom: 1px solid $border;
+      text-align: center;
+
+      h4 {
+        margin-bottom: 8px;
+        @include font(1.61538462rem, "Roboto Slab", 700);
+      }
+
+      p {
+        @include font(1.15384615rem);
+      }
+    }
+
+    .package-detail {
+      padding: 16px;
+
+      .package-detail-title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+      }
+
+      .package-detail-subtitle span {
+        display: block;
+      }
+
+      .bold-700 {
+        @include font(1.61538462rem, "Roboto Slab", 700);
+      }
+
+      .bolder-700 {
+        @include font(2.61538461rem, "Roboto Slab", 700);
+        margin-right: 8px;
+      }
+
+      .package-features {
+        @include font(1.15384615rem);
+        margin-bottom: 24px;
+      }
+
+      .package-feature-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 12px;
+
+        span {
+          margin-left: 6px;
+        }
+      }
+    }
+
+    .btn {
+      width: 100%;
+    }
+  }
+
+  .awards {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @include font(1.15384615rem, "Roboto Slab", 700);
+
+    .award {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 16px;
+    }
+
+    .award a {
+      color: $silverSand;
+      margin-left: 8px;
+    }
+  }
+}
+
+/* Hire */
 
 /* ----------------------------------------------------------------------------------------- */
 /* Footer */
