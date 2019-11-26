@@ -3,8 +3,8 @@
   Organization: GreyAtom
 */
 
-body {
-  font-size: 16px;
+html {
+  font-size: 13px;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
@@ -21,7 +21,7 @@ a {
 
 .btn {
   position: relative;
-  padding: 0.8em;
+  padding: 0.7em;
   border: 0;
   border-radius: 3px;
   background-color: transparent;
@@ -37,6 +37,7 @@ a {
 }
 
 .btn-transparent {
+  padding: 0.8em;
   color: #07c;
   box-shadow: none;
 }
@@ -64,19 +65,33 @@ a {
 /* Header */
 /* ----------------------------------------------------------------------------------------- */
 header {
-  display: flex;
-  align-items: center;
   box-shadow: 0 1px 0 rgba(12, 13, 14, 0.1), 0 1px 6px rgba(59, 64, 69, 0.1);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background-color: #fafafb;
-  transition: box-shadow cubic-bezier(0.165, 0.84, 0.44, 1) 0.25s;
-  height: 50px;
-  box-sizing: border-box;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   border-top: 3px solid #f48024;
+}
+
+.menubar {
+  max-width: 97.2307692rem;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.menu-half-1,
+.menu-half-2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu-half-2 {
+  flex: 1;
 }
 
 /* Hamburger menu */
@@ -204,9 +219,13 @@ header {
 
 /* Search */
 .search {
-  padding-right: 12px;
+  margin-right: 8px;
   flex: 1;
   position: relative;
+}
+
+.search-icon-mob {
+  display: none;
 }
 
 .search input {
@@ -242,6 +261,65 @@ header {
 
 .auth-btn {
   padding: 0 4px;
+}
+
+@media (max-width: 767px) {
+  .menubar {
+    justify-content: space-between;
+  }
+
+  .menu-half-2 {
+    flex: none;
+  }
+
+  .team-item {
+    display: none;
+  }
+
+  .team-item:first-child {
+    display: block;
+  }
+
+  .search {
+    height: 100%;
+    padding: 0 12px;
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+  }
+
+  .search:hover {
+    background-color: #eff0f1;
+  }
+
+  .search-wrapper {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+    background: #eff0f1;
+  }
+
+  .search:hover .search-wrapper {
+    display: block;
+  }
+
+  .search-icon-mob {
+    display: block;
+    position: static;
+    margin: 0;
+    fill: #3b4045;
+    cursor: pointer;
+    pointer-events: inherit;
+  }
+
+  .search .search-icon {
+    left: 1.1em;
+  }
 }
 
 /* ----------------------------------------------------------------------------------------- */
