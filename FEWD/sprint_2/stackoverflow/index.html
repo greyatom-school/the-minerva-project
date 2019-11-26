@@ -606,33 +606,61 @@
         </ul>
       </section>
 
-      <section class="questions">
+      <section class="questions padding64">
         <h2 class="block-title">
           Questions are everywhere, answers are on Stack Overflow
         </h2>
 
+        <span class="separator"></span>
+
         <div class="post-features">
-          <ul>
-            <li><img src="images/.svg" alt="" /><span></span></li>
-            <li><img src="images/.svg" alt="" /><span></span></li>
-            <li><img src="images/.svg" alt="" /><span></span></li>
+          <ul class="post-feature-list">
+            <li class="first-item">
+              <img src="images/ask-a-question.svg" alt="Ask a question" />
+              <span>Ask a question</span>
+              <div class="tour-arrow"></div>
+            </li>
+            <li>
+              <img src="images/votes.svg" alt="Vote on everything" />
+              <span>Vote on everything</span>
+            </li>
+            <li>
+              <img src="images/answer.svg" alt="Answer questions" />
+              <span>Answer questions</span>
+            </li>
           </ul>
 
-          <img src="images/illo-feats-vote.svg" alt="Illo feats vote" />
-
-          <ul>
-            <li><img src="images/.svg" alt="" /><span></span></li>
-            <li><img src="images/.svg" alt="" /><span></span></li>
-            <li><img src="images/.svg" alt="" /><span></span></li>
+          <ul class="post-feature-list list-order">
+            <li>
+              <img src="images/tags.svg" alt="Tag your questions" />
+              <span>Tag your questions</span>
+            </li>
+            <li>
+              <img src="images/accept.svg" alt="Accept a answer" />
+              <span>Accept a answer</span>
+            </li>
+            <li>
+              <img src="images/get-recognized.svg" alt="Get recognized" />
+              <span>Get recognized</span>
+            </li>
           </ul>
+
+          <div class="post-feature-action">
+            <img src="images/illo-feats-vote.svg" alt="Illo feats vote" />
+
+            <!-- Used a utility class -->
+            <h4 class="text-justify">
+              Upvoting helps exceptional content rise to the top and bring
+              awareness to useful responses.
+            </h4>
+
+            <!-- Used a component -->
+            <button type="button" class="btn">
+              Stack Overflow Talent
+              <span class="badge badge-light">New</span>
+            </button>
+          </div>
         </div>
-
-        <h4>
-          Upvoting helps exceptional content rise to the top and bring awareness
-          to useful responses.
-        </h4>
-
-        <button type="button" class="btn">Stack Overflow Talent</button>
       </section>
     </main>
 

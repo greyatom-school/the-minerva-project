@@ -395,6 +395,10 @@ main {
   font-size: 2.61538461rem;
   line-height: 1.3;
   text-align: center;
+
+  @media (max-width: $ipad) {
+    font-size: 2.3rem;
+  }
 }
 
 .section-description {
@@ -712,6 +716,107 @@ h1 {
       @include font(1.15384615rem);
       margin-bottom: 24px;
     }
+  }
+}
+
+/* Post features */
+.post-features {
+  max-width: 81.025641rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+
+  @media (max-width: $ipad) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .post-feature-list {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+
+    @media (max-width: $ipad) {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    li {
+      padding: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      @include font(1.30769231rem);
+
+      @media (max-width: $ipad) {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    li:hover {
+      box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
+    }
+
+    .first-item {
+      box-shadow: 0 4px 12px rgba(36, 39, 41, 0.2) !important;
+    }
+
+    li img {
+      width: 20%;
+    }
+
+    .tour-arrow {
+      position: absolute;
+      top: 0;
+      left: 100%;
+      height: 100%;
+      overflow: hidden;
+      width: 16px;
+
+      @media (max-width: $ipad) {
+        display: none;
+      }
+    }
+
+    .tour-arrow::after {
+      position: absolute;
+      top: 50%;
+      content: "";
+      width: 16px;
+      height: 16px;
+      background-color: #fff;
+      border: 1px solid #d6d9dc;
+      box-shadow: 2px 0 8px rgba(59, 64, 69, 0.1);
+      transform: translateY(-50%) translateX(-50%) rotate(45deg);
+      transition: all 0.2s;
+    }
+  }
+
+  .post-feature-action {
+    flex-basis: 50%;
+    margin: 24px;
+    text-align: center;
+
+    h4 {
+      @include font(1.61538462rem);
+      margin: 24px 0;
+    }
+  }
+
+  .list-order {
+    order: 1;
+
+    @media (max-width: $ipad) {
+      order: inherit;
+    }
+  }
+
+  .badge {
+    top: -3px;
   }
 }
 /* ----------------------------------------------------------------------------------------- */
