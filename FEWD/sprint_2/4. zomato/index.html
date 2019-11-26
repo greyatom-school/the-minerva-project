@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Mumbai Restaurants - Menus, Photos, Ratings and Reviews for over 28300 Restaurants in Mumbai. Find the Best Restaurants in Mumbai on Zomato - Mumbai Restaurants"
+    />
+    <title>Zomato</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png?output-format=webp"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png?output-format=webp"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" />
+
+    <script src="https://use.fontawesome.com/c080abcf80.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="#">
+        <img src="images/get-the-app-plain.svg" alt="Get the app" />
+        <span>Get the app</span>
+      </a>
+
+      <ul>
+        <li class="header-link">
+          <img src="" alt="" />
+          <span>Order Food</span>
+        </li>
+
+        <li class="header-link">
+          <img src="images/book-a-table.svg" alt="Book a Table" />
+          <span>Book a Table</span>
+        </li>
+
+        <li class="header-link">
+          <img src="images/gold.svg" alt="Zomato Gold" />
+          <span>Zomato Gold</span>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="banner">
+        <ul class="auth-btns">
+          <li class="auth-btn"><a href="#">Log in</a></li>
+          <li class="auth-btn"><a href="#">Create an account</a></li>
+        </ul>
+
+        <div class="banner-content">
+          <img src="images/zomato_flat_bg_logo.svg" alt="Zomato Logo" />
+
+          <p>Find the best restaurants, cafés, and bars in Mumbai</p>
+
+          <div class="search-inputs">
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Mumbai
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Mumbai</a>
+                <a class="dropdown-item" href="#">Delhi</a>
+                <a class="dropdown-item" href="#">Bangalore</a>
+              </div>
+            </div>
+
+            <div class="search-restaurant">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Search for restaurants or cuisines..."
+              />
+            </div>
+
+            <button type="button" class="btn">Search</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="collection-conatiner">
+        <section class="collection-sect">
+          <div>
+            <img src="images/ad-zomaland.jpeg" alt="Zomaland" />
+          </div>
+
+          <section class="collections">
+            <h2 class="section-title">Collections</h2>
+
+            <p class="section-subtitle">
+              Explore curated lists of top restaurants, cafes, pubs, and bars in
+              Mumbai, based on trends
+            </p>
+
+            <ul class="collection-list">
+              <li class="collection">
+                <img src="images/trending.jpg" alt="Trending This Week" />
+                <div>
+                  <h4>Trending This Week</h4>
+                  <p>Most popular restaurants in town this week</p>
+                </div>
+              </li>
+
+              <li class="collection">
+                <img src="images/mumbai.jpg" alt="Best of Mumbai" />
+                <div>
+                  <h4>Best of Mumbai</h4>
+                  <p>
+                    The hunt for the highest-rated restaurants in your city ends
+                    here
+                  </p>
+                </div>
+              </li>
+
+              <li class="collection">
+                <img src="images/open.jpg" alt="Newly Opened" alt="" />
+                <div>
+                  <h4>Newly Opened</h4>
+                  <p>The best new places in town</p>
+                </div>
+              </li>
+
+              <li class="collection">
+                <img
+                  src="images/surecrisp.jpeg"
+                  alt=""
+                  alt="SureCrisp Quick Fries"
+                />
+                <div>
+                  <h4>SureCrisp Quick Fries</h4>
+                  <p>Turn up the flavour by ordering SureCrisp fries</p>
+                </div>
+              </li>
+            </ul>
+
+            <button type="button" class="btn all-collection-btn">
+              All collections in Mumbai
+            </button>
+          </section>
+        </section>
+
+        <section class="order-sect">
+          <h2 class="section-title">Order Food Online</h2>
+
+          <p class="section-subtitle">
+            Best restaurants delivering to your doorstep
+          </p>
+
+          <div class="widget">
+            <h4>Best restaurants delivering to your doorstep</h4>
+
+            <div class="location-input">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Type delivery location here"
+              />
+
+              <button type="button" class="detect-btn">Detect</button>
+            </div>
+
+            <button type="button" class="btn">Order Food Online!</button>
+
+            <p>Use code ZOMATO to get up to 50% OFF. T&Cs apply.</p>
+          </div>
+        </section>
+      </section>
+
+      <section class="categories">
+        <h2 class="section-title">Quick Searches</h2>
+
+        <p class="section-subtitle">
+          Discover restaurants by type of meal
+        </p>
+
+        <ul class="category-list">
+          <li class="category">
+            <img src="images/delivery.png" alt="Delivery" />
+            <span>Delivery</span>
+          </li>
+
+          <li class="category">
+            <img
+              src="images/pocket-friendly-delivery.png"
+              alt="Pocket-Friendly Delivery"
+            />
+            <span>Pocket-Friendly Delivery</span>
+          </li>
+
+          <li class="category">
+            <img src="images/breakfast.png" alt="Breakfast" />
+            <span>Breakfast</span>
+          </li>
+
+          <li class="category">
+            <img src="images/lunch.png" alt="Lunch" />
+            <span>Lunch</span>
+          </li>
+
+          <li class="category">
+            <img src="images/dinner.png" alt="Dinner" />
+            <span>Dinner</span>
+          </li>
+
+          <li class="category">
+            <img src="images/drinks.png" alt="Drinks & Nightlife" />
+            <span>Drinks & Nightlife</span>
+          </li>
+
+          <li class="category">
+            <img src="images/cafes.png" alt="Cafes" /><span>Cafes</span>
+          </li>
+
+          <li class="category">
+            <img src="images/desserts.png" alt="Desserts & Bakes" />
+            <span>Desserts & Bakes</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="localities">
+        <h2 class="section-title">Quick Searches</h2>
+
+        <p class="section-subtitle">
+          Discover restaurants by type of meal
+        </p>
+
+        <ul class="locality-list">
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+        </ul>
+
+        <ul class="locality-list">
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+        </ul>
+
+        <ul class="locality-list">
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+          <li class="locality">
+            <a href="#"
+              >Lower Parel <span class="locality-number">(459)</span></a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="get-app">
+        <div>
+          <img src="images/iphone.png" alt="iPhone" />
+        </div>
+
+        <div>
+          <h5>Get the Zomato App</h5>
+
+          <p>
+            See menus and photos for nearby restaurants and bookmark your
+            favorite places on the go
+          </p>
+
+          <p>
+            We'll send you a link, open it on your phone to download the app
+          </p>
+
+          <form action="#">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefaultUsername"
+                placeholder="Username"
+                aria-describedby="inputGroupPrepend2"
+                required
+              />
+            </div>
+
+            <button type="button" class="btn">Text App Link</button>
+          </form>
+
+          <span>OR</span>
+
+          <form action="#">
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefaultUsername"
+              placeholder="Username"
+              aria-describedby="inputGroupPrepend2"
+              required
+            />
+            <button type="button" class="btn">Text App Link</button>
+          </form>
+
+          <div class="app-stores">
+            <a href="#"><img src="images/applestore.png" alt="Apple Store"/></a>
+            <a href="#">
+              <img src="images/googleplay.png" alt="Google Play Store" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <ul class="stat-list">
+          <li class="stat">
+            <span class="value">24</span>
+            <span class="label">Countries</span>
+          </li>
+
+          <li class="stat">
+            <span class="value">1.5M</span>
+            <span class="label">Restaurants</span>
+          </li>
+
+          <li class="stat">
+            <span class="value">120M</span>
+            <span class="label">Foodies every month</span>
+          </li>
+
+          <li class="stat">
+            <span class="value">30M</span>
+            <span class="label">Photos</span>
+          </li>
+
+          <li class="stat">
+            <span class="value">10M</span>
+            <span class="label">Reviews</span>
+          </li>
+
+          <li class="stat">
+            <span class="value">18M</span>
+            <span class="label">Bookmarks</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <section class="internationalization">
+        <div>
+          <img src="images/zomato_flat_bg_logo.svg" alt="Logo" />
+        </div>
+
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Mumbai
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Mumbai</a>
+            <a class="dropdown-item" href="#">Delhi</a>
+            <a class="dropdown-item" href="#">Bangalore</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer-nav">
+        <div>
+          <h5 class="footer-title">About Zomato</h5>
+
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Culture</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="footer-title">For Foodies</h5>
+
+          <ul>
+            <li><a href="#">Code of Conduct</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Verified Users</a></li>
+            <li><a href="#">Blogger Help</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Mobile Apps</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="footer-title">For Restaurants</h5>
+
+          <ul>
+            <li><a href="#">Add a Restaurant</a></li>
+            <li><a href="#">Claim your Listing</a></li>
+            <li><a href="#">Business App</a></li>
+            <li><a href="#">Business Owner Guidelines</a></li>
+            <li><a href="#">Business Blog</a></li>
+            <li><a href="#">Restaurant Widgets</a></li>
+            <li><a href="#">Products for Businesses</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Book</a></li>
+            <li><a href="#">Trace</a></li>
+            <li><a href="#">Hyperpure</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="footer-nav">
+        <div>
+          <h5 class="footer-title">Countries</h5>
+
+          <ul>
+            <li><a href="#">Australia</a></li>
+            <li><a href="#">Brasil</a></li>
+            <li><a href="#">Canada</a></li>
+            <li><a href="#">Chile</a></li>
+            <li><a href="#">Czech Republic</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">Australia</a></li>
+            <li><a href="#">Brasil</a></li>
+            <li><a href="#">Canada</a></li>
+            <li><a href="#">Chile</a></li>
+            <li><a href="#">Czech Republic</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">Australia</a></li>
+            <li><a href="#">Brasil</a></li>
+            <li><a href="#">Canada</a></li>
+            <li><a href="#">Chile</a></li>
+            <li><a href="#">Czech Republic</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">Australia</a></li>
+            <li><a href="#">Brasil</a></li>
+            <li><a href="#">Canada</a></li>
+            <li><a href="#">Chile</a></li>
+            <li><a href="#">Czech Republic</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">Australia</a></li>
+            <li><a href="#">Brasil</a></li>
+            <li><a href="#">Canada</a></li>
+            <li><a href="#">Chile</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="footer-nav">
+        <ul class="footer_horiz_list">
+          <li>
+            <a href="https://www.zomato.com/privacy">
+              Privacy
+            </a>
+          </li>
+          <li>
+            <a href="https://www.zomato.com/conditions">
+              Terms
+            </a>
+          </li>
+          <li>
+            <a href="https://www.zomato.com/api_policy">
+              API Policy
+            </a>
+          </li>
+          <li>
+            <a href="https://www.zomato.com/corporate-social-responsibility">
+              CSR
+            </a>
+          </li>
+          <li>
+            <a href="https://www.zomato.com/security">
+              Security
+            </a>
+          </li>
+          <li>
+            <a href="https://www.zomato.com/directory">
+              Sitemap
+            </a>
+          </li>
+        </ul>
+
+        <ul class="social-container">
+          <li>
+            <a target="_blank" href="https://twitter.com/zomato">
+              <span class="social-icons twitter" data-icon="t"></span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/zomato/">
+              <span class="social-icons instagrm" data-icon="4"></span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.facebook.com/zomato">
+              <span class="social-icons facebook" data-icon="¶"></span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <p class="footer-msg">
+          By continuing past this page, you agree to our
+          <a href="http://www.zomato.com/conditions" rel="nofollow"
+            >Terms of Service</a
+          >,
+          <a href="http://www.zomato.com/cookiepolicy" rel="nofollow"
+            >Cookie Policy</a
+          >,
+          <a href="http://www.zomato.com/privacy" rel="nofollow"
+            >Privacy Policy</a
+          >
+          and
+          <a href="http://www.zomato.com/policies" rel="nofollow"
+            >Content Policies</a
+          >. All trademarks are properties of their respective owners. ©
+          2008-2019 - <a href="http://www.zomato.com">Zomato</a>™ Media Pvt Ltd.
+          All rights reserved.
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
