@@ -77,6 +77,24 @@ header {
 /* ----------------------------------------------------------------------------------------- */
 /* Main */
 /* ----------------------------------------------------------------------------------------- */
+.section-title {
+  border: none;
+  margin: calc(2rem - 0.05em) 0 2px;
+  padding: 0;
+  font-size: 1.714rem;
+  font-weight: 600;
+  line-height: 1.1em;
+  text-transform: none;
+  color: $headerText;
+}
+
+.section-subtitle {
+  margin-bottom: 1rem;
+  font-size: 1.14285714rem;
+  line-height: 1.2em;
+  color: $text-1;
+}
+
 .banner {
   background: url(images/bg.jpg) $site-theme no-repeat top center;
   background-size: cover;
@@ -166,6 +184,7 @@ header {
     }
 
     .dropdown {
+      flex: 0.3;
       @include breakpoint(0, $sm) {
         width: 100%;
       }
@@ -174,10 +193,18 @@ header {
     .dropdown button {
       color: black;
       background: white;
+      width: 100%;
+      text-align: left;
+
+      &:after {
+        position: absolute;
+        right: 12px;
+        top: 45%;
+      }
     }
 
     .search-restaurant {
-      flex: 0.8;
+      flex: 0.7;
       padding: 0 8px;
 
       @include breakpoint(0, $sm) {
@@ -189,6 +216,70 @@ header {
     .search-btn {
       background: $site-theme;
       color: $primary;
+    }
+  }
+}
+
+.main-container {
+  margin: auto;
+  max-width: 1160px;
+  margin-top: 40px;
+}
+
+.collection-container .sect {
+  padding: 0 8px;
+
+  .collection-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include breakpoint(0, $md) {
+      flex-direction: column;
+    }
+  }
+
+  .collection {
+    display: flex;
+    width: 49%;
+    border: 1px solid #e7e7e7;
+    border-radius: 0.28571429rem;
+    background: $primary;
+    margin: 6px 0;
+
+    @include breakpoint(0, $md) {
+      width: 100%;
+    }
+  }
+
+  .collection-img {
+    width: 40%;
+    background-position: center center;
+    background-size: cover;
+    height: 120px;
+  }
+
+  .collection-content {
+    width: 60%;
+    padding: 8px;
+
+    h4 {
+      color: $headerText;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      color: $headerText;
+      margin-top: 5px;
+    }
+  }
+
+  .order-food-title {
+    @include breakpoint($sm) {
+      margin-top: 0;
     }
   }
 }
