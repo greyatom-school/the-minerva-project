@@ -1,3 +1,12 @@
+// Small screen / phone
+$sm: 576px;
+// Medium screen / tablet
+$md: 768px;
+// Large screen / desktop
+$lg: 992px;
+// Extra large screen / wide desktop
+$xl: 1200px;
+
 @mixin breakpoint($min: 0, $max: 0) {
   $type: type-of($min);
 
@@ -7,15 +16,15 @@
         @content;
       } // Mobile Devices
     } @else if $min == sm {
-      @media (min-width: 768px) {
+      @media (min-width: $md) {
         @content;
       } // Tablet Devices
     } @else if $min == md {
-      @media (min-width: 992px) {
+      @media (min-width: $lg) {
         @content;
       } // Desktops
     } @else if $min == lg {
-      @media (min-width: 1200px) {
+      @media (min-width: $xl) {
         @content;
       } // Widescreen Desktops
     }
