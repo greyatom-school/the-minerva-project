@@ -1,8 +1,6 @@
 @use "reset.scss";
-@use "mixin.scss" as *;
-
-$primary: #fff;
-$headerText: #33373d;
+@use "_mixin.scss" as *;
+@use "_colors.scss" as *;
 
 html {
   font-family: var(--font-family-sans-serif);
@@ -79,7 +77,121 @@ header {
 /* ----------------------------------------------------------------------------------------- */
 /* Main */
 /* ----------------------------------------------------------------------------------------- */
+.banner {
+  background: url(images/bg.jpg) $site-theme no-repeat top center;
+  background-size: cover;
+  position: relative;
 
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .banner-wrapper {
+    position: relative;
+    z-index: 10;
+  }
+
+  .banner-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .auth-btns {
+    padding: 8px;
+
+    .auth-btn {
+      padding: 12px 20px;
+    }
+
+    .auth-btn:last-child {
+      border: 2px solid $primary;
+      border-radius: 3px;
+      transition: all 0.2s;
+
+      &:hover {
+        border: 2px solid $hover;
+        transition: all 0.2s;
+      }
+    }
+
+    a {
+      font-size: 1.1rem;
+      color: $primary;
+      transition: all 0.2s;
+
+      &:hover {
+        color: $hover;
+        transition: all 0.2s;
+      }
+    }
+  }
+
+  .banner-content {
+    padding: 40px 0;
+
+    h1 {
+      padding: 24px 8px;
+      font-size: 2.1rem;
+      font-weight: 300;
+      line-height: 36px;
+      text-rendering: optimizeLegibility;
+      text-align: center;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+      color: #fff;
+    }
+
+    .search-inputs {
+      width: 90%;
+      margin: auto;
+      max-width: 1160px;
+
+      @include breakpoint(0, $sm) {
+        flex-direction: column;
+      }
+    }
+
+    .dropdown button,
+    .search-restaurant input,
+    .search-btn {
+      padding: 10px 12px;
+
+      @include breakpoint(0, $sm) {
+        width: 100%;
+      }
+    }
+
+    .dropdown {
+      @include breakpoint(0, $sm) {
+        width: 100%;
+      }
+    }
+
+    .dropdown button {
+      color: black;
+      background: white;
+    }
+
+    .search-restaurant {
+      flex: 0.8;
+      padding: 0 8px;
+
+      @include breakpoint(0, $sm) {
+        padding: 8px 0;
+        width: 100%;
+      }
+    }
+
+    .search-btn {
+      background: $site-theme;
+      color: $primary;
+    }
+  }
+}
 /* ----------------------------------------------------------------------------------------- */
 /* Footer */
 /* ----------------------------------------------------------------------------------------- */

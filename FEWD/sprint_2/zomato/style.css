@@ -124,6 +124,110 @@ header a {
 /* ----------------------------------------------------------------------------------------- */
 /* Main */
 /* ----------------------------------------------------------------------------------------- */
+.banner {
+  background: url(images/bg.jpg) #cb202d no-repeat top center;
+  background-size: cover;
+  position: relative;
+}
+.banner::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.banner .banner-wrapper {
+  position: relative;
+  z-index: 10;
+}
+.banner .banner-logo {
+  width: 120px;
+  height: 120px;
+}
+.banner .auth-btns {
+  padding: 8px;
+}
+.banner .auth-btns .auth-btn {
+  padding: 12px 20px;
+}
+.banner .auth-btns .auth-btn:last-child {
+  border: 2px solid #fff;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+.banner .auth-btns .auth-btn:last-child:hover {
+  border: 2px solid #b9bfc7;
+  transition: all 0.2s;
+}
+.banner .auth-btns a {
+  font-size: 1.1rem;
+  color: #fff;
+  transition: all 0.2s;
+}
+.banner .auth-btns a:hover {
+  color: #b9bfc7;
+  transition: all 0.2s;
+}
+.banner .banner-content {
+  padding: 40px 0;
+}
+.banner .banner-content h1 {
+  padding: 24px 8px;
+  font-size: 2.1rem;
+  font-weight: 300;
+  line-height: 36px;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+.banner .banner-content .search-inputs {
+  width: 90%;
+  margin: auto;
+  max-width: 1160px;
+}
+@media (max-width: 576px) {
+  .banner .banner-content .search-inputs {
+    flex-direction: column;
+  }
+}
+.banner .banner-content .dropdown button,
+.banner .banner-content .search-restaurant input,
+.banner .banner-content .search-btn {
+  padding: 10px 12px;
+}
+@media (max-width: 576px) {
+  .banner .banner-content .dropdown button,
+.banner .banner-content .search-restaurant input,
+.banner .banner-content .search-btn {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .banner .banner-content .dropdown {
+    width: 100%;
+  }
+}
+.banner .banner-content .dropdown button {
+  color: black;
+  background: white;
+}
+.banner .banner-content .search-restaurant {
+  flex: 0.8;
+  padding: 0 8px;
+}
+@media (max-width: 576px) {
+  .banner .banner-content .search-restaurant {
+    padding: 8px 0;
+    width: 100%;
+  }
+}
+.banner .banner-content .search-btn {
+  background: #cb202d;
+  color: #fff;
+}
+
 /* ----------------------------------------------------------------------------------------- */
 /* Footer */
 /* ----------------------------------------------------------------------------------------- */

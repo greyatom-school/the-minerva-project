@@ -26,8 +26,6 @@
       crossorigin="anonymous"
     />
     <link href="style.css" rel="stylesheet" />
-
-    <script src="https://use.fontawesome.com/c080abcf80.js"></script>
   </head>
 
   <body>
@@ -67,44 +65,54 @@
 
     <main>
       <section class="banner">
-        <ul class="auth-btns">
-          <li class="auth-btn"><a href="#">Log in</a></li>
-          <li class="auth-btn"><a href="#">Create an account</a></li>
-        </ul>
+        <div class="banner-wrapper">
+          <ul class="auth-btns row no-gutters justify-content-end">
+            <li class="auth-btn"><a href="#">Log in</a></li>
+            <li class="auth-btn"><a href="#">Create an account</a></li>
+          </ul>
 
-        <div class="banner-content">
-          <img src="images/zomato_flat_bg_logo.svg" alt="Zomato Logo" />
+          <div
+            class="banner-content row no-gutters flex-column justify-content-center align-items-center"
+          >
+            <img
+              src="images/zomato_flat_bg_logo.svg"
+              alt="Zomato Logo"
+              class="banner-logo"
+            />
 
-          <p>Find the best restaurants, cafés, and bars in Mumbai</p>
+            <h1>Find the best restaurants, cafés, and bars in Mumbai</h1>
 
-          <div class="search-inputs">
-            <div class="dropdown">
-              <button
-                class="btn btn-secondary dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Mumbai
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Mumbai</a>
-                <a class="dropdown-item" href="#">Delhi</a>
-                <a class="dropdown-item" href="#">Bangalore</a>
+            <div
+              class="search-inputs row justify-content-center align-items-center no-gutters"
+            >
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Mumbai
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Mumbai</a>
+                  <a class="dropdown-item" href="#">Delhi</a>
+                  <a class="dropdown-item" href="#">Bangalore</a>
+                </div>
               </div>
-            </div>
 
-            <div class="search-restaurant">
-              <input
-                class="form-control"
-                type="text"
-                placeholder="Search for restaurants or cuisines..."
-              />
-            </div>
+              <div class="search-restaurant">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Search for restaurants or cuisines..."
+                />
+              </div>
 
-            <button type="button" class="btn">Search</button>
+              <button type="button" class="btn search-btn">Search</button>
+            </div>
           </div>
         </div>
       </section>
@@ -703,4 +711,21 @@
       </section>
     </footer>
   </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"
+    integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://use.fontawesome.com/c080abcf80.js"></script>
 </html>
