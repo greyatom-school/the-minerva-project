@@ -13,6 +13,11 @@ body *::before {
   box-sizing: border-box;
 }
 
+body {
+  background: #f3f3f3;
+  line-height: 1.4285em;
+}
+
 a,
 a:link,
 a:visited,
@@ -95,6 +100,13 @@ header {
   color: $text-1;
 }
 
+.main-container {
+  margin: auto;
+  max-width: 1160px;
+  padding: 40px 8px 0;
+}
+
+// Banner
 .banner {
   background: url(images/bg.jpg) $site-theme no-repeat top center;
   background-size: cover;
@@ -220,14 +232,21 @@ header {
   }
 }
 
-.main-container {
-  margin: auto;
-  max-width: 1160px;
-  margin-top: 40px;
-}
+// Collections
+.collection-container {
+  justify-content: space-between;
 
-.collection-container .sect {
-  padding: 0 8px;
+  @include breakpoint(0, $md) {
+    flex-direction: column;
+  }
+
+  .sect {
+    max-width: 65%;
+
+    @include breakpoint(0, $md) {
+      max-width: 100%;
+    }
+  }
 
   .collection-list {
     display: flex;
@@ -278,9 +297,137 @@ header {
   }
 
   .order-food-title {
-    @include breakpoint($sm) {
+    @include breakpoint($md) {
       margin-top: 0;
     }
+  }
+
+  .widget {
+    min-height: 333px;
+    background: #fff;
+    padding: 1em;
+    border-radius: 0.28571429rem;
+    border: 1px solid $border;
+
+    h4 {
+      line-height: 1.1em;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      font-size: 1.071rem;
+    }
+
+    .location-input {
+      position: relative;
+
+      input {
+        border-radius: 4px;
+        height: 42px;
+        padding-right: 72px;
+      }
+
+      button {
+        position: absolute;
+        top: 6px;
+        right: 5px;
+        height: 30px;
+        border: 0;
+        border-left: 1px solid $border;
+      }
+    }
+
+    .order-btn {
+      width: 100%;
+      margin: 16px 0;
+      color: $primary;
+      background: $success;
+      border-radius: 0.28571429rem;
+      box-shadow: 0 0 0 0 #e7e7e7 inset;
+      font-size: 1rem;
+    }
+
+    .separator {
+      width: 100%;
+      height: 1px;
+      display: block;
+      background: $border;
+    }
+
+    p {
+      font-size: 14px;
+      margin-top: 40px;
+      text-align: center;
+      color: $success;
+
+      b {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .all-collection-btn {
+    width: 100%;
+    position: relative;
+    padding: 1em;
+    margin: 1rem 0 0;
+    background: #fff;
+    border-radius: 0.28571429rem;
+    border: 1px solid $border;
+    color: $site-theme;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+// Categories
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 12.5%;
+
+  @include breakpoint(0, $lg) {
+    width: 25%;
+  }
+
+  img {
+    width: 48px;
+    height: 48px;
+  }
+
+  span {
+    text-align: center;
+  }
+}
+
+// Localities
+.locaility-list-wrapper {
+  padding: 0 16px;
+  justify-content: space-between;
+  background: $primary;
+  border-radius: 0.28571429rem;
+  border: 1px solid $border;
+
+  ul {
+    margin: 1rem 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  li a {
+    font-size: 14px;
+    color: $headerText;
+  }
+
+  .locality-number {
+    color: #89959b;
   }
 }
 /* ----------------------------------------------------------------------------------------- */
