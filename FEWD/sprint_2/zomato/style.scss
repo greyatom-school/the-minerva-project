@@ -430,6 +430,42 @@ header {
     color: #89959b;
   }
 }
+
+// Get app
+.get-app {
+  padding: 3rem 0;
+  margin: 3rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $primary;
+  border-radius: 0.28571429rem;
+  border: 1px solid #e7e7e7;
+
+  .iPhone {
+    width: 30%;
+  }
+
+  .get-app-content {
+    width: 40%;
+  }
+
+  h5 {
+    margin-bottom: 1rem;
+    font-size: 1.714rem;
+    font-weight: 600;
+    line-height: 1.1em;
+  }
+
+  .see-menus {
+    font-size: 15px;
+    color: $text-1;
+  }
+
+  .send-link {
+    margin: 24px 0 16px;
+  }
+}
 /* ----------------------------------------------------------------------------------------- */
 /* Footer */
 /* ----------------------------------------------------------------------------------------- */
