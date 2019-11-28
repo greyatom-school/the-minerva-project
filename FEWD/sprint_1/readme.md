@@ -52,7 +52,7 @@ At the end of this project you should be able to build ARK Studio landing page.
 
 **Basics of HTML (BH)**
 
-- [Introduction to HTML & Document Types, Elements, Tags & Attributes](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/1.Intro%20to%20HTML.md)
+- [Introduction to HTML & Document Types, Elements, Tags & Attributes](basics_of_html/1.Intro%20to%20HTML.md)
 - [HTML Texts, Images and Styles](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/2.%20HTML%20Texts%2C%20Images%20and%20Styles.md)
 - [HTML Lists](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/3.HTML%20Lists.md)
 - [HTML Tables](https://github.com/greyatom-school/the-minerva-project/blob/master/sprint_1/basics_of_html/4.%20HTML%20Tables.md)
