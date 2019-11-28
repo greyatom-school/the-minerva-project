@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
   background: #344;
   font-family: helvetica neue, helvetica, arial, sans-serif;
@@ -22,7 +23,7 @@ html, body {
   align-items: center;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, .6);
+  background: rgba(0, 0, 0, 0.6);
   color: #000;
   transform: scale(0);
   z-index: 1;
@@ -38,6 +39,7 @@ html, body {
   align-items: center;
   border-radius: 3px;
   position: relative;
+  z-index: 2;
 }
 
 h2 {
@@ -52,22 +54,22 @@ p {
 }
 
 #modal-container.one {
-  transform: scaleY(.01) scaleX(0);
-  animation: unfoldIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  transform: scaleY(0.01) scaleX(0);
+  animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
 .one .modal {
   transform: scale(0);
-  animation: zoomIn .5s .8s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
 #modal-container.out {
   transform: scale(1);
-  animation: unfoldOut 1s .3s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
 .out .modal {
-  animation: zoomOut .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
 #username {
@@ -90,7 +92,7 @@ p {
   margin: 32px auto;
   background: #654;
   border-radius: 8px;
-  padding-bottom: 16px;  
+  padding-bottom: 16px;
 }
 
 .question {
@@ -106,12 +108,12 @@ p {
   border: 1px solid #333;
   border-radius: 12px;
   cursor: pointer;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .answer:hover {
   background: #333;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .active-answer {
@@ -145,10 +147,10 @@ p {
 
 @keyframes unfoldIn {
   0% {
-    transform: scaleY(.005) scaleX(0);
+    transform: scaleY(0.005) scaleX(0);
   }
   50% {
-    transform: scaleY(.005) scaleX(1);
+    transform: scaleY(0.005) scaleX(1);
   }
   100% {
     transform: scaleY(1) scaleX(1);
@@ -160,10 +162,10 @@ p {
     transform: scaleY(1) scaleX(1);
   }
   50% {
-    transform: scaleY(.005) scaleX(1);
+    transform: scaleY(0.005) scaleX(1);
   }
   100% {
-    transform: scaleY(.005) scaleX(0);
+    transform: scaleY(0.005) scaleX(0);
   }
 }
 
