@@ -44,6 +44,7 @@ You need to have a high level domain understanding of [what is financial portfol
 You also need to have an understanding of [Alphavantage](https://www.alphavantage.co/documentation/#daily) - a website that stores datasets and helps you fetch them using API calls. We will use API services to fetch data and then use it in our project.
 
 We will be using the TIME_SERIES_DAILY stock prices to populate our web application. 
+
 a)	To use Alphavantage, go to the web page and create a free account to get the API key. *_You will need the API key for any API calls._*
 
 b)	Next, they have listed down a few URLS in the Daily section which show how the data fetching is enabled. Click on the links to understand the structure data and how to utilise it.
@@ -55,6 +56,8 @@ e)	Store only values relevant to the design, in the state & add to the cards.
 f) When you check out Alphavantage, you will notice that only 5 API calls per minute are allowed. So, kindly ensure that you add a counter or a handler in your code which keeps a track of the API calls you will be making.
 
 g) Additionally, Alphavantage only shows data for the weekdays. For weekends, you should pick the data which is shown last. For example, if November 9/10 is Satuday and Sunday, the table showing Current Price will show data for November 8, Friday and a message would be shown above citing the same.
+
+h) Similarly, Alphavantage updates the stock data according to the US time zone. Hence, when it's a bright Monday afternoon in, say, Mumbai, India, it would be Sunday late night in New York. Because of this time difference, if the user of your application is accessing it from India on a Monday afternoon, he should be viewing the latest data which would be of Friday, according to the US time zone.
 
 
 ## Web Page Mock Up
@@ -105,27 +108,27 @@ Once all the dependencies are installed, calculate the number of components to b
 
 Create a database on Firebase and add the following stock tickers and their company names in an object in the database: MSFT, DIS, BA, HD, NKE, MCD, INTC, GS, JPM, AXP, IBM. <br />
 (e.g. ```[{symbol: 'HD', name: 'Home Depot Inc'}, {symbol: 'MCD', name: 'McDonald's Incorporation}]```) <br />
-These stock tickers will be used to populate the buttons in the bottom div. 
-
+These stock tickers will be used to populate the buttons in the bottom div. You can search for the full names of these stocks on Google.
 
 ### User Story #4
 
-Create an upper container with the header as shown in the diagram. In the beginning, since we have not tracked any stocks, use conditional rendering to show that no stocks have been selected.
+Create an upper container *My Stocks* with the header as shown in the diagram. In the beginning, since we have not tracked any stocks, use conditional rendering to show that no stocks have been selected.
 
 ### User Story #5
 
-Create the lower container by fetching the data from Firebase and using it to populate the buttons and their names.
+Create the lower container *All Stocks* by fetching the data from Firebase and using it to populate the buttons and their names.
 
 
 ### User Story #6
 
-When the user clicks on the button, use the concept of event handling to get the value of the button clicked and using Axios calls, connect with the Alphavantage database and fetch the data related to that particular stock. Additionally, a modal should pop up which asks the user to enter the number of shares. The modal should have pre-filled with the stock name, buy price and date of buying the stocks. On clicking OK, this entry should be made in the database on Firebase. <br />
+When the user clicks on the button, a modal/dialog box should open which will be pre-filled with the name and symbol of the stock. Additionally, it should have two input boxes for entering the number of shares and the price of each share. Finally, it should also have a column for entering the date on which the stock was bought. There should be a 'Add Stock' button at the end of the modal.
+<br />
 *Note: Since Alphavantage only allows 5 API calls per minute, add a condition that only 5 stocks can be selected for tracking. If user has selected 5 stocks to track, you should conditionally render a message telling the user that he/she has selected 5 stocks and the buttons with the stocks names should not be shown.*
 
 
 ### User Story #7
 
-Now, the stock which had been clicked should be removed from the list shown in the bottom container. Instead, it should now appear in a table in the upper container as shown in the diagram. You need to show the latest current price and calculate the profit/loss as (current price – buy price) * no. of shares. Show these values as shown in the table.
+Now, the stock which had been clicked should be removed from the list shown in *All Stocks*. Instead, it should now appear in a table in the *My Stocks* as shown in the diagram. You need to show the latest current price and calculate the profit/loss as (current price – buy price) * no. of shares. Show these values as shown in the table.
 
 
 The above functionalities are the minimum expected of you. You are free to add as much personalization as you want in terms of style.
@@ -134,3 +137,16 @@ The above functionalities are the minimum expected of you. You are free to add a
 
 
 
+
+
+Note:
+Functionalities to be checked:
+
+- When a user clicks on a button in 'Add Stock', a modal should open.
+- When the modal opens, it should have the stock name prefilled.
+- Addtionally, when the modal opens, it should have empty containers for the three remaining inputs.
+- Date input should have a date formatter.
+- Clicking on the button in 'Add Stock' modal should first check if all the inputs are completed. If not, it should throw up an error.
+- If the user fills the modal and adds stock from tracking, it should update both the sections. It should be added to the My Stocks with the current price and calulation and it should be removed from All Stocks.
+- Vice versa, if the user clicks on 'Stop Tracking' it should be removed from the My Stocks table and added to All Stocks.
+- Finally, the user needs to keep a check on the number of API calls and that it shouldn't exceed five. Proper error handlers should be in place.
