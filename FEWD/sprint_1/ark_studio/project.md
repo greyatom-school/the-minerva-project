@@ -2,10 +2,9 @@
 
 ### Problem Statement
 
-You are working in a big firm as a front-end engineer. Your company likes to hear ideas of startup and provides digital media services to its clientele. As a front end engineer, you need to create a website for your company so that clients just goes through your website page and they will get to know about your company and want services you guys are providing. Now let's create a portfolio site for your company. 
+You are working in a big firm as a front-end engineer. Your company likes to hear ideas of startup and provides digital media services to its clientele. As a front end engineer, you need to create a website for your company so that clients just goes through your website page and they will get to know about your company and want services you guys are providing. Now let's create a portfolio site for your company.
 
-We have already given you the [images](img) folder so kindly use this images only in order to create same web page.
-
+We have provided you with the [images](img) in order to create the web page.
 
 ![Template.png](./template.png)
 
@@ -13,7 +12,7 @@ We have already given you the [images](img) folder so kindly use this images onl
 
 Create the HTML Structure of the page looking at the template.
 
-Openn any other HTML file that resides within your folder on clicking the button `GET IN TOUCH WITH US`.
+Open any other HTML file that resides within your folder on clicking the button `GET IN TOUCH WITH US`.
 
 We have provided the necessary images and font you would need for the site.
 
@@ -35,7 +34,7 @@ Below is the list of primary colors that have been used:
 
 **BONUS TIP** - If there are any color that has not been specified, then follow these steps:
 
-- Load the template (Image of the UI of the site) in chrome or firefox.
+- Load the image (Template of the site) in chrome or firefox. (Right click -> open in your browser of choice among the 2)
 - Install [Colorzilla](https://www.colorzilla.com/chrome/help.html) for your browser.
 - Now, you can pick colors from the image
 - :)

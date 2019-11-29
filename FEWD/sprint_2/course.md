@@ -4,6 +4,11 @@ Congratulations on completing Sprint 1!
 
 In Sprint 2, you'll learn about Responsive Web Design. If you want to become a Web developer, this is the skillset you need to hone in this era. Most of the Web application/sites being built today are responsive unless it's a complex dashboard that has a lot of elements which cannot be resized to fit on smaller devices. Consider this an extension of the previous sprint as most of the topics we have covered previously will be utilized in this sprint.
 
+After successfully completing this sprint, you'll be building the Zomato: Landing Page. Excited? ;)
+
+![zomato.png](./zomato/zomato.png)
+![zomato.png](./zomato/zomato-mob.png)
+
 ## Overview
 
 **Responsive web design (RWD)** is an approach whereby a designer and developers creates a **web** page that “responds to” or resizes itself depending on the type of device it is being viewed in. It could be an oversized desktop computer monitor, a laptop or devices with small screens such as smartphones and tablets.
@@ -173,7 +178,7 @@ After this sprint, you will have an understanding of
 <td  colspan="5"></td>
 </tr>
 <tr>
-<td  rowspan=5">Responsive College Sports Recruitment Site</td>
+<td  rowspan=5">Zomato: Landing Page (LP)</td>
 <td>Readiness Checklist</td>
 <td  rowspan="5"></td>
 <td  rowspan="5">Medium</td>
