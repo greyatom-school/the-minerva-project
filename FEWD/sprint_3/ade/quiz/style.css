@@ -1,8 +1,16 @@
-html, body {
+html,
+body {
   height: 100%;
   background: #344;
   font-family: helvetica neue, helvetica, arial, sans-serif;
   color: white;
+}
+
+body,
+body *,
+body *::after,
+body *::before {
+  box-sizing: border-box;
 }
 
 /* Project name */
@@ -22,13 +30,14 @@ html, body {
   align-items: center;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, .6);
+  background: rgba(0, 0, 0, 0.6);
   color: #000;
   transform: scale(0);
   z-index: 1;
 }
 
 .modal {
+  width: 90%;
   background: white;
   padding: 32px;
   margin: 32px;
@@ -38,6 +47,7 @@ html, body {
   align-items: center;
   border-radius: 3px;
   position: relative;
+  z-index: 2;
 }
 
 h2 {
@@ -52,26 +62,26 @@ p {
 }
 
 #modal-container.one {
-  transform: scaleY(.01) scaleX(0);
-  animation: unfoldIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  transform: scaleY(0.01) scaleX(0);
+  animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
 .one .modal {
   transform: scale(0);
-  animation: zoomIn .5s .8s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
 #modal-container.out {
   transform: scale(1);
-  animation: unfoldOut 1s .3s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
 .out .modal {
-  animation: zoomOut .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
 #username {
-  width: 320px;
+  width: 90%;
   padding: 8px 16px;
   border: 0;
   border-bottom: 1px solid #000;
@@ -86,32 +96,34 @@ p {
 }
 
 .quiz-block {
-  width: 640px;
+  max-width: 640px;
+  width: 90%;
   margin: 32px auto;
   background: #654;
   border-radius: 8px;
-  padding-bottom: 16px;  
+  padding-bottom: 16px;
 }
 
 .question {
   font-size: 18px;
   background: #333;
   padding: 16px;
+  line-height: 1.7rem;
 }
 
 .answer {
-  width: 320px;
+  width: 90%;
   padding: 16px;
   margin: 16px auto;
   border: 1px solid #333;
   border-radius: 12px;
   cursor: pointer;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .answer:hover {
   background: #333;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .active-answer {
@@ -143,12 +155,23 @@ p {
   margin-left: 0;
 }
 
+@media (max-width: 767px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  .btn {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}
+
 @keyframes unfoldIn {
   0% {
-    transform: scaleY(.005) scaleX(0);
+    transform: scaleY(0.005) scaleX(0);
   }
   50% {
-    transform: scaleY(.005) scaleX(1);
+    transform: scaleY(0.005) scaleX(1);
   }
   100% {
     transform: scaleY(1) scaleX(1);
@@ -160,10 +183,10 @@ p {
     transform: scaleY(1) scaleX(1);
   }
   50% {
-    transform: scaleY(.005) scaleX(1);
+    transform: scaleY(0.005) scaleX(1);
   }
   100% {
-    transform: scaleY(.005) scaleX(0);
+    transform: scaleY(0.005) scaleX(0);
   }
 }
 

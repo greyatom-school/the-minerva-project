@@ -1,0 +1,81 @@
+/* partial file */
+@use "config.scss" as *;
+
+html {
+  box-sizing: border-box;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.30769231;
+}
+
+body *,
+body *::after,
+body *::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: #fff;
+  background-color: $tango;
+  border-radius: 3px;
+  text-align: center;
+  border: 0;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.btn-white {
+  background-color: #fff;
+  border: 1px solid $tango;
+  color: $tango;
+}
+
+.btn-purple {
+  background-color: $purple;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.separator {
+  margin: 0 auto 32px;
+  background: #f2720c;
+  display: block;
+  width: 80px;
+  height: 6px;
+}
+
+.link {
+  color: $tango;
+}
+
+.col-12 {
+  max-width: 97.2307692rem;
+  margin: auto;
+  width: 90%;
+}
+
+.col-4-card {
+  width: 33.33333%;
+  max-width: 32.4102564rem;
+  padding: 32px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(59, 64, 69, 0.2);
+}
+
+@media (max-width: $ipad) {
+  .col-4-card {
+    width: auto;
+  }
+}

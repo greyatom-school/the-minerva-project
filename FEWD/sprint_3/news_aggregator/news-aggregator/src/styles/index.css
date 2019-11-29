@@ -1,14 +1,15 @@
-@import './reset.css';
+@import "./reset.css";
 
-html, body {
+html,
+body {
   background: #212121;
   font-family: helvetica neue, helvetica, arial, sans-serif;
   color: white;
 }
 
 img {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .site-title {
@@ -41,9 +42,9 @@ img {
   width: 90%;
   padding: 32px 0;
   margin: auto;
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-	grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
 }
 
 .article {
@@ -69,6 +70,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .article-title {
@@ -92,9 +94,10 @@ img {
 }
 
 .article-author {
-  display: flex;
-  justify-content: flex-end;
+  display: block;
+  word-break: break-all;
   color: #4bf;
+  text-align: right;
 }
 
 .article-link {

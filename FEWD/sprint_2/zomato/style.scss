@@ -1,0 +1,733 @@
+@use "reset.scss";
+@use "_mixin.scss" as *;
+@use "_colors.scss" as *;
+
+html {
+  font-family: var(--font-family-sans-serif);
+  font-size: 13px;
+}
+
+body *,
+body *::after,
+body *::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f3f3f3;
+  line-height: 1.4285em;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Header */
+/* ----------------------------------------------------------------------------------------- */
+header {
+  background: $primary;
+
+  a {
+    color: $headerText;
+    font-weight: 600;
+    font-size: 15px;
+  }
+}
+
+.header-container {
+  max-width: 95rem;
+  padding: 8px 0;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-link-list {
+    align-items: center;
+
+    @include breakpoint(0, $sm) {
+      flex-direction: column;
+    }
+  }
+
+  .header-link {
+    padding: 0 8px;
+
+    @include breakpoint(0, $sm) {
+      padding: 4px 8px;
+    }
+  }
+
+  .header-link a {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    width: 28px;
+    height: 28px;
+    padding-right: 4px;
+  }
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Main */
+/* ----------------------------------------------------------------------------------------- */
+.section-title {
+  border: none;
+  margin: calc(2rem - 0.05em) 0 2px;
+  padding: 0;
+  font-size: 1.714rem;
+  font-weight: 600;
+  line-height: 1.1em;
+  text-transform: none;
+  color: $headerText;
+}
+
+.section-subtitle {
+  margin-bottom: 1rem;
+  font-size: 1.14285714rem;
+  line-height: 1.2em;
+  color: $text-1;
+}
+
+.main-container {
+  margin: auto;
+  max-width: 1160px;
+  padding: 40px 8px 0;
+}
+
+// Banner
+.banner {
+  background: url(images/bg.jpg) $site-theme no-repeat top center;
+  background-size: cover;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .banner-wrapper {
+    position: relative;
+    z-index: 10;
+  }
+
+  .banner-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .auth-btns {
+    padding: 8px;
+
+    .auth-btn {
+      padding: 12px 20px;
+    }
+
+    .auth-btn:last-child {
+      border: 2px solid $primary;
+      border-radius: 3px;
+      transition: all 0.2s;
+
+      &:hover {
+        border: 2px solid $hover;
+        transition: all 0.2s;
+      }
+    }
+
+    a {
+      font-size: 1.1rem;
+      color: $primary;
+      transition: all 0.2s;
+
+      &:hover {
+        color: $hover;
+        transition: all 0.2s;
+      }
+    }
+  }
+
+  .banner-content {
+    padding: 40px 0;
+
+    h1 {
+      padding: 24px 8px;
+      font-size: 2.1rem;
+      font-weight: 300;
+      line-height: 36px;
+      text-rendering: optimizeLegibility;
+      text-align: center;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+      color: #fff;
+    }
+
+    .search-inputs {
+      width: 90%;
+      margin: auto;
+      max-width: 1160px;
+
+      @include breakpoint(0, $sm) {
+        flex-direction: column;
+      }
+    }
+
+    .dropdown button,
+    .search-restaurant input,
+    .search-btn {
+      padding: 10px 12px;
+
+      @include breakpoint(0, $sm) {
+        width: 100%;
+      }
+    }
+
+    .dropdown {
+      flex: 0.3;
+      @include breakpoint(0, $sm) {
+        width: 100%;
+      }
+    }
+
+    .dropdown button {
+      color: black;
+      background: white;
+      width: 100%;
+      text-align: left;
+
+      &:after {
+        position: absolute;
+        right: 12px;
+        top: 45%;
+      }
+    }
+
+    .search-restaurant {
+      flex: 0.7;
+      padding: 0 8px;
+
+      @include breakpoint(0, $sm) {
+        padding: 8px 0;
+        width: 100%;
+      }
+    }
+
+    .search-btn {
+      background: $site-theme;
+      color: $primary;
+    }
+  }
+}
+
+// Collections
+.collection-container {
+  justify-content: space-between;
+
+  @include breakpoint(0, $md) {
+    flex-direction: column;
+  }
+
+  .sect {
+    max-width: 65%;
+
+    @include breakpoint(0, $md) {
+      max-width: 100%;
+    }
+  }
+
+  .collection-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include breakpoint(0, $md) {
+      flex-direction: column;
+    }
+  }
+
+  .collection {
+    display: flex;
+    width: 49%;
+    border: 1px solid #e7e7e7;
+    border-radius: 0.28571429rem;
+    background: $primary;
+    margin: 6px 0;
+
+    @include breakpoint(0, $md) {
+      width: 100%;
+    }
+  }
+
+  .collection-img {
+    width: 40%;
+    background-position: center center;
+    background-size: cover;
+    height: 120px;
+  }
+
+  .collection-content {
+    width: 60%;
+    padding: 8px;
+
+    h4 {
+      color: $headerText;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      color: $headerText;
+      margin-top: 5px;
+    }
+  }
+
+  .order-food-title {
+    @include breakpoint($md) {
+      margin-top: 0;
+    }
+  }
+
+  .widget {
+    min-height: 333px;
+    background: #fff;
+    padding: 1em;
+    border-radius: 0.28571429rem;
+    border: 1px solid $border;
+
+    h4 {
+      line-height: 1.1em;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      font-size: 1.071rem;
+    }
+
+    .location-input {
+      position: relative;
+
+      input {
+        border-radius: 4px;
+        height: 42px;
+        padding-right: 72px;
+      }
+
+      button {
+        position: absolute;
+        top: 6px;
+        right: 5px;
+        height: 30px;
+        border: 0;
+        border-left: 1px solid $border;
+      }
+    }
+
+    .order-btn {
+      width: 100%;
+      margin: 16px 0;
+      color: $primary;
+      background: $success;
+      border-radius: 0.28571429rem;
+      box-shadow: 0 0 0 0 #e7e7e7 inset;
+      font-size: 1rem;
+    }
+
+    .separator {
+      width: 100%;
+      height: 1px;
+      display: block;
+      background: $border;
+    }
+
+    p {
+      font-size: 14px;
+      margin-top: 40px;
+      text-align: center;
+      color: $success;
+
+      b {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .all-collection-btn {
+    width: 100%;
+    position: relative;
+    padding: 1em;
+    margin: 1rem 0 0;
+    background: #fff;
+    border-radius: 0.28571429rem;
+    border: 1px solid $border;
+    color: $site-theme;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+// Categories
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 12.5%;
+
+  @include breakpoint(0, $lg) {
+    width: 25%;
+  }
+
+  img {
+    width: 48px;
+    height: 48px;
+  }
+
+  span {
+    text-align: center;
+  }
+}
+
+// Localities
+.locaility-list-wrapper {
+  padding: 0 16px;
+  justify-content: space-between;
+  background: $primary;
+  border-radius: 0.28571429rem;
+  border: 1px solid $border;
+
+  ul {
+    margin: 1rem 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  li a {
+    font-size: 14px;
+    color: $headerText;
+  }
+
+  .locality-number {
+    color: #89959b;
+  }
+}
+
+// Get app
+.get-app {
+  padding: 3rem 0;
+  margin: 3rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $primary;
+  border-radius: 0.28571429rem;
+  border: 1px solid $border;
+
+  @include breakpoint(0, $md) {
+    flex-direction: column;
+  }
+
+  .iPhone {
+    width: 30%;
+
+    @include breakpoint(0, $md) {
+      width: 40%;
+    }
+  }
+
+  .get-app-content {
+    width: 40%;
+
+    @include breakpoint(0, $md) {
+      width: 90%;
+      margin-top: 24px;
+    }
+  }
+
+  h5 {
+    margin-bottom: 1rem;
+    font-size: 1.714rem;
+    font-weight: 600;
+    line-height: 1.1em;
+  }
+
+  .see-menus {
+    font-size: 15px;
+    color: $text-1;
+  }
+
+  .send-link {
+    margin: 24px 0 16px;
+  }
+
+  .input-group {
+    position: relative;
+  }
+
+  .app-input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid $border;
+
+    @include breakpoint(0, $md) {
+      font-size: 11px;
+    }
+  }
+
+  .or {
+    margin: 12px 0;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+  }
+
+  .or::before,
+  .or::after {
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 1.2px;
+    background: $border;
+    top: 50%;
+  }
+
+  .or::before {
+    left: 0;
+  }
+
+  .or::after {
+    right: 0;
+  }
+
+  .app-link-btn {
+    background: $success;
+    color: $primary;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    @include breakpoint(0, $md) {
+      font-size: 11px;
+    }
+  }
+
+  .app-stores {
+    margin: 16px 0;
+
+    a:first-child {
+      padding-right: 16px;
+    }
+
+    img {
+      width: 130px;
+      height: 40px;
+    }
+  }
+}
+
+// Stats
+.stats {
+  margin: 32px 0;
+
+  .stat-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @include breakpoint(0, $md) {
+      justify-content: space-between;
+    }
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    @include breakpoint(0, $md) {
+      width: 50%;
+      margin-bottom: 24px;
+    }
+  }
+
+  .value {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1em;
+    color: $hover;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .label {
+    @extend .value;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 4px;
+  }
+}
+/* ----------------------------------------------------------------------------------------- */
+/* Footer */
+/* ----------------------------------------------------------------------------------------- */
+footer {
+  background-color: #282c35;
+  border-top: 1px solid #eee;
+  padding: 0;
+
+  .footer-wrapper {
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 1160px;
+  }
+
+  .internationalization {
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #3c3f46;
+
+    img {
+      width: 60px;
+      height: 60px;
+    }
+
+    .dropdown button {
+      background-color: rgba(0, 0, 0, 0.3);
+      width: auto;
+      min-width: 155px;
+      border: 1px solid #6d6d6d;
+      padding: 4px 10px;
+      border-radius: 3px;
+      line-height: 22px;
+      margin: 0.25em;
+      text-align: left;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 45%;
+        right: 10px;
+      }
+    }
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 12px 0;
+    border-bottom: 1px solid #3c3f46;
+
+    .footer-title {
+      margin: 12px 0;
+      font-size: 18px;
+      font-weight: 700;
+      color: #adb0b6;
+    }
+
+    li {
+      padding-bottom: 8px;
+    }
+
+    a {
+      font-size: 14px;
+      color: #cdcdcd;
+    }
+
+    .nested-nav {
+      width: 100%;
+
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        ul:first-child {
+          padding-right: 40px;
+        }
+
+        ul {
+          padding: 8px;
+        }
+      }
+    }
+
+    .restaurant {
+      width: auto;
+    }
+  }
+
+  .social-nav {
+    align-items: center;
+  }
+
+  .footer_horiz_list,
+  .social-container {
+    display: flex;
+
+    @include breakpoint(0, $md) {
+      flex-direction: column;
+    }
+
+    li {
+      padding-right: 12px;
+    }
+  }
+
+  .footer_horiz_list {
+    @include breakpoint(0, $md) {
+      margin-bottom: 8px;
+    }
+  }
+
+  .social-container li a {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    color: #cdcdcd;
+  }
+
+  .copyright {
+    padding: 16px 0;
+    font-size: 10px;
+    color: #9a9a9a;
+  }
+
+  .copyright a {
+    @extend .copyright;
+  }
+}
