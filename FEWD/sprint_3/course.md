@@ -42,11 +42,11 @@ After this sprint, you will have an understanding of
 
 **AJAX (Promises) & DOM Events (ADE)**
 
+- Using external libraries like jQuery, Lodash.
 - Fetch or HTTP request
 - Event loop - Synchronous and asynchronous
 - ES6 - Async await
 - Event delegation, propagation, bubbling
-- Using external libraries like jQuery, Lodash.
 - Best Practices
 - Assignment
 
@@ -130,8 +130,14 @@ After this sprint, you will have an understanding of
   <tr>
     <td colspan="5"></td>
   </tr>
+    <tr>
+    <td>Using external libraries and best practices</td>
+    <td>Yes</td>
+    <td>Medium</td>
+    <td>1 hour</td>
+  </tr>
   <tr>
-    <td rowspan="6">AJAX, Promises 7 DOM Events</td>
+    <td rowspan="6">AJAX, Promises & DOM Events</td>
     <td>REST/AJAX/Promises/Fetch</td>
     <td>Yes</td>
     <td>High</td>
@@ -141,12 +147,6 @@ After this sprint, you will have an understanding of
     <td>Event loop &amp; Event delegation</td>
     <td>Yes</td>
     <td>High</td>
-    <td>1 hour</td>
-  </tr>
-  <tr>
-    <td>Using external libraries and best practices</td>
-    <td>Yes</td>
-    <td>Medium</td>
     <td>1 hour</td>
   </tr>
   <tr>
