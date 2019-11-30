@@ -49,9 +49,8 @@ img {
 
 .article {
   padding: 16px;
-  border: 1px solid white;
   border-radius: 10px;
-  background: #333;
+  background: #393939;
   position: relative;
   cursor: pointer;
   transform: scale(1);
@@ -75,7 +74,9 @@ img {
 
 .article-title {
   margin: 16px 0;
-  line-height: 20px;
+  line-height: 24px;
+  word-spacing: 0.2px;
+  letter-spacing: 0.4px;
   font-size: 18px;
   overflow: hidden;
   display: -webkit-box;

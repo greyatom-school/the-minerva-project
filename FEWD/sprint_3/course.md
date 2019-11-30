@@ -20,9 +20,13 @@ After this sprint, you will have an understanding of
 
 ### What will you build?
 
-You will be building a standalone app to show the latest news and search for news based onn news search.
+You will be building a standalone app to show the latest news and search for news based on news search.
 
-![News App](news_aggregator/news_aggregator_ui.png)
+![News App](news_aggregator/news_aggregator.png)
+
+You'd also build a quiz app by displaying questions with options for user to provide an answer.
+
+![Quiz App](ajc/storage/quiz.png)
 
 ### Learning Outcomes
 
