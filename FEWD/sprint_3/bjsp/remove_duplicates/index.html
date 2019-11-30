@@ -22,12 +22,16 @@
           return true;
         }
 
-        var uniqArrOfNum = numbers.filter(
-          (value, index, actualArr) => actualArr.indexOf(value) === index
-        );
-        var sortedNumbers = uniqArrOfNum.sort(function(a, b) {
-          return a - b;
-        });
+        const sortedNumbers = function() {
+          var uniqArrOfNum = numbers.filter(
+            (value, index, actualArr) => actualArr.indexOf(value) === index
+          );
+
+          var sortedNumbers = uniqArrOfNum.sort(function(a, b) {
+            return a - b;
+          });
+        };
+
         var halfLength = Math.ceil(sortedNumbers.length / 2);
         var firstHalfArr = sortedNumbers.slice(0, halfLength);
         var lastHalfArr = sortedNumbers.slice(halfLength, sortedNumbers.length);
