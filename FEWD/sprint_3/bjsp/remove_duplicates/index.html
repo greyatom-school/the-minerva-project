@@ -7,7 +7,7 @@
     <title>Remove duplicates</title>
   </head>
   <body>
-    <p>
+    <p id="para">
       Please check the console for the results. On Windows, hit Command+Option+J
       and on Mac, hit Control+Shift+J to open the console.
     </p>
@@ -16,21 +16,24 @@
       // Immediately invoked function expression (IIFE)
       (function() {
         var numbers = [1, 10, 20, 2, 5, 2, 2, 2, 5, 3, 4, 8];
+        document.getElementById("para").style = "background: yellow";
 
         if (numbers.length === 1) {
           console.log([[...numbers]]);
           return true;
         }
 
-        const sortedNumbers = function() {
-          var uniqArrOfNum = numbers.filter(
+        function uniqAndSorted(arr) {
+          var uniqArrOfNum = arr.filter(
             (value, index, actualArr) => actualArr.indexOf(value) === index
           );
 
           var sortedNumbers = uniqArrOfNum.sort(function(a, b) {
             return a - b;
           });
-        };
+        }
+
+        const sortedNumbers = uniqAndSorted(numbers);
 
         var halfLength = Math.ceil(sortedNumbers.length / 2);
         var firstHalfArr = sortedNumbers.slice(0, halfLength);
