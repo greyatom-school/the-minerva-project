@@ -30,6 +30,9 @@ After this sprint, you will have an understanding of
 
 ### What will you build?
 
+- Throughout the concept you will be build 
+[stackoverflow](https://stackoverflow.com/)
+
 - Sprint End project
 
 |Normal View| Responsive View|
