@@ -14,7 +14,6 @@ In Sprint 2, you'll learn about Responsive Web Design. If you want to become a W
 - You must have submitted the ARK Studio project
 - You must have understanding of creeating landing page
 
-After successfully completing this sprint, you'll be building the Zomato: Landing Page. Excited? ;)
 
 ### Learning Outcomes
 
@@ -34,6 +33,9 @@ After this sprint, you will have an understanding of
 [stackoverflow](https://stackoverflow.com/)
 
 - Sprint End project
+
+
+After successfully completing this sprint, you'll be building the Zomato: Landing Page. Excited? ;)
 
 |Normal View| Responsive View|
 |--|--|
