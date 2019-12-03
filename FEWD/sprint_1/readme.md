@@ -40,7 +40,7 @@ At the end of html module you will be able to build basic html page
 
 At the end of css module you should be able to build good looking css page
 
-![airbnb project](1.Basics_of_CSS/images/final.png)
+![airbnb project](2.Basics_of_CSS/images/final.png)
 
 - Sprint project: ARK studio
 
