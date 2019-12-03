@@ -58,8 +58,6 @@ At the end of this project you should be able to build ARK Studio landing page.
 - [HTML Tables](1.Basics_of_HTML/1.4%20-%20%20HTML%20Tables.md)
 - [HTML Forms](1.Basics_of_HTML/1.5%20-%20%20HTML%20Forms.md)
 - [HTML5 & Features](1.Basics_of_HTML/1.6%20-%20%20HTML5%20%26%20Features.md)
-- Assessment Quiz
-- Assignment
 
 **Basics of CSS (BC)**
 
@@ -71,8 +69,6 @@ At the end of this project you should be able to build ARK Studio landing page.
 - [CSS3 Flexbox](2.Basics_of_CSS/2.6%20-%20%20CSS%20Flexbox.md)
 - [CSS3 Transition, Transformation and Gradient](2.Basics_of_CSS/2.7%20-%20%20CSS3%20Transition%2C%20Transformation%20and%20Gradient.md)
 - [CSS3 Animations](2.Basics_of_CSS/2.8%20-%20CSS3%20Animations.md)
-- Assessment Quiz
-- Assignment
 
 ## Projects on GitHub
 
