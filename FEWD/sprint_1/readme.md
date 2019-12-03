@@ -35,18 +35,18 @@ After this sprint, you will have understanding of
 
 At the end of html module you will be able to build basic html page
 
-![airbnb html](basics_of_html/images/wrap_up.png)
+![airbnb html](1.basics_of_html/images/wrap_up.png)
 
 
 At the end of css module you should be able to build good looking css page
 
-![airbnb project](basics_of_css/images/final.png)
+![airbnb project](1.basics_of_css/images/final.png)
 
 - Sprint project: ARK studio
 
 At the end of this project you should be able to build ARK Studio landing page.
 
-![ARK Studio](ark_studio/template.png)
+![ARK Studio](project/template.png)
 
 # Associated Concepts
 
