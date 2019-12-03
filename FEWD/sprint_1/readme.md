@@ -35,44 +35,40 @@ After this sprint, you will have understanding of
 
 At the end of html module you will be able to build basic html page
 
-![airbnb html](basics_of_html/images/wrap_up.png)
+![airbnb html](1.Basics_of_HTML/images/wrap_up.png)
 
 
 At the end of css module you should be able to build good looking css page
 
-![airbnb project](basics_of_css/images/final.png)
+![airbnb project](2.Basics_of_CSS/images/final.png)
 
 - Sprint project: ARK studio
 
 At the end of this project you should be able to build ARK Studio landing page.
 
-![ARK Studio](ark_studio/template.png)
+![ARK Studio](project/template.png)
 
 # Associated Concepts
 
 **Basics of HTML (BH)**
 
-- [Introduction to HTML & Document Types, Elements, Tags & Attributes](basics_of_html/1.Intro%20to%20HTML.md)
-- [HTML Texts, Images and Styles](basics_of_html/2.%20HTML%20Texts%2C%20Images%20and%20Styles.md)
-- [HTML Lists](basics_of_html/3.HTML%20Lists.md)
-- [HTML Tables](basics_of_html/4.%20HTML%20Tables.md)
-- [HTML Forms](basics_of_html/5.%20HTML%20Forms.md)
-- [HTML5 & Features](basics_of_html/6.%20HTML5%20%26%20Features.md)
-- Assessment Quiz
-- Assignment
+- [Introduction to HTML & Document Types, Elements, Tags & Attributes](1.Basics_of_HTML/1.1%20-%20Intro%20to%20HTML.md)
+- [HTML Texts, Images and Styles](1.Basics_of_HTML/1.2%20-%20%20HTML%20Texts%2C%20Images%20and%20Styles.md)
+- [HTML Lists](1.Basics_of_HTML/1.3%20-%20HTML%20Lists.md)
+- [HTML Tables](1.Basics_of_HTML/1.4%20-%20%20HTML%20Tables.md)
+- [HTML Forms](1.Basics_of_HTML/1.5%20-%20%20HTML%20Forms.md)
+- [HTML5 & Features](1.Basics_of_HTML/1.6%20-%20%20HTML5%20%26%20Features.md)
 
 **Basics of CSS (BC)**
 
-- [Introduction to CSS, Selectors, Properties & Values](basics_of_css/1.%20Intro%20to%20CSS.md)
-- [CSS Box Model & Sizing](basics_of_css/2.%20CSS%20Box%20Model%20%26%20Sizing.md)
-- [CSS Colors, Text formatting, Background and Lists](basics_of_css/3.%20CSS%20Colors%2C%20Text%20formatting%2C%20Background%20and%20Lists.md)
-- [CSS Scrollbars, Visibility & Display](basics_of_css/4.%20CSS%20Scrollbars%2C%20Visibility%20%26%20Display.md)
-- [CSS Layout & Positioning](basics_of_css/5.%20CSS%20Layout%20and%20Positioning.md)
-- [CSS3 Flexbox](basics_of_css/6.%20CSS%20Flexbox.md)
-- [CSS3 Transition, Transformation and Gradient](basics_of_css/7.%20CSS3%20Transition%2C%20Transformation%20and%20Gradient.md)
-- [CSS3 Animations](basics_of_css/8.%20CSS3%20Animations.md)
-- Assessment Quiz
-- Assignment
+- [Introduction to CSS, Selectors, Properties & Values](2.Basics_of_CSS/2.1%20-%20%20Intro%20to%20CSS.md)
+- [CSS Box Model & Sizing](2.Basics_of_CSS/2.2%20-%20CSS%20Box%20Model%20%26%20Sizing.md)
+- [CSS Colors, Text formatting, Background and Lists](2.Basics_of_CSS/2.3%20-%20CSS%20Colors%2C%20Text%20formatting%2C%20Background%20and%20Lists.md)
+- [CSS Scrollbars, Visibility & Display](2.Basics_of_CSS/2.4%20-%20%20CSS%20Scrollbars%2C%20Visibility%20%26%20Display.md)
+- [CSS Layout & Positioning](2.Basics_of_CSS/2.5%20-%20%20CSS%20Layout%20and%20Positioning.md)
+- [CSS3 Flexbox](2.Basics_of_CSS/2.6%20-%20%20CSS%20Flexbox.md)
+- [CSS3 Transition, Transformation and Gradient](2.Basics_of_CSS/2.7%20-%20%20CSS3%20Transition%2C%20Transformation%20and%20Gradient.md)
+- [CSS3 Animations](2.Basics_of_CSS/2.8%20-%20CSS3%20Animations.md)
 
 ## Projects on GitHub
 

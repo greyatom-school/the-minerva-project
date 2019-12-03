@@ -14,7 +14,6 @@ In Sprint 2, you'll learn about Responsive Web Design. If you want to become a W
 - You must have submitted the ARK Studio project
 - You must have understanding of creeating landing page
 
-After successfully completing this sprint, you'll be building the Zomato: Landing Page. Excited? ;)
 
 ### Learning Outcomes
 
@@ -30,11 +29,17 @@ After this sprint, you will have an understanding of
 
 ### What will you build?
 
+- Throughout the concept you will be build 
+[stackoverflow](https://stackoverflow.com/)
+
 - Sprint End project
+
+
+After successfully completing this sprint, you'll be building the Zomato: Landing Page. Excited? ;)
 
 |Normal View| Responsive View|
 |--|--|
-|![zomato.png](./zomato/zomato.png)|![zomato.png](./zomato/zomato-mob.png)|
+|![zomato.png](./project/zomato.png)|![zomato.png](./project/zomato-mob.png)|
 
 
 ### Learning Outcomes
@@ -43,27 +48,27 @@ After this sprint, you will have an understanding of
 
 **Basics of Responsive design**
 
-- Introduction to Responsive design and Mobile first approach
-- Responsive Images & Typography
-- Media Queries & Breakpoints
-- Responsive Grid Layout
-- Assessment Quiz
+- [Introduction to Responsive design and Mobile first approach](1.Basics_of_rwd/1.1 - %20Introduction%20to%20Responsive%20design.md)
+- [Responsive Images & Typography](1.Basics_of_rwd/2.%20Responsive%20Images%20%26%20Typography.md)
+- [Media Queries & Breakpoints](1.Basics_of_rwd/3.%20Media%20Queries%20%26%20Breakpoints.md)
+- [Responsive Grid Layout](1.Basics_of_rwd/4.%20Responsive%20Grid%20Layout.md)
+- [Assessment Quiz](1.Basics_of_rwd/5.%20Assessment%20Quiz.md)
 - Assignment
 
 **CSS Pre-processor**
 
-- Introduction to CSS Pre-processors, SASS and setting it up
-- SASS Variables, Nesting, Modules and Partials
-- SASS Mixins & Extend/Inheritance
-- Assessment Quiz
+- [Introduction to CSS Pre-processors, SASS and setting it up](2.CSS_preprocessor/1.%20Introduction%20to%20CSS%20Pre-processors%2C%20SASS%20and%20setting%20it%20up.md)
+- [SASS Variables, Nesting, Modules and Partials](2.CSS_preprocessor/2.%20SASS%20Variables%2C%20Nesting%2C%20Mixins%20and%20Extends.md)
+- [SASS Mixins & Extend/Inheritance](2.CSS_preprocessor/3.%20SASS%20Flow%20control%2C%20Modules%20%26%20Partials.md)
+- [Assessment Quiz](2.CSS_preprocessor/4.%20Assessment%20Quiz.md)
 - Assignment
 
 **Bootstrap**
 
-- Introduction to Twitter Bootstrap 4
-- Bootstrap Grid System and Content
-- Bootstrap Components and Utilities
-- Assessment Quiz
+- [Introduction to Twitter Bootstrap 4](3.Bootstrap/1.%20Introduction%20to%20Twitter%20Bootstrap%204.md)
+- [Bootstrap Grid System and Content](3.Bootstrap/2.%20Bootstrap%20Layout%20and%20Content.md)
+- [Bootstrap Components and Utilities](3.Bootstrap/3.%20Bootstrap%20Components%20and%20Utilities.md)
+- [Assessment Quiz](3.Bootstrap/4.%20Assessment%20Quiz.md)
 - Assignment
 
 
