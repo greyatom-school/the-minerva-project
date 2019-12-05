@@ -24,7 +24,7 @@ Just like the first concept, this concept also has a very large impact in your w
 
 No matter where you work or what type of projects you are doing, the topics covered in the concept will help you immensely.
 
-As practice, we recommend you to deploy all the previous Sprint Projects and Assignment using Firebase. This will not only help you get the hang of the deployment process but also enable you to showcase all your projects to your peers/potential recruiters/family members.
+As practice, we recommend you to deploy all the previous Sprint Projects and Assignment using Firebase. This will not only help you get the hang of the deployment process but also enable you to showcase all your projects to your peers & potential recruiters
 
 Since this is the last concept of this Sprint, the only thing remaining is to Build the Sprint Project(Financial Portfolio Tracker) and deploy it.
 
