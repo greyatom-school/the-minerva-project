@@ -1,4 +1,4 @@
-﻿## Assignment: ARK Studio
+﻿## Assignment: Zomato Landing Page
 
 ### Problem Statement
 
