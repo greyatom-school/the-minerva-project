@@ -39,4 +39,4 @@ For ex:
  - Push all the changes to your fork
  - Go to your forked repository on GitHub and raise a pull request. Refer to a detailed guide to raise a pull request over [here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
-For any help needed kindly drop us an email at <>
+For any further help kindly join our [Slack](https://greyatom-frontend.slack.com/join/shared_invite/enQtNzk4MDAzNjExNzI5LWJjN2Y1NThiMjZmMDIyMDg5MGNmYjhmZDg3ODdjOWZkODRlODQwZGFiNjc5MGYwYzBkNTI0NjM1NWI1M2UyMzI) channel and the maintainers would help you out.

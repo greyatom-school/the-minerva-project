@@ -12,4 +12,4 @@ The Minerva Project's objective is to provide a simplified learning paths so tha
 Additionally, The Minerva Project and it's core members reserve the right to ban or otherwise disable the account(s) of users in defiance with this code of conduct or for any other reason they see fit.
 
 # Reporting and Enforcement
-Any violations of the code of conduct can be directly communicated to the core members of the prohect at <>. The team will investigate the matter and take appropriate actions.
+Any violations of the code of conduct can be directly communicated to the core members of the project at theminervaproject@greyatom.com . The team will investigate the matter and take appropriate actions.
