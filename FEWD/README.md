@@ -24,7 +24,7 @@ After this sprint, you will have an understanding of
 - How to structure a page using HTML?
 - How to format/style a page using CSS?
 
-**Project:** [Create a Personal Portfolio Page](sprint_0/4.%20Project)
+
 
 **Associated Concepts:**
 
@@ -35,6 +35,7 @@ After this sprint, you will have an understanding of
 
 ***Concept 3:*** [Introduction to CSS](sprint_0/3.%20Introduction%20to%20CSS)
 
+**Project:** [Create a Personal Portfolio Page](sprint_0/4.%20Project)
 
 <hr>
 
@@ -133,7 +134,7 @@ After this sprint, you will have an understanding of
 - Deploying web apps on the world wide web
 
 
-**Project:** [Create a Financial Portfolio Tracker](sprint_4/5.%20Project)
+
 
 **Associated Concepts:**
 
@@ -146,6 +147,7 @@ After this sprint, you will have an understanding of
 
 ***Concept 4:*** [Foundations of ReactJS](sprint_4/4.%20Deployment%20of%20web%20apps)
 
+**Project:** [Create a Financial Portfolio Tracker](sprint_4/5.%20Project)
 
 <hr>
 
