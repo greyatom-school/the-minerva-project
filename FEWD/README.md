@@ -52,13 +52,13 @@ After this sprint, you will have an understanding of
 ### Prerequisites
 Completion of Sprint 0
 
-### Concepts
-- HTML Foundations
-- CSS foundations
-- Principles of Visual design
+### Associated Concepts
+***Concept 1:***  [Basics of HTML](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_1/1.Basics_of_HTML)
+***Concept 2:***  [Basics of CSS](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_1/2.Basics_of_CSS)
+
 
 ### Project
-- Create your profile page where you can display your work going ahead.
+- [ARK Studio](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_1/project)
 
 <hr>
 
@@ -75,12 +75,15 @@ After this sprint, you will have an understanding of
 - How to create fluid layouts
 - Creating responsive web pages using Bootstrap
 
-### Concepts
-- CSS Preprocessors and SASS
-- Responsive Web Design using Bootstrap
+### Associated Concepts
+***Concept 1:***  [Basics of rwd](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_2/1.Basics_of_rwd)
+
+***Concept 2:*** [CSS Preprocessors](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_2/2.CSS_preprocessor)
+
+***Concept 3:*** [Bootstrap](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_2/3.Bootstrap)
 
 ### Project
-Build upon a responsive web page for the earlier created profile page project
+[Zomato Landing Page](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_2/project/project.md)
 
 <hr>
 
@@ -98,12 +101,12 @@ After this sprint, you will have an understanding of
 - DOM Events and AJAX
 
 ### Concepts
-- Foundations of JS
-- Object-Oriented Programming in JS
-- Advanced JS
+***Concept 1:***  [Basics of Javascript Programming](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_3/1.Basics%20of%20Javascript%20programming)
+***Concept 2:***  [Ajax and DOM Events](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_3/2.%20Ajax%20and%20DOM%20Events)
+***Concept 3:***  [Advance Javascript Concept](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_3/3.%20Advance%20Javascript%20concepts)
 
 ### Project
-Build a replica of TripAdvisor
+[News Aggregator App](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_3/project/project.md)
 
 <hr>
 
