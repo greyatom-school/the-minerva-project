@@ -54,6 +54,7 @@ Completion of Sprint 0
 
 ### Associated Concepts
 ***Concept 1:***  [Basics of HTML](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_1/1.Basics_of_HTML)
+
 ***Concept 2:***  [Basics of CSS](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_1/2.Basics_of_CSS)
 
 
@@ -102,7 +103,9 @@ After this sprint, you will have an understanding of
 
 ### Concepts
 ***Concept 1:***  [Basics of Javascript Programming](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_3/1.Basics%20of%20Javascript%20programming)
+
 ***Concept 2:***  [Ajax and DOM Events](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_3/2.%20Ajax%20and%20DOM%20Events)
+
 ***Concept 3:***  [Advance Javascript Concept](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_3/3.%20Advance%20Javascript%20concepts)
 
 ### Project
