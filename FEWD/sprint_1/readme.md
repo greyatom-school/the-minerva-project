@@ -46,7 +46,7 @@ At the end of css module you should be able to build good looking css page
 
 At the end of this project you should be able to build ARK Studio landing page.
 
-![ARK Studio](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_1/project/template.png)
+![ARK Studio](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_1/project/template.png)
 
 # Associated Concepts
 
