@@ -39,7 +39,8 @@ After successfully completing this sprint, you'll be building the Zomato: Landin
 
 |Normal View| Responsive View|
 |--|--|
-|![zomato.png](./project/zomato.png)|![zomato.png](./project/zomato-mob.png)|
+|![zomato.png](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/zomato.png)|![zomato.png](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/zomato-mob.png)|
+
 
 
 ### Learning Outcomes
@@ -48,7 +49,7 @@ After this sprint, you will have an understanding of
 
 **Basics of Responsive design**
 
-- [Introduction to Responsive design and Mobile first approach](1.Basics_of_rwd/1.1 - %20Introduction%20to%20Responsive%20design.md)
+- [Introduction to Responsive design and Mobile first approach](1.Basics_of_rwd/1.1%20Introduction%20to%20Responsive%20design.md)
 - [Responsive Images & Typography](1.Basics_of_rwd/2.%20Responsive%20Images%20%26%20Typography.md)
 - [Media Queries & Breakpoints](1.Basics_of_rwd/3.%20Media%20Queries%20%26%20Breakpoints.md)
 - [Responsive Grid Layout](1.Basics_of_rwd/4.%20Responsive%20Grid%20Layout.md)

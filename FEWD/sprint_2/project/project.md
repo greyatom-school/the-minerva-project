@@ -4,10 +4,11 @@
 
 You are working for Zomato and your stakeholders expect you to builf the landing page of the applicatio.
 
-We have provided you with the [images](images) in order to create the web page.
+We have provided you with the [images](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images) in order to create the web page.
 
-![zomato.png](./zomato.png)
-![zomato.png](./zomato-mob.png)
+![zomato.png](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/zomato.png)
+
+![zomato.png](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/zomato-mob.png)
 
 ##### Task 1
 
