@@ -35,18 +35,18 @@ After this sprint, you will have understanding of
 
 At the end of html module you will be able to build basic html page
 
-![airbnb html](1.Basics_of_HTML/images/wrap_up.png)
+![airbnb html](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_1/1.Basics_of_HTML/images/wrap_up.png)
 
 
 At the end of css module you should be able to build good looking css page
 
-![airbnb project](2.Basics_of_CSS/images/final.png)
+![airbnb project](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_1/2.Basics_of_CSS/images/final.png)
 
 - Sprint project: ARK studio
 
 At the end of this project you should be able to build ARK Studio landing page.
 
-![ARK Studio](project/template.png)
+![ARK Studio](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_1/project/template.png)
 
 # Associated Concepts
 
