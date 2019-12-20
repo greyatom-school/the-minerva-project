@@ -21,7 +21,7 @@ We do not expect you to exactly place 4 or 5 news article on the same line. This
 
 **Hint:** To ellipsis use pure css. There are css properties that allow it but it won't work for older browser. It's okay if it isn't compatible. The goal is for you to know about such properties to use them in future.
 
-![News aggregator](news_aggregator_ui.png)
+![News aggregator](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_3/project/news_aggregator.png)
 
 ##### Task 3
 As seen in the image of the UI above, we have a search bar.
