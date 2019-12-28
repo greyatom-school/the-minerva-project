@@ -42,7 +42,7 @@ At the end of this sprint, you will learn the following:
 
 ## What will you be able to build?
 
-At the end of this sprint, you will be converting the Pro-Organizer application (a Trello-inspiration) that you've created int he Sprint 5 to a React+Redux application. It will allow you easier and better control over the component state and data. You will add a couple of new features like authentication and you will be using TDD to create this.
+At the end of this sprint, you will be converting the Pro-Organizer application (a Trello-inspiration) that you've created int he Sprint 5 to a React+Redux application. It will allow you easier and better control over the component state and data. You will add a couple of new features and you will be using TDD to create this.
 
 <br />
 
