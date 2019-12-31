@@ -30,3 +30,13 @@ In this concept, you learnt a great deal about some of the advanced React concep
 •	React has gone through multiple changes over a period of time and some lifecycle methods have also been deprecated over a period of time. For applications which were created using earlier versions of React, Strict Mode helps developers find out about the changes.
 
 •	Finally, React Hooks were introduced to add the properties of stateful components to stateless components.
+
+
+## How will it help the project?
+
+- With the help of **HOCs**, you will be able to create modular code while delegating important tasks to the a separate module for component.
+- **Fragments** will help you at places where you would not like to introduce an extra div when adding multiple elements to the render.
+- It's nearly impossible to have a perfectly working application. From minor bugs to server crashes, there might always be some errors in the application. **Error Boundaries** will improve the user experience of the entire application by not crashing the application and showing the ugly React error page.
+- Thanks to the **diffing algorithm** and the **Strict Mode**, you will avoid re-rendering components when not necessary while also avoiding the use of deprecated lifecycle methods.
+- Almost every application uses lists. **Keys** are extremely important when rendering any lists. React throws a warning and errors when you don't use lists while rendering lists without keys.
+- Finally, React Hooks is probably one of the most important feature which will help you immensly when creating functional components.

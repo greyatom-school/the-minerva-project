@@ -21,3 +21,13 @@ In this concept, we learnt about routing in React applications. We got introduce
 •	The ```<Redirect />``` component helps redirect React application to other pages in case of failures.
 
 •	Redirect is also used to authenticate paths. 
+
+<br />
+
+## How will it help the project?
+
+The very concept of react router introduces the effect of multi-page applications in a single-page application. 
+
+Using the concepts of **history**, **location** and **match**, it will help you get greater control over passing parameters and going forwards/backwards in the application.
+
+With ```<Redirect />```, you can introduce authentication and default cases in your application. For example, what the application should do when the URL is ```/```.

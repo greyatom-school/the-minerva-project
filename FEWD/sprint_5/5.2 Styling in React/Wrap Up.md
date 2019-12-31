@@ -24,3 +24,10 @@ In this concept, we have learnt how to style React components. We looked at inli
 •	To enable efficiency, a package called CSS modules enable modularization of styles.
 
 •	CSS Modules creates hashed unique files for every component file.
+
+
+## How will it help the project?
+
+Thanks to CSS Modules, all the styles now will live in one place and only apply to a particular component and no one else.
+
+Imagine having to add styles to the bottom of a stylesheet and making a big unorganized mess? CSS Modules helps resolve that.
