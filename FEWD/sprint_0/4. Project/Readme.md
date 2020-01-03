@@ -80,7 +80,7 @@ The add the following styling to the css file
     margin-top: 6px;
     margin-left: 55px;
     width: 75%;
-    height: 550px;
+    height: 590px;
   }
 
 ```
