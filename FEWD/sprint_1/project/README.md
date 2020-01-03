@@ -116,7 +116,7 @@ User should have a view of company's testimonials
 
 - Inside the section, there should be three unordered `li` items. 
 
-- Each `li` item should show the different testimonials provided to the company by the customers
+- Each `li` item should show the different testimonials provided to the company by the customers(i.e. Each item must have associated image and testimonial message)
 
 Refer the following image for the same:
 
