@@ -20,4 +20,6 @@ In this concept, we learnt about one of the most important phases of SDLC for Re
 
 ## How will it help the project?
 
-When you create the Airbnb project, ensure you use the full benefit of TDD. Given it will be a slow process, but it will give you immense power over writing succinct and precise code.
+With the help of TDD, you will have a greater control and a sense of security over developing a page. For example, imagine that a Login page requires only two input boxes. With the help of tests, you can ensure that your page will always have only two components - neither less nor more. Similarly, you could test for many more components.
+
+Thanks to these tests, even if your code development will be continued by another developer, he will have a clear understanding of the bare essentials your code needs.

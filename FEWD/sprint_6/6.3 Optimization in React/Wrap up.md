@@ -22,4 +22,4 @@ After learning alomst everything out there about developing, testing and deployi
 
 ## How will it help the project?
 
-With the help of these optimization techniques, you will be able to make your code efficient and deployment and user visibility easier.
+With a much better idea of the various optimization techniques and how React functions, it will help you code with a better understanding of what to create and how to create a component. For example, the concept of code splitting would help us not fetch the components which are not urgent and important. Similarly, with react-window, we can render huge lists with data saving.

@@ -23,4 +23,4 @@ In this concept, we learn about Redux and how it revolutionizes our concept of s
 
 ## How will it help the project?
 
-With the help of Redux, you will be able to create a global store in your web application. Using actions and reducers, you will be able to efficiently create a store for your project.
+For the previous sprint project, you might have faced a lot of problems when it came to passing props from children to the parent and so on. With the help of Redux and the concept of central store, you can get rid of almost all the props passing. With that, your code will be cleaner, succinct and not messy.
