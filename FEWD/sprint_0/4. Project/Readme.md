@@ -15,7 +15,7 @@ Before starting this project make sure that you have completed learning followin
 ### Web Page Mock Up
 Following is the sample of how your final page should look like. Follow the step by step tasks in order to recreate the page shown below. We encourage you to add your own data instead of the dummy data used in the following screen.
 
-![](profile.PNG)
+![](images/profile.PNG)
 
 ### User Stories
 
