@@ -22,7 +22,7 @@ User should have website navigation bar to help him traverse the website
 
 ## User Story 2:
 
-User should have search option to find the best restaurants in Mumbai.Create
+User should have search option to find the best restaurants in Mumbai.
 
 
 #### Details :
