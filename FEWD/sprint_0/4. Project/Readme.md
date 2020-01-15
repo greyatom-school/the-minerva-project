@@ -17,6 +17,9 @@ Following is the sample of how your final page should look like. Follow the step
 
 ![](images/profile.PNG)
 
+**Note: This project will be evaluated. To understand how to go about it, kindly watch this [video walkthrough](https://vimeo.com/383940265/d48675eeed)**
+
+
 ### User Stories
 
 #### User Story 1
