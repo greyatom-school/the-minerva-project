@@ -33,6 +33,12 @@ After this sprint, you will have understanding of
 
 ### What will you build?
 
+***Airbnb page***
+
+As part of coding assessment, you will be creating a replica of the famous booking site [Airbnb](https://www.airbnb.co.in/)
+
+*Note: This assessment is added for learning purposes and therefore not formally evaluated*
+
 At the end of html module you will be able to build basic html page
 
 ![airbnb html](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_1/1.Basics_of_HTML/images/wrap_up.png)
@@ -44,9 +50,11 @@ At the end of css module you should be able to build good looking css page
 
 - Sprint project: ARK studio
 
-At the end of this project you should be able to build ARK Studio landing page.
+At the end of this sprint you should be able to build an ARK Studio landing page.
 
-![ARK Studio](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_1/project/img/template.png)
+**Note: This project will be evaluated. To understand how to go about it, kindly watch this [video walkthrough](https://vimeo.com/383940265/d48675eeed)**
+
+![ARK Studio](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_1/project/img/template.jpg)
 
 # Associated Concepts
 

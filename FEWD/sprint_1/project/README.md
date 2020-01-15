@@ -4,7 +4,10 @@
 
 You are working in the big firm as front-end engineer. Your company like to hear ideas of startup and provides digital media services to it's clientele. As a front end engineer you need to create a website for your company so that client just go through your website page and they will get to know about your comapny and want services you guys are providing. Now let's create a portfolio site for your company. 
 
-![Template.png](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_1/project/img/template.png)
+![Template.png](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_1/project/img/template.jpg)
+
+**Note: This project will be evaluated. To understand how to go about it, kindly watch this [video walkthrough](https://vimeo.com/383940265/d48675eeed)**
+
 
 ### User Story 1:
 

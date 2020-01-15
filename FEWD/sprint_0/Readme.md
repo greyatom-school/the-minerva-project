@@ -22,7 +22,10 @@ After this sprint, you will have an understanding of
 
 You will be building a simple personal portfolio to highlight your personal bio.
 
-![portfolio](4.%20Project/profile.PNG)
+![portfolio](4.%20Project/images/profile.PNG)
+
+
+**Note: This project will be evaluated. To understand how to go about it, kindly watch this [video walkthrough](https://vimeo.com/383940265/d48675eeed)**
 
 
 ### Associated Concepts
