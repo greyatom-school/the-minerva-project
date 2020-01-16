@@ -6,7 +6,7 @@ GitHub offers plans for free, professional, and enterprise accounts. Free GitHub
 
 ## Learning Outcome
 
-- Why GitHub
+- Why GitHub?
 - Guidelines to follow as per industry standard
 
 ## Why GitHub
@@ -19,13 +19,13 @@ Using GitHub makes it easier to collaborate with colleagues and peers and look b
 
 ## What you must do
 
-- Understand the importance of writing good commit messages and learn how to make sure you always [follow the rules in the guide for commit messages](httpschris.beams.iopostsgit-commit)
-- Understand what [Code review](httpsmedium.compalantircode-review-best-practices-19e02780015f) is and learn it&#39;s [github implementation](httpsgithub.comfeaturescode-review).
-- Learn how to make [effective pull requests](httpsyangsu.github.iopull-request-tutorial)
-
-- Understand what [branching in github](httpsgit-scm.combookenv2Git-Branching-Basic-Branching-and-Merging). Then read about the [branching model](httpsnvie.compostsa-successful-git-branching-model) by a larger section of the industry
-- Know [what a Readme file is](httpswww.makeareadme.com) and learn [how to create a well defined one](httpsbulldogjob.comnews449-how-to-write-a-good-readme-for-your-github-project)
-- Go through a case study on [use of Github in project lifecycle](httpsproduct.hubspot.combloggit-and-github-tutorial-for-beginners). Use that knowledge to then learn [how to leverage Github to get the first job/impress a potential recruiter](httpshackernoon.comhow-to-optimize-your-github-profile-9540f338b2c9)
+- Before you go through this concept, ensure that you are thorough with the fundamentals of github. It is part of the sprint in the Foundations program. Rest of the reading material is good practices in GitHub and advanced operations inside GitHub like code review, pull requests etc. These are important tools that every web developer and software engineer needs to know.  
+- To ensure that you are a good collaborator while coding, it is important to write good commit messages and clearly convey what changes you have made to the code to your teammates. Understand the importance of writing good commit messages and learn how to make sure you always [follow the rules in the guide for commit messages](https://chris.beams.io/posts/git-commit/)
+- Code reviews are important to improve code quality and get feedback from peers. Understand what [Code review](https://medium.com/palantir/code-review-best-practices-19e02780015f) is and learn its [github implementation](https://github.com/features/code-review/).
+- Learn how to make [effective pull requests](https://yangsu.github.io/pull-request-tutorial/)
+- Understand what [branching in github](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging). Then read about the [branching model](https://nvie.com/posts/a-successful-git-branching-model/) by a larger section of the industry
+- Know [what a Readme file is](https://www.makeareadme.com/) and learn [how to create a well defined one](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- Go through a case study on [use of Github in project lifecycle](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners). Use that knowledge to then learn [how to leverage Github to get the first job/impress a potential recruiter](https://hackernoon.com/how-to-optimize-your-github-profile-9540f338b2c9)
 
 ## Summary
 
