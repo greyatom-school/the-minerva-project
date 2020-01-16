@@ -2,14 +2,12 @@
 
 By Rahul Shetty(Senior Software Engineer/Consultant (FrontEnd) - HERE Technologies)
 
-**Note:** _In the following article, you might get stumped on certain tools/ methods that a FE uses. You will get more clarity on that once you go through Sprint 4._
-
-_The following article is supposed to give you a good introductory insight and it's suggested that you go through it again after you finish Sprint 4._
+**Note:** _In the following article, you might be a little confused on certain tools/ methods that a FE uses. You will get more clarity on that once you go through Sprint 4. The following article is supposed to give you a good introductory insight and it's suggested that you go through it again after you finish Sprint 4._
 
 
 ### How is a Day in the life of a Front-End Engineer?
 
-Let me start by saying that ;A Day in the Life of; is a misnomer. It's a Half-day in the life of a FE Engineer. A whole day would be intense, inconvenient, not to mention - unacceptable.
+Let me start by saying that, A Day in the Life of, is a misnomer. It's a Half-day in the life of a FE Engineer. A whole day would be intense, inconvenient, not to mention - unacceptable.
 
 Frontend developers work either within companies or at specific web design agencies. Sometimes, they also work as freelancers. Job roles may therefore vary according to this, and also according to the size of the company or agency. For example, in smaller companies, front-end developers will frequently interact with other team members and may take on multiple roles. In larger companies, they may focus on only what's supposed to be achieved.
 
@@ -26,7 +24,7 @@ My work schedule is typically far from routine, because I'm often solving proble
 
 We also practice pair programming, so depending on the task at hand, I might sit with one of the other developers so we can work on it together. This is a fairly common practice in the web development industry, and basically enables us to pool our knowledge and brainpower to find the best solutions.
 
-Once I'm done with a task, I submit my code for review. I upload it to the testing server and to GitHub with a comment on what I've done and why, any changes I&#39;ve made and instructions on how to test it. I'll then mark it for review so that my team sees. We operate a policy whereby all code has to be reviewed by at least one other team member, so that's what this step is for. Once I've submitted my code for review, I'll stop time tracking in Ora (another project management and time tracking software) and move that task to the QA column.
+Once I'm done with a task, I submit my code for review. I upload it to the testing server and to GitHub with a comment on what I've done and why, any changes I have made and instructions on how to test it. I'll then mark it for review so that my team sees. We operate a policy whereby all code has to be reviewed by at least one other team member, so that's what this step is for. Once I've submitted my code for review, I'll stop time tracking in Ora (another project management and time tracking software) and move that task to the QA column.
 
 **1pm :** By now I'm pretty hungry and ready for a break, so we all head out for lunch. I prefer to step out for lunch as I think it's really important to get out of the office and interrupt the workflow for a bit. Allows me to refresh my mind and break the monotony. We talk politics, philosophy, bitcoin and family life over burgers before heading back to the office.
 
@@ -49,7 +47,7 @@ We have multiple guys working on the projects. Let me tell you how the work is d
 - **Frontend Developer** - Creates/Develops the user interface, implements interaction and adds business logic to talk to the backend APIs to showcase it to the user. For example, retrieves the FAQ details from backend, provides the look and feel as designed by the designer and shows it to the user.
 - **Backend Developer** - Accepts the requests from the frontend and delivers the appropriate response. Backend developers are responsible for saving, updating and deleting the data from the server. For example, user wants requests for a list of FAQs and the backend developers creates an API that sends the list.
 
-### How would you suggest newcomers to build newer capabilities &amp; learn new technologies?
+### How would you suggest newcomers to build newer capabilities and learn new technologies?
 
 Below I have listed a few pointers as recommendations. You are not restricted to stick to these points only.
 
