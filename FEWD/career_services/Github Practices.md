@@ -25,7 +25,7 @@ Using GitHub makes it easier to collaborate with colleagues and peers and look b
 
 - Understand what [branching in github](httpsgit-scm.combookenv2Git-Branching-Basic-Branching-and-Merging). Then read about the [branching model](httpsnvie.compostsa-successful-git-branching-model) by a larger section of the industry
 - Know [what a Readme file is](httpswww.makeareadme.com) and learn [how to create a well defined one](httpsbulldogjob.comnews449-how-to-write-a-good-readme-for-your-github-project)
-- Go through a case study on [use of Github in project lifecycle](httpsproduct.hubspot.combloggit-and-github-tutorial-for-beginners). Use that knowledge to then learn [how to leverage Github to get the first jobimpress a potential recruiter](httpshackernoon.comhow-to-optimize-your-github-profile-9540f338b2c9)
+- Go through a case study on [use of Github in project lifecycle](httpsproduct.hubspot.combloggit-and-github-tutorial-for-beginners). Use that knowledge to then learn [how to leverage Github to get the first job/impress a potential recruiter](httpshackernoon.comhow-to-optimize-your-github-profile-9540f338b2c9)
 
 ## Summary
 
