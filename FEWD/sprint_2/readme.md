@@ -46,7 +46,7 @@ As part of coding assessment, you will be creating a replica of the famous commu
 
 After successfully completing this sprint, you'll be building the Zomato: Landing Page. Excited? ;)
 
-**Note: This project will be evaluated. To understand how to go about it, kindly watch this [video walkthrough](https://vimeo.com/383940265/d48675eeed)**
+*Note: This project will be evaluated. To understand how to go about it, kindly watch this [video walkthrough](https://vimeo.com/383940265/d48675eeed)*
 
 
 
