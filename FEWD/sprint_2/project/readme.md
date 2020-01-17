@@ -130,7 +130,7 @@ User should have access to quick searches based on food type.
 User should have understanding of popular localities in and around <u>`your location`</u>.
 
 *Reference image:*
-![](images/us_5.png)
+![](images/us_5.PNG)
 
 
 #### Details :
@@ -156,7 +156,7 @@ User should have understanding of popular localities in and around <u>`your loca
 User should have footer widget with `About Zomato` , `For Foodies` and `For Restaurant` information.
 
 *Reference image:*
-![](images/us_6.png)
+![](images/us_6.PNG)
 
 
 #### Details :
