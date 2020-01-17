@@ -102,8 +102,8 @@ User should have access to order a food on their prime location.
 
 User should have access to quick searches based on food type.
 
-# *Reference image:*
-![](images/us_4.png)
+*Reference image:*
+![](images/us_4.PNG)
 
 
 
