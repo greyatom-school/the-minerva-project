@@ -171,7 +171,7 @@ User should have a footer widget with "Location", "Company Vision" ,"Support", "
 
 ![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_1/project/img/us_64.PNG)
 
-- Inside the `footer` at the bottom of the page, create a `p` element with class `"rights"` and text: "� 2014 ARK Studio  -  All Rights Reserved"
+- Inside the `footer` at the bottom of the page, create a `p` element with class `"rights"` and text: "2014 ARK Studio  -  All Rights Reserved"
 
 *Reference image:*
 
