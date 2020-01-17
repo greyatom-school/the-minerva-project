@@ -23,29 +23,37 @@ After this sprint, you will have an understanding of
 - What are the tools and techniques used to build responsive web pages?
 - What are the strategies used to build responsive web pages?
 - What are the best practices of responsive web design?
-- What are the different types of layout in responsive web design?
+- What are the different types of layout in responsive web design? 
 - What are CSS pre-processors?
 - What's the popular library used to make sites resposive?
 
 ### What will you build?
 
-- Throughout the concept you will be build 
-[stackoverflow](https://stackoverflow.com/)
+***Stackoverflow landing page***
+
+As part of coding assessment, you will be creating a replica of the famous community developer forum [Stackoverflow](https://stackoverflow.com/)
+
+
+*Note #1: The page you will be building is the landing page(So it's recommended you open the stackoverflow link in incognito mode)*
+
+*Note #2: This assessment is added for learning purposes and therefore not formally evaluated*
+
+
+
 
 - Sprint End project
 
 
 After successfully completing this sprint, you'll be building the Zomato: Landing Page. Excited? ;)
 
+**Note: This project will be evaluated. To understand how to go about it, kindly watch this [video walkthrough](https://vimeo.com/383940265/d48675eeed)**
+
+
+
 |Normal View| Responsive View|
 |--|--|
 |![zomato.png](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/zomato.png)|![zomato.png](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/zomato-mob.png)|
 
-
-
-### Learning Outcomes
-
-After this sprint, you will have an understanding of
 
 **Basics of Responsive design**
 
