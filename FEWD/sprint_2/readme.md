@@ -33,6 +33,7 @@ After this sprint, you will have an understanding of
 
 As part of coding assessment, you will be creating a replica of the famous community developer forum [Stackoverflow](https://stackoverflow.com/)
 
+You can find the images required for this page [here](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_2/images)
 
 *Note #1: The page you will be building is the landing page(So it's recommended you open the stackoverflow link in incognito mode)*
 
