@@ -23,7 +23,12 @@ All the elements that you have to build must satisfy the following conditions:
 User should have website navigation bar to help him traverse the website
 
 *Reference image:*
-![](images/us_1.PNG)
+
+|Normal View|Responsive View|
+|--|--|
+|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/us_1.PNG)|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/mus_1.PNG)|
+
+
 
 
 #### Details :
@@ -52,8 +57,10 @@ User should have website navigation bar to help him traverse the website
 User should have search option to find the restaurants in town.
 
 *Reference image:*
-![](images/us_2.PNG)
 
+|Normal View|Responsive View|
+|--|--|
+|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/us_2.PNG)|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/mus_2.PNG)|
 
 #### Details :
 
@@ -73,8 +80,10 @@ User should have access to order a food on their prime location.
 
 *Reference image:*
 
-![](images/us_3.PNG)
 
+|Normal View|Responsive View|
+|--|--|
+|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/us_3.PNG)|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/mus_3.PNG)|
 
 #### Details :
 
@@ -93,8 +102,10 @@ User should have access to order a food on their prime location.
 
 *Reference image ('Collections' components):*
 
-![](images/us_31.PNG)
 
+|Normal View|Responsive View|
+|--|--|
+|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/us_31.PNG)|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/mus_31.PNG)|
 
 
 	
@@ -103,8 +114,10 @@ User should have access to order a food on their prime location.
 User should have access to quick searches based on food type.
 
 *Reference image:*
-![](images/us_4.PNG)
 
+|Normal View|Responsive View|
+|--|--|
+|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/us_4.PNG)|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/mus_4.PNG)|
 
 
 #### Details :
@@ -130,8 +143,10 @@ User should have access to quick searches based on food type.
 User should have understanding of popular localities in and around <u>`your location`</u>.
 
 *Reference image:*
-![](images/us_5.PNG)
 
+|Normal View|Responsive View|
+|--|--|
+|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/us_5.PNG)|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/mus_5.PNG)|
 
 #### Details :
 
@@ -156,8 +171,10 @@ User should have understanding of popular localities in and around <u>`your loca
 User should have footer widget with `About Zomato` , `For Foodies` and `For Restaurant` information.
 
 *Reference image:*
-![](images/us_6.PNG)
 
+|Normal View|Responsive View|
+|--|--|
+|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/us_6.PNG)|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_2/project/images/mus_6.PNG)|
 
 #### Details :
 
