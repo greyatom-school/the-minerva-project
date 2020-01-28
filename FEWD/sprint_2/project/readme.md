@@ -28,7 +28,7 @@ User should have website navigation bar to help him traverse the website
 
 #### Details :
 
-- Create a `header` with class name `"header-container"`
+- Create a `header` with class name `"h-container"`
 - Inside header create `div`
 - The `div` should have three `li` items. 
 	- The list items should be `<a>` elements with the ids: `"nav_item_1"`,`"nav_item_2"`,`"nav_item_3"`
@@ -59,7 +59,7 @@ User should have search option to find the restaurants in town.
 
 
 - Create a `section` with class name `"banner"` and inside the section create `div` with class name `"search-restaurant"`. 
-	- Inside the `div` create `input` element with id `"search-res"` where `type= "text"` and `placeholder= "Search for restaurants or cuisines..."`
+	- Inside the `div` create `input` element with id `"search-rest"` where `type= "text"` and `placeholder= "Search for restaurants or cuisines..."`
 
 - Add a `button` for search with class `"search-btn"` and display text `"Search"`
 
@@ -117,7 +117,7 @@ User should have access to quick searches based on food type.
 	- Create a `p` element with id `"cat-subtitle"`
 	and text `"Discover restaurants by type of meal"`
 
-	- Create an unordered list(`ul`) with id `"category-list"` that has eight children `li` items
+	- Create an unordered list(`ul`) with class `"category-list"` that has eight children `li` items
 	
 	- `li` items are `img` elements with the associated texts-
 	 `Delivery`, `Pocket-Friendly Delivery`, `Breakfast`, `Lunch`, `Dinner`, `Drinks & Nightlife`, `Cafes` and `Desserts & Bakes` respectively. 
