@@ -1,9 +1,16 @@
 
-## Assignment: News aggregator
-### Problem Statement
-We have provided you with the required boilerplate to build this project.
+## Assignment: News aggregator application
 
-##### Task 1
+### Problem Statement
+
+You are working in a media startup called 'News2You'. Your company wants to create an app which fetches latest news and enables you to search/filter the same.
+
+As proof of concept(POC), they need you to come up with a news aggregator using an existing api.
+
+As part of Sprint 3 project, you will be building the same
+
+### Pre-requisites
+
 Register an account with [https://newsapi.org/](https://newsapi.org/).
 
 After you have registered an account, go through this doc - [https://newsapi.org/docs/endpoints/top-headlines](https://newsapi.org/docs/endpoints/top-headlines). You'll learn how to retrieve the latest news and you can query based on country code
@@ -12,31 +19,6 @@ So, for example, if I have to get the latest news available in India, below is t
 
 https://newsapi.org/v2/top-headlines?country=in&apiKey=[your-api-key]
 
-Use `fetch()` API to make a rest API call to retrieve the list of news articles.
-
-##### Task 2
-The User Interface of the list of news article should look like the image shown below. Clicking on the news article should take the user to the actual news site. URL for the same can be found in the article details.
-
-We do not expect you to exactly place 4 or 5 news article on the same line. This image is to give you an idea of what's expected. Importance would be given to symmetry and alignment.
-
-**Hint:** To ellipsis use pure css. There are css properties that allow it but it won't work for older browser. It's okay if it isn't compatible. The goal is for you to know about such properties to use them in future.
-
-![News aggregator](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_3/project/news_aggregator.png)
-
-##### Task 3
-As seen in the image of the UI above, we have a search bar.
-
-Please take a look at this documentation: [https://newsapi.org/docs/endpoints/everything](https://newsapi.org/docs/endpoints/everything)
-
-You'll see that you can query for news with whatever was searched by the user. For example, I can type **apple** and get news related to apple and render it on the screen.
-
-On clearing the search input, reset to the original state which shows top headlines.
-
-##### Task 4
-Show animated loader of your choice when the data is being fetched from the API.
-
-##### Task 5
-Try to make the page responsive if time permits.
 
 #### Input
 List of news from [https://newsapi.org/](https://newsapi.org/)
@@ -50,3 +32,89 @@ List of news from [https://newsapi.org/](https://newsapi.org/)
 - Use `fetch()` API
 - Show animated loader when data is being fetched
 - Don't use jQuery though you are free to use lodash
+- Make the page responsive
+
+### User Story 1:
+
+When user opens the app, he should be able to view the top headlines fetched by the API
+
+*Reference image:*
+![](news-aggregator/images/us_1.PNG)
+
+
+#### Details: 
+
+- Make a rest API call to retrieve the top headlines(The default count is 20, keep it the same way) [Evaluated]
+
+- Store the headlines as an unordered list(`ul`) with id `"news-articles"` and list elements(`li`) with class name `"article"`
+
+- Each `"article"` element should have: [Evaluated]
+    - article image (`img` element with class name `"article-img"`)
+    -  article title (`h2` element with class name `"article-title"`)
+    - article description(`p` element with class name `"article-description"`)
+    - article author (`span` element with class name `"article-author"`) 
+    - article link (`a` element with class name `"article-link"`)
+  
+
+- Display them in the page with card view      
+![](news-aggregator/images/us_11.PNG)
+
+- Add hovering effect on the news item card[Evaluated]
+
+- Add remaining CSS styling of your choice
+
+
+***Additional Notes:***
+- Clicking on the news article should take the user to the actual news site. 
+
+- We do not expect you to exactly place 4 or 5 news article on the same line. The reference image is to give you an idea of what's expected. Importance would be given to symmetry and alignment.
+
+- To ellipsis, use pure css. There are css properties that allow it but it won't work for older browser. It's okay if it isn't compatible. The goal is for you to know about such properties to use them in future.
+
+
+
+### User Story 2
+
+- Enable the search bar in the landing page
+  - Search bar is an `"input"` element with id `"search"` and placeholder text `"Type and press enter to search"` [Evaluated]
+    
+
+*Reference image:*
+![](news-aggregator/images/us_2.PNG)
+
+
+#### Details: 
+
+- Enable the search functionality
+    - Go through this documentation: [https://newsapi.org/docs/endpoints/everything](https://newsapi.org/docs/endpoints/everything) (You'll see that you can query for news with whatever was searched by the user. For example, I can type **apple** and get news related to apple and render it on the screen)
+
+    - When valid searches are made, ensure the associated news items are displayed[Evaluated]
+
+    *Reference Image:*
+     
+    ![](news-aggregator/images/us_21.PNG)
+
+    - When invalid searches(For eg: "asasdasd") are made, ensure that the screen displays `"No article was found based on the search."`(Put the text in an element with class name `"not-found"`)[Evaluated]
+
+    *Reference Image:*
+     
+    ![](news-aggregator/images/us_22.PNG) 
+
+    - On clearing the search input, reset to the original state which shows top headlines.[Not Evaluated]
+
+    - Show animated loader of your choice when the data is being fetched from the API.[Not Evaluated]
+
+
+
+
+*Note:* The above mentioned user stories are absolutely expected from you to implemented. Along with that we have also defined stretch goals that you may attempt in order to improve the app as well as your skills.
+
+### Stretch Goals
+
+
+- Enable pagination for searches
+
+- Enable ability to switch between dark mode(Background is black) and light mode(Background is white)
+
+
+ 
