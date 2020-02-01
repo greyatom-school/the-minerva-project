@@ -29,15 +29,22 @@ After this sprint, you will have an understanding of
 
 ### What will you build?
 
-You'd also build a quiz app by displaying questions with options for user to provide an answer.
+***Quiz App***
 
-![Quiz App](ajc/storage/quiz.png)
+As part of coding assessment, you will be a quiz app by displaying questions with options for user to provide an answer
 
-- Sprint end project
+Note: This assessment is added for learning purposes and therefore not formally evaluated
 
-You will be building a standalone app to show the latest news and search for news based on news search.
+![Quiz App](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_3/3.%20Advance%20Javascript%20concepts/storage/quiz.png)
 
-![News App](news_aggregator/news_aggregator.png)
+***Sprint End Project: News Aggregator Application***
+
+After successfully completing this sprint, you'll be building a standalone app to show the latest news and search for news based on news search.
+
+Note: This project will be evaluated. To understand how to go about it, kindly watch this [video walkthrough](https://vimeo.com/383940265/d48675eeed)
+
+
+![News App](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_3/project/news_aggregator.png)
 
 ### Associated Concept
 

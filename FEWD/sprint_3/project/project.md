@@ -1,5 +1,5 @@
 
-## Assignment: News aggregator application
+## Assignment: News aggregator
 
 ### Problem Statement
 
@@ -11,9 +11,9 @@ As part of Sprint 3 project, you will be building the same
 
 ### Pre-requisites
 
-Register an account with [https://newsapi.org/](https://newsapi.org/).
+Register an account with [newsapi](https://newsapi.org/).
 
-After you have registered an account, go through this doc - [https://newsapi.org/docs/endpoints/top-headlines](https://newsapi.org/docs/endpoints/top-headlines). You'll learn how to retrieve the latest news and you can query based on country code
+After you have registered an account, go through this [doc](https://newsapi.org/docs/endpoints/top-headlines). You'll learn how to retrieve the latest news and you can query based on country code
 
 So, for example, if I have to get the latest news available in India, below is the API:
 
@@ -39,16 +39,15 @@ List of news from [https://newsapi.org/](https://newsapi.org/)
 When user opens the app, he should be able to view the top headlines fetched by the API
 
 *Reference image:*
-![](news-aggregator/images/us_1.PNG)
-
+![](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_3/project/images/us_1.PNG)
 
 #### Details: 
 
-- Make a rest API call to retrieve the top headlines(The default count is 20, keep it the same way) [Evaluated]
+- Make a rest API call to retrieve the top headlines(The default count is 20, keep it the same way)
 
 - Store the headlines as an unordered list(`ul`) with id `"news-articles"` and list elements(`li`) with class name `"article"`
 
-- Each `"article"` element should have: [Evaluated]
+- Each `"article"` element should have:
     - article image (`img` element with class name `"article-img"`)
     -  article title (`h2` element with class name `"article-title"`)
     - article description(`p` element with class name `"article-description"`)
@@ -57,9 +56,9 @@ When user opens the app, he should be able to view the top headlines fetched by 
   
 
 - Display them in the page with card view      
-![](news-aggregator/images/us_11.PNG)
+![](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_3/project/images/us_11.PNG)
 
-- Add hovering effect on the news item card[Evaluated]
+- Add hovering effect on the news item card
 
 - Add remaining CSS styling of your choice
 
@@ -75,34 +74,34 @@ When user opens the app, he should be able to view the top headlines fetched by 
 
 ### User Story 2
 
-- Enable the search bar in the landing page
-  - Search bar is an `"input"` element with id `"search"` and placeholder text `"Type and press enter to search"` [Evaluated]
-    
+Enable the search functionality for users to filter news based on the search keyword
 
 *Reference image:*
-![](news-aggregator/images/us_2.PNG)
-
+![](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_3/project/images/us_2.PNG)
 
 #### Details: 
 
-- Enable the search functionality
+- Create a search bar in the landing page
+  - Search bar is an `"input"` element with id `"search"` and placeholder text `"Type and press enter to search"` [Evaluated]
+    
+- Enable the search functionality in the search bar
     - Go through this documentation: [https://newsapi.org/docs/endpoints/everything](https://newsapi.org/docs/endpoints/everything) (You'll see that you can query for news with whatever was searched by the user. For example, I can type **apple** and get news related to apple and render it on the screen)
 
-    - When valid searches are made, ensure the associated news items are displayed[Evaluated]
+    - When valid searches are made, ensure the associated news items are displayed
 
     *Reference Image:*
      
-    ![](news-aggregator/images/us_21.PNG)
+    ![](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_3/project/images/us_21.PNG)
 
-    - When invalid searches(For eg: "asasdasd") are made, ensure that the screen displays `"No article was found based on the search."`(Put the text in an element with class name `"not-found"`)[Evaluated]
+    - When invalid searches(For eg: "asasdasd") are made, ensure that the screen displays `"No article was found based on the search."`(Put the text in an element with class name `"not-found"`)
 
     *Reference Image:*
      
-    ![](news-aggregator/images/us_22.PNG) 
+    ![](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_3/project/images/us_22.PNG) 
 
-    - On clearing the search input, reset to the original state which shows top headlines.[Not Evaluated]
+    - On clearing the search input, reset to the original state which shows top headlines.
 
-    - Show animated loader of your choice when the data is being fetched from the API.[Not Evaluated]
+    - Show animated loader of your choice when the data is being fetched from the API.
 
 
 
