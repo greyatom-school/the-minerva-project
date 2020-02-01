@@ -51,6 +51,7 @@ Note: This project will be evaluated. To understand how to go about it, kindly w
 **Basics of JavaScript programming**
 
 - [Intro to JS variables and operators](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_3/1.Basics%20of%20Javascript%20programming/1.1%20-%20Intro_to_js_variables_and_operators.md)
+
 - [Control flow and error handling](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_3/1.Basics%20of%20Javascript%20programming/1.2%20-%20Control_flow_and_error_handling%20.md)
 - [Functions and OOPs](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_3/1.Basics%20of%20Javascript%20programming/1.3%20-%20Functions_and_oop.md)
 - [Data structures](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_3/1.Basics%20of%20Javascript%20programming/1.4%20-%20Data_structures.md)
