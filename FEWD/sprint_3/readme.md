@@ -37,6 +37,8 @@ Note: This assessment is added for learning purposes and therefore not formally 
 
 ![Quiz App](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_3/3.%20Advance%20Javascript%20concepts/storage/quiz.png)
 
+If you are stuck in between, you can refer to the complete solution of the project [here](https://drive.google.com/file/d/1hUn72omMXAbkNv6VkNsCS_uxnlOJjxmZ/view?usp=sharing)
+
 ***Sprint End Project: News Aggregator Application***
 
 After successfully completing this sprint, you'll be building a standalone app to show the latest news and search for news based on news search.
