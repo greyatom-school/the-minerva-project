@@ -1,4 +1,4 @@
-# Sprint 2 - Responsive Web Design
+﻿# Sprint 2 - Responsive Web Design
 
 ## Overview
 
@@ -39,7 +39,7 @@ You can find the images required for this page [here](https://github.com/greyato
 
 *Note #2: This assessment is added for learning purposes and therefore not formally evaluated*
 
-
+If you are stuck in between, you can refer to the complete solution of the project [here](https://drive.google.com/file/d/1Gy9IZJE5HREwPPyfBR-0OI1Go6-91OGD/view?usp=sharing)
 
 
 **Sprint End project: Zomato Landing Page**
