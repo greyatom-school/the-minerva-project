@@ -48,6 +48,9 @@ At the end of css module you should be able to build good looking css page
 
 ![airbnb project](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_1/2.Basics_of_CSS/images/final.png)
 
+
+If you are stuck in between, you can refer to the complete solution of the project [here](https://drive.google.com/file/d/1tShhhm-8YOomj9zbJmMqhpqs0aEWjIAJ/view?usp=sharing)
+
 - Sprint project: ARK studio
 
 At the end of this sprint you should be able to build an ARK Studio landing page.
