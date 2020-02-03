@@ -28,6 +28,7 @@ List of news from [https://newsapi.org/](https://newsapi.org/)
 - Search bar to search news
 
 #### Constraints
+- Ensure that irrespective of your method, you always set the port value=3000(In the boilerplate code inside "webpack.config.dev", we have set dev port as 3000). Otherwise test cases will get stuck.
 - Use async/await
 - Use `fetch()` API
 - Show animated loader when data is being fetched
