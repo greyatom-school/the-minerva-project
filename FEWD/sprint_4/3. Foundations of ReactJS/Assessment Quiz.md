@@ -2,7 +2,7 @@
 
 1.	Which of the following needs to be updated to achieve dynamic UI updates?
 
-a.	State [Correct answer]
+a.	State 
 
 b.	Props
 
@@ -11,7 +11,7 @@ b.	Props
 
 a.	state
 
-b.	this.state [Correct answer]
+b.	this.state 
 
 c.	this.getState()
 
@@ -20,7 +20,7 @@ c.	this.getState()
 
 a.	True
 
-b.	False [Correct answer]
+b.	False 
 
 
 4.	Which of the following is the correct syntax for click handler on a button?
@@ -29,7 +29,7 @@ a.	`<button onClick={this.clickHandler()}></button>`
 
 b.	`<button onclick={this.clickHandler()}></button>`
 
-c.	`<button onClick={this.clickHandler}></button>` [Correct answer]
+c.	`<button onClick={this.clickHandler}></button>` 
 
 d.	`<button onclick={this.clickHandler}></button>`
 
@@ -40,7 +40,7 @@ a.	Calling setState inside render method is allowed.
 
 b.	You cannot call map function inside a render method as JavaScript is not allowed inside render.
 
-c.	Adding parentheses while calling functions inside an onClick will cause the function to be called instantly. [Correct answer]
+c.	Adding parentheses while calling functions inside an onClick will cause the function to be called instantly. 
 
 
 6.	Which of the following lifecycle is called before the rest during an update?
@@ -51,7 +51,7 @@ b.	componentDidMount
 
 c.	componentShouldUpdate
 
-d.	getDerivedStateFromProps [Correct answer]
+d.	getDerivedStateFromProps 
 
 
 
@@ -59,7 +59,7 @@ d.	getDerivedStateFromProps [Correct answer]
 
 a.	By letting the DOM take control over the flow of elements.
 
-b.	By manually defining the onChange and the value properties of elements. [Correct answer]
+b.	By manually defining the onChange and the value properties of elements. 
 
 c.	By defining only the onChange property of elements.
 
@@ -68,12 +68,12 @@ c.	By defining only the onChange property of elements.
 
 a.	True. 
 
-b.	False. [Correct answer]
+b.	False. 
 
 
 9.	A form element becomes ______ if you set its value via a prop.
 
-a.	Controlled. [Correct answer]
+a.	Controlled. 
 
 b.	Uncontrolled.
 
@@ -82,5 +82,5 @@ b.	Uncontrolled.
 
 a.	Stateful.
 
-b.	Stateless. [Correct answer]
+b.	Stateless. 
 

@@ -4,7 +4,7 @@
 
 a.	Waterfall model
 
-b.	Iterative model [Correct answer]
+b.	Iterative model
 
 c.	V model
 
@@ -13,23 +13,23 @@ c.	V model
 
 a.	Design phase
 
-b.	Feasibility study phase [Correct answer]
+b.	Feasibility study phase 
 
 c.	Coding phase
 
 
 3.	Who is the stakeholder responsible for creating mockups to be created into full-fledged product?
 
-a.	UX/UI designer [Correct answer]
+a.	UX/UI designer 
 
 b.	Customer
 
 c.	Developer
 
 
-4.	In waterfall model, output of one phase is input to the next phase â€“ True or False?
+4.	In waterfall model, output of one phase is input to the next phase – True or False?
 
-a.	True [Correct answer]
+a.	True 
 
 b.	False
 
@@ -42,7 +42,7 @@ b.	Alpha testing
 
 c.	Unit testing
 
-d.	Smoke testing [Correct answer]
+d.	Smoke testing 
 
 
 6.	Which of the following is NOT a type of maintenance work in SDLC?
@@ -51,18 +51,18 @@ a.	Enhancement
 
 b.	Upgrade
 
-c.	Requirement analysis [Correct answer]
+c.	Requirement analysis 
 
 d.	Bug fixing
 
 
-7.	An iterative process in which system requirements are converted to a working system that is continually revised through close interaction between user and analyst is calledâ€¦
+7.	An iterative process in which system requirements are converted to a working system that is continually revised through close interaction between user and analyst is called…
 
 a.	Waterfall model.
 
 b.	Iterative model.
 
-c.	Spiral model. [Correct answer]
+c.	Spiral model. 
 
 
 8.	Which of the following SDLC methods are NOT good to be used if the requirements are not fixed?
@@ -71,13 +71,13 @@ a.	Waterfall Model.
 
 b.	V Model.
 
-c.	Agile Model. [Correct answer]
+c.	Agile Model. 
 
 9.	______ is the process of moving the code (HTML, CSS, JS, images) to a hosting platform.
 
 a.	Maintenance.
 
-b.	Deployment. [Correct answer]
+b.	Deployment. 
 
 c.	Development.
 
@@ -92,6 +92,6 @@ b.	Usage of rejected code.
 
 c.	Stakeholders to be involved in every phase.
 
-d.	Client details and user interview questions. [Correct answer]
+d.	Client details and user interview questions. 
 
 
