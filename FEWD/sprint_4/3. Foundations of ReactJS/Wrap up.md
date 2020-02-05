@@ -33,7 +33,7 @@ In this concept, we learned the basics of how to create applications inside Reac
 All the different ReactJS concepts(Components, States, Proptypes, etc.) that you just learned should help you build the 'Financial Portfolio Tracker' app( i.e Everything except the deployment part)
 
 
-Before moving onto the final concept, take a look at the [Project](../Project/README.md) and list down each functionality of the 'Financial Portfolio Tracker' app & relate it with the ReactJS concepts you just onboarded.
+Before moving onto the final concept, take a look at the [Project](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/5.%20Project/README.md) and list down each functionality of the 'Financial Portfolio Tracker' app & relate it with the ReactJS concepts you just onboarded.
 
 For eg:
 

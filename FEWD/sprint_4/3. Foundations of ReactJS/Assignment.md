@@ -9,14 +9,14 @@ Complete the following tasks:
 
 For example, initially all the counters are zero. So, the center will look something like this:
 
-![](../images/BMB4.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB4.PNG)
 
 If the user clicks once on salad counter, the center will get updated to:
  
-![](../images/BMB51.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB51.PNG)
 
 Similarly, if the user clicks twice on cheese in addition to the above, it will look like:
-  ![](../images/BMB61.PNG)
+  ![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB61.PNG)
 
 
 2.	Create a form inside the modal which currently shows the user’s order details. The form should be a controlled component and it should ask for:
@@ -32,12 +32,10 @@ Make sure you use PropTypes for validation.
 
 Add another button at the end of the modal which shows ‘Place Order’. 
 
-![](../images/BMB7.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB7.PNG)
 
 
 On clicking of this button, the modal should close and a message should be shown that the order is placed.     
 
-![](../images/BMB8.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB8.PNG)
 
-
-## Assignment Submission Details

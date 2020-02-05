@@ -41,5 +41,5 @@ No matter where you work or what type of projects you are doing, the topics cove
 
 Before starting the 'Financial Portfolio Tracker' project, think of the answers to the following questions(till Testing) to create the optimum app
 
-![](../images/webdev.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/webdev.PNG)
 

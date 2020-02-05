@@ -34,11 +34,11 @@ Just to show the power of React, following is comparision of the financial portf
 
 **With ReactJS**
 
-![](../images/FP1.png)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/FP1.png)
 
 **Without ReactJS**
 
-![](../images/FP2.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/FP2.PNG)
 
 As ridiculous the blank screen may seem, after writing your first ReactJS code, you must have understood that all the elements and components of a React Application are populated by React itself.
 That means without any React code files, we will have only blank screen in the application.
