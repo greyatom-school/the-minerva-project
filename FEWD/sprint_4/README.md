@@ -37,7 +37,7 @@ At the end of this sprint, you will be able to build powerful, fast, user-friend
 
 - Personal Profile Page
 
-![](images/profile.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/profile.PNG)
 
 In order to get you more familiar with the ‘React’ way of coding, we will revisit the personal profile page you created in Sprint 0 and recreate it entirely using React.
 
@@ -45,18 +45,18 @@ In order to get you more familiar with the ‘React’ way of coding, we will re
 
 - 'My Burger' Project
 
-![](images/BMB0.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB0.PNG)
 
 It's features will include:
 1. Choosing the ingredients
 
-![](images/BMB1.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB1.PNG)
 
 2. Placing an order
 
 |Order View 1|Order View 2|
 |---|---|
-|![](images/BMB2.PNG)|![](images/BMB8.PNG)|
+|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB2.PNG)|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB8.PNG)|
 
 
 ---
@@ -65,7 +65,7 @@ It's features will include:
 
 
 
-![](images/FP1.png)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/FP1.png)
 
 
 By the end of the sprint, you should be able to build a Finance Portfolio Tracker with the following functionalities:

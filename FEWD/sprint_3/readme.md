@@ -31,7 +31,7 @@ After this sprint, you will have an understanding of
 
 ***Quiz App***
 
-As part of coding assessment, you will be a quiz app by displaying questions with options for user to provide an answer
+As part of coding assessment, you will be building a quiz app by displaying questions with options for user to provide an answer
 
 Note: This assessment is added for learning purposes and therefore not formally evaluated
 
