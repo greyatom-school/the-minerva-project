@@ -37,15 +37,27 @@ At the end of this sprint, you will be able to build powerful, fast, user-friend
 
 - Personal Profile Page
 
+As part of coding assessment, you will be re-creating the 'Personal Profile' page.
+
 ![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/profile.PNG)
 
-In order to get you more familiar with the ‘React’ way of coding, we will revisit the personal profile page you created in Sprint 0 and recreate it entirely using React.
+In order to get you more familiar with the ‘React’ way of coding, we will revisit the personal profile page you created in Sprint 0 and recreate it entirely using React
+
+*Note: You can use the code you wrote for Sprint 0 here*
+
 
 ---
 
 - 'My Burger' Project
 
+As part of coding assessment, you will also be creating a 'Build my Burger' app.
+
 ![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB0.PNG)
+
+
+
+*Note: This assessment is added for learning purposes and therefore not formally evaluated*
+
 
 It's features will include:
 1. Choosing the ingredients
@@ -57,6 +69,9 @@ It's features will include:
 |Order View 1|Order View 2|
 |---|---|
 |![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB2.PNG)|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB8.PNG)|
+
+
+If you are stuck in between, you can refer to the complete solution of the project [here](https://drive.google.com/file/d/1zBj66Ew-0SOWshNsGJ-GhEWjJzJRbg9N/view?usp=sharing)
 
 
 ---
@@ -73,6 +88,11 @@ By the end of the sprint, you should be able to build a Finance Portfolio Tracke
 - Adding a stock(from the given list of companies)
 
 - Viewing your stocks compared to the current price(Fetched by an API)
+
+
+*Note: This project will be evaluated. To understand how to go about it, kindly watch this [video walkthrough](https://vimeo.com/383940265/d48675eeed)*
+
+
 
 ## Associated Concepts
 
