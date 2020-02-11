@@ -83,7 +83,7 @@ Enable the search functionality for users to filter news based on the search key
 #### Details: 
 
 - Create a search bar in the landing page
-  - Search bar is an `"input"` element with id `"search"` and placeholder text `"Type and press enter to search"` [Evaluated]
+  - Search bar is an `"input"` element with id `"search"` and placeholder text `"Type and press enter to search"
     
 - Enable the search functionality in the search bar
     - Go through this documentation: [https://newsapi.org/docs/endpoints/everything](https://newsapi.org/docs/endpoints/everything) (You'll see that you can query for news with whatever was searched by the user. For example, I can type **apple** and get news related to apple and render it on the screen)

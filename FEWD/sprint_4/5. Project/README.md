@@ -71,7 +71,8 @@ Accordingly, create the folder structure corresponding to the components you lis
 
 #### Home Page
 
-![Home Page](Screens/FP1.png)
+![Home Page](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens/FP1.png)
+
 This is how your home page will look like.
 
 At any point it should always show the user's stocks('My Stocks')
@@ -79,7 +80,7 @@ and display the list of stocks that can be added('Add stocks to my stocks')
 
 #### Add Stocks Page
 
-![Modal](Screens/FP2.png)
+![Modal](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens/FP2.PNG)
 
 On clicking the stock button in **Add stocks to my stocks** section, this modal will open up with the following details:
 
@@ -113,7 +114,7 @@ The owned stocks table should have the following columns:
 
 
 It should look similar to the following:
-![](Screens/US11.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens/US11.PNG)
 
 
 **Note:** In the beginning, since we have not tracked any stocks, use conditional rendering to show that no stocks have been selected.
@@ -134,7 +135,7 @@ Create the lower container with the class name `"AddStocksTitle"`. That should h
 
 It should look similar to the following:
 
-![](Screens/US21.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens/US21.PNG)
 
 
 
@@ -145,7 +146,7 @@ Additionally, a modal should pop up which asks the user to enter the number of s
 The modal should be pre-filled with the stock name, buy price and date of buying the stocks input. Along with that it  should provide empty containers for the inputs
 
 It should look similar to the following:
-![](Screens/US22.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens/US22.PNG)
 
 Following checks should also be there:
 
@@ -184,7 +185,7 @@ It will look similar to the following (Amazon Stocks is the stocks that is being
 
 |Before|After clicking `Stop Tracking`|
 |---|---|
-|![](Screens/US41.PNG)|![](Screens/US42.PNG)|
+|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens//US41.PNG)|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens//US42.PNG)|
 
 ---
 
