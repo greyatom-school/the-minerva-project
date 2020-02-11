@@ -4,21 +4,21 @@
 
         a.	Refs.
         b.	Portals.
-        c.	Context. [Correct answer]
+        c.	Context. 
         d.	Fragments.
 
 
 2.	We can enable identifying the legacy APIs by using __________.
 
         a.	<React.Fragment>
-        b.	<React.StrictMode> [Correct answer]
+        b.	<React.StrictMode> 
         c.	<React.ErrorBoundary>
         d.	None of the above.
 
 
 3.	_____ hook accepts a function that contains imperative, possibly effectful code.
 
-        a.	useEffect. [Correct answer]
+        a.	useEffect. 
         b.	useLayoutEffect.
         c.	useContext.
         d.	useRef.
@@ -26,20 +26,20 @@
 
 4.	It is not recommended to use Hooks inside conditions. - True or False?
 
-        a.	True. [Correct answer]
+        a.	True. 
         b.	False.
 
 
 5.	If we change the element from ```<p>``` to ```<span>```, will the entire DOM tree be reconstructed?
 
-        a.	Yes. [Correct answer]
+        a.	Yes. 
         b.	No.
 
 
 6.	What is the short syntax for Fragments?
 
         a.	<Fr>
-        b.	<> [Correct answer]
+        b.	<> 
         c.	<Frag>
         d.	<Fg>
 
@@ -47,24 +47,24 @@
 7.	Higher Order Components can be used inside the render method. – True or False?
 
         a.	True.
-        b.	False. [Correct answer]
+        b.	False. 
 
 
 8.	StrictMode checks are done in development mode only. – True or False?
 
-        a.	True. [Correct answer]
+        a.	True. 
         b.	False.
 
 
 9.	Can refs be used in functional components without React hooks?
 
         a.	Yes.
-        b.	No. [Correct answer]
+        b.	No. 
 
 
 10.	It is very crucial to label every form element for Accessibility. – True or False?
 
-        a.	True. [Correct answer]
+        a.	True. 
         b.	False.
 
 
