@@ -68,7 +68,7 @@ User should have search option to find the restaurants in town.
 - Create a `section` with class name `"banner"` and inside the section create `div` with class name `"search-restaurant"`. 
 	- Inside the `div` create `input` element with id `"search-rest"` where `type= "text"` and `placeholder= "Search for restaurants or cuisines..."`
 
-- Add a `button` for search with class `"search-btn"` and display text `"Search"`
+- Add a `button` for search with id `"search-btn"` and display text `"Search"`
 
 - Add Zomato logo above the search bar/button with the text `"Find the best restaurants, cafés, and bars in Mumbai"`
 
@@ -90,7 +90,7 @@ User should have access to order a food on their prime location.
 
 - Create a `div` with class `widget`. Add the following things inside the `div`	
 	- Add `h4` heading `Enter your delivery location`
-    - Create `input` element with class name `"search-del"` where `type= "text"` and  `placeholder= "Type delivery location here"`
+    - Create `input` element with id `"search-del"` where `type= "text"` and  `placeholder= "Type delivery location here"`
 	- Add a `button` for search with class `"detect-btn"` and display text `"Detect"`
 	- Add another button for ordering with class=`"order-btn"` and display text `"Order Food Online!"` 
 
