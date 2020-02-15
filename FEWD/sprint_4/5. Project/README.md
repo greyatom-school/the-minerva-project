@@ -5,6 +5,29 @@
 Use the concepts of React you’ve learnt in the Sprint 4 to create a Finance Portfolio Tracker Application and deploy it to Firebase.
 
 
+## Web Page Mock Up
+
+#### Home Page
+
+![Home Page](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens/FP1.png)
+
+This is how your home page will look like.
+
+At any point it should always show the user's stocks('My Stocks')
+and display the list of stocks that can be added('Add stocks to my stocks')
+
+#### Add Stocks Page
+
+![Modal](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens/FP2.PNG)
+
+On clicking the stock button in **Add stocks to my stocks** section, this modal will open up with the following details:
+
+- Company Name(Already Populated)
+- No. of Shares
+- Buy Price
+- Buy Date
+
+
 To complete the project successfully, ensure that you complete the following pre-requisites:
 
 ***
@@ -42,30 +65,11 @@ Accordingly, create the folder structure corresponding to the components you lis
 
 ***
 
-## Web Page Mock Up
 
-#### Home Page
-
-![Home Page](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens/FP1.png)
-
-This is how your home page will look like.
-
-At any point it should always show the user's stocks('My Stocks')
-and display the list of stocks that can be added('Add stocks to my stocks')
-
-#### Add Stocks Page
-
-![Modal](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens/FP2.PNG)
-
-On clicking the stock button in **Add stocks to my stocks** section, this modal will open up with the following details:
-
-- Company Name(Already Populated)
-- No. of Shares
-- Buy Price
-- Buy Date
+After successfully completing the above pre-reqs, complete the following user stories in order to recreate the page shown below.
 
 
-Follow the user stories in order to recreate the page shown below.
+
 
 ## User stories
 
