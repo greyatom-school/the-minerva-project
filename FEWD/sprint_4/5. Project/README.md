@@ -5,40 +5,13 @@
 Use the concepts of React you’ve learnt in the Sprint 4 to create a Finance Portfolio Tracker Application and deploy it to Firebase.
 
 
-## Learning pre-requisites
+To complete the project successfully, ensure that you complete the following pre-requisites:
 
-Before you begin this session, kindly ensure that you have completed learning the following topics and solved the corresponding quizzes:
-
-•	Introduction to JSX.
-
-•	The First ReactJS code.
-
-•	Introducing create-react-app.
-
-•	Components and their types.
-
-•	States and Component lifecycles.
-
-•	Stateful and stateless components.
-
-•	Event handling in React.
-
-•	Conditional rendering in React.
-
-•	PropTypes in React.
-
-•	Controlled elements vs uncontrolled elements.
-
-•	Reaching out to the web.
-
-•	Deploying React application to Firebase.
-
-Additionally, to complete the project successfully,
-
+***
 - External pre-requisite 1:
 
 You need to have a high level domain understanding of [what is financial portfolio](https://www.investopedia.com/terms/p/portfolio.asp) and [how a financial portfolio tracker helps](https://www.benzinga.com/money/best-portfolio-tracker/) 
-
+***
 - External pre-requisite 2:
   
 You also need to have an understanding of [Alphavantage](https://www.alphavantage.co/documentation/#daily) - a website that stores datasets and helps you fetch them using API calls. We will use API services to fetch data and then use it in our project.
@@ -56,16 +29,18 @@ f) When you check out Alphavantage, you will notice that only 5 API calls per mi
 
 g) Additionally, Alphavantage only shows data for the weekdays. For weekends, you should pick the data which is shown last. For example, if November 9/10 is Satuday and Sunday, the table showing Current Price will show data for November 8, Friday and a message would be shown above citing the same.
 
-
+***
 - External pre-requisite 3:
 
-Since you will be creating a web application using React, we recommend you to install all the dependencies before you begin coding on your local machine. Ensure that the package.json has all the correct dependencies installed.
-
-Once all the dependencies are installed, calculate the number of components to be used and the hierarchy to be involved in it. Try to use reusable components as much as possible. 
+Since you will be creating a web application using React, we recommend you to install all the dependencies before you begin coding on your local machine. Ensure that the package.json has all the correct dependencies installed. Once all the dependencies are installed, calculate the number of components to be used and the hierarchy to be involved in it. Try to use reusable components as much as possible. 
 
 Accordingly, create the folder structure corresponding to the components you listed and add placeholder JS files in it.
+ ***
+**As boilerplate, we are only providing you this readme file.**
 
+**The only requirement is ensure that irrespective of your method, you  set the default port value=3000(If you are using Create-React-App, that will be taken care of automatically, for other setups, make the necessary changes accordingly). Otherwise test cases will get stuck.**
 
+***
 
 ## Web Page Mock Up
 
@@ -99,27 +74,26 @@ Follow the user stories in order to recreate the page shown below.
 User should be able to view all his owned stocks
 
 #### Details
-Create an upper container with the class name `"MyStocks"`. 
+Create an upper container(`div`) with the class name `"MyStocks"`. 
 
-It should have a header with the title `"My Stocks"`.
 It should show the owned stocks in a table format. Keep the table class name as `"MyStocksTable"`.
 
-The owned stocks table should have the following columns:
-- Stock symbol
-- Stock name	
-- No.of shares	
-- Buy price	
-- Current price	(Value to be fetched using alphavantage API)
-- Profit/Loss(Difference between Buy Price and Current Price)
+The owned stocks table should have the following columns(`th` elements):
+- `"Stock symbol"`
+- `"Stock name"`	
+- `"No.of shares"`	
+- `"Buy price"`	
+- `"Current price"`	(Value to be fetched using alphavantage API)
+- `"Profit/Loss"` (Difference between Buy Price and Current Price)
 
 
 It should look similar to the following:
 ![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens/US11.PNG)
 
 
-**Note:** In the beginning, since we have not tracked any stocks, use conditional rendering to show that no stocks have been selected.
+**Note #1** In the beginning, since we have not tracked any stocks, use conditional rendering to show that no stocks have been selected.
 
-
+**Note #2** Since there is a limit of five api calls per minute, ensure that you have a error handler that displays "There seems to be a issue with server"
 
 ### User Story #2
 
@@ -128,10 +102,12 @@ User should be able to add stocks from a set of provided stocks.
 #### Details
 
 Create a database on Firebase and add the following stock tickers and their company names in an object in the database: MSFT, DIS, BA, HD, NKE, MCD, INTC, GS, JPM, AXP, IBM. <br />
-(e.g. ```[{symbol: 'HD', name: 'Home Depot Inc'}, {symbol: 'MCD', name: 'McDonald's Incorporation}]```) <br />
+(e.g. ```[{symbol: 'MSFT', name: 'Microsoft Corporation'}, {symbol: 'GS', name: 'Goldman Sachs Group Inc.'}]```) <br />
 These stock tickers will be used to populate the buttons in the bottom div. 
 
-Create the lower container with the class name `"AddStocksTitle"`. That should have a list view of all the stocks where list elements are buttons. The buttons should have a class name `"AddStockButton"` 
+*Note:Feel free to add more(MSFT and GS are compulsory)*
+
+Create the lower container(`div`) with the class name `"AddStocksTitle"`. That should have a list view of all the stocks where list elements are buttons. The buttons should have a class name `"StockButton"` 
 
 It should look similar to the following:
 
@@ -141,9 +117,17 @@ It should look similar to the following:
 
 When the user clicks on the button, use the concept of event handling to get the value of the button clicked and using Axios calls, connect with the Alphavantage database and fetch the data related to that particular stock. 
 
-Additionally, a modal should pop up which asks the user to enter the number of shares. The modal should have class name `"AddStockForm"` 
+Additionally, a modal should pop up which asks the user to enter the number of shares. The modal div should have class name `"AddStockForm"` 
 
-The modal should be pre-filled with the stock name, buy price and date of buying the stocks input. Along with that it  should provide empty containers for the inputs
+The modal should be pre-filled with the stock name.
+
+Along with that it  should provide empty containers for the inputs:
+
+- No. of Shares(`<input>` element with id `"noShares"`)
+- buy price(`<input>` element with id `"buyPrice"`)
+- date of buying the stocks input(`<input>` element with id `"buyDate"`) 
+
+Inside the modal, there should also be a button (`'<button>'` element with class name `"AddButton"`) with the text `"Add"`.
 
 It should look similar to the following:
 ![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/5.%20Project/Screens/US22.PNG)
@@ -153,18 +137,21 @@ Following checks should also be there:
 - Date input should have a date formatter.
 - Clicking on the button in 'Add Stock' modal should first check if all the inputs are completed. If not, it should throw up an error.
 
-On clicking OK, this entry should be made in the database on Firebase. <br />
 
-If the user fills the modal and adds stock from tracking, it should update both the sections. It should be added to the My Stocks with the current price and calculation and it should be removed from All Stocks.
+On clicking `"Add"`, this entry should be made in the database on Firebase. <br />
+
+If the user fills the modal and adds stock from tracking, it should update both the sections. It should be added to the My Stocks container with the current price and calculation and it should be removed from Add Stocks.
  
 
 ### User Story #3
 
 User should see his profit/loss associated with each stock he owns
 
-#### Details(Update)
+#### Details
 
 Along with the stock details, you need to show the latest current price and calculate the profit/loss as (current price – buy price) * no. of shares. 
+
+
 
 Since Alphavantage only allows 5 API calls per minute, add a condition that only 5 stocks can be selected for tracking. If user has selected 5 stocks to track, you should conditionally render a message telling the user that he/she has selected 5 stocks and the buttons with the stocks names should not be shown.
 
@@ -178,7 +165,7 @@ User should be able to remove stocks
 In the upper container add one more column that stops tracking which has buttons as elements.
 
 The stop-tracking button(s) should have class name `"StopTrackingBtn"` 
-If the user clicks on the button, the associated stock should be removed from the `My Stocks table`(upper container) and added to `All Stocks`(lower container).
+If the user clicks on the button, the associated stock should be removed from the `My Stocks table`(upper container) and added to `Add Stocks`(lower container).
 
 
 It will look similar to the following (Amazon Stocks is the stocks that is being removed)
@@ -196,9 +183,6 @@ The above functionalities are the minimum expected of you. You are free to add a
 
 ---
 
-## Work on messaging part of component names
-
-### Submission Details left(to be added after our product is live) 
 
 
 
