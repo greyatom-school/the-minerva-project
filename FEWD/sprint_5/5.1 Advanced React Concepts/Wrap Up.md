@@ -35,6 +35,7 @@ In this concept, you learnt a great deal about some of the advanced React concep
 ## How will it help the project?
 
 - With the help of **HOCs**, you will be able to create modular code while delegating important tasks to the a separate module for component.
+
 - **Fragments** will help you at places where you would not like to introduce an extra div when adding multiple elements to the render.
 - It's nearly impossible to have a perfectly working application. From minor bugs to server crashes, there might always be some errors in the application. **Error Boundaries** will improve the user experience of the entire application by not crashing the application and showing the ugly React error page.
 - Thanks to the **diffing algorithm** and the **Strict Mode**, you will avoid re-rendering components when not necessary while also avoiding the use of deprecated lifecycle methods.
