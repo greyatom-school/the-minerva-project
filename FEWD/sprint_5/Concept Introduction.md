@@ -50,8 +50,7 @@ At the end of this sprint, you will learn the following:
 
 As part of coding assessment, you will also be modifying your 'Build my Burger' app using the new concepts you will learn in this sprint.
 
-![](./images/assignment_512.PNG)
-
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/images/assignment_512.PNG)
 
 
 *Note: This assessment is added for learning purposes and therefore not formally evaluated*
@@ -67,11 +66,11 @@ If you are stuck in between, you can refer to the complete solution of the proje
 You will also be creating a new application - A Weather Application as part of your coding assessment
 
 - 'Home' page
-![](./images/assignment_532c.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/images/assignment_532c.PNG)
 
 - 'My Cities' page
 
-![](./images/assignment_532b.PNG) 
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/images/assignment_532b.PNG) 
 
 
 

@@ -2,7 +2,7 @@
 
 In this assignment, you will use the principles of CSS Modules and everything you have learnt in this concept to style the Weather Application.
 
-![](../images/assignment_52.PNG)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/images/assignment_52.PNG)
 
 You need to do the following:
 
@@ -10,7 +10,7 @@ You need to do the following:
 
 2. Use gradients to give a background-color to the navigation header. You can either replicate the navigation header shown in the diagram below or create your own gradient.
 
--  ![](../images/assignment_52a.PNG)
+-  ![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/images/assignment_52a.PNG)
 
 3. Add date and time to the city text.
 
