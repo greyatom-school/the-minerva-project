@@ -4,43 +4,22 @@
 
 Use react-router, CSS modules and the advanced concepts of React that you have learnt in the Sprint 5 to create a Team Collaboration App.
 
-<br />
 
-## Learning pre-requisites
 
-Before you begin this session, kindly ensure that you have completed learning the following topics and solved the corresponding quizzes:
-
-- Accessibility in React.
-
-- Context APIs.
-
-- Refs and the DOM.
-
-- Fragments and HOC.
-
-- Error Boundaries.
-
-- React Hooks.
-
-- Setting styles dynamically in React.
-
-- CSS Modules.
-
-- Switching using React Router.
-
-- History, location and match using react-router.
-
-- The withRouter package.
-
-- Redirections and conditional redirects.
-
-<br />
-
-Additionally, to complete the project successfully,
+To complete the project successfully, ensure that you complete the following pre-requisites:
 
 - External pre-requisite 1:
   
-  You need to have a clear understanding of what a team collaboration application is and how does it work. You can check out [Trello](https://trello.com/home) which is the de-facto task organizer/team collaboration tool in most of the top companies in the world. Here is a [guided video](https://trello.com/home) on how a Trello application works. We will not be creating an exact replica of the Trello application but we will be developing a majority of the features of Trello.
+  You need to have a clear understanding of what a team collaboration application is and how does it work. 
+  
+  You can check out [Trello](https://trello.com/home) which is the de-facto task organizer/team collaboration tool in most of the top companies in the world. 
+  Here is a [guided video](https://trello.com/home) on how a Trello application works. 
+
+
+  Here's a [list of popular collaboration tools](https://resources.workable.com/tutorial/collaboration-tools) you can refer to as well.
+  
+   
+  *Note:* We will not be creating an exact replica of the Trello application but we will be developing a majority of the features of Trello.
 
 - External pre-requisite 2:
 
@@ -52,56 +31,141 @@ Additionally, to complete the project successfully,
 
 - External pre-requisite 4:
   
-  If you are not aware about HTML5's drag and drop functionality, do read up on it before beginning this project. You should be able to drag an element from any part of the HTML and drop it at another designated point.
+  If you are not aware about [HTML5's drag and drop functionality](https://www.youtube.com/watch?v=qZLOTO4wLto), do read up on it before beginning this project. You should be able to drag an element from any part of the HTML and drop it at another designated point.
 
 
 ## Web application mock up
 
-(pictures to be added here)
+Home Page
 
-<br />
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/home_page.PNG)
+
+
+Board Page
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/boards_page.PNG)
+
+Card view
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/cards_page.PNG)
+
 
 ## User Stories
 
+
 ### User Story #1
+
+User should be able to create a new board.
+
+#ADD IMAGE
+
+#### Details
+
+You should create a component which shows a form to create a board. This form should be available as a 'new page' in SPA context, that is, on typing in the URL ```https://localhost:3000/createboard```, it should open the page with the form. There should also be a button on the navigation bar which will open this page.
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/nav_bar.PNG)
+
+
+The form should ask for the following inputs from the user:
+- Name of the board(`input`element with id `name` and type `text`)
+
+- Team members who will be a part of this board. (Member names should be separated by commas)(`input`element with id `team` and type `text`)
+
+- Type of board (e.g. Design board, Testing board, etc.) [This should be an optional field](`input`element with id `type` and type `text`)
+
+On clicking the <kbd>Create</kbd> button(`button` element with id `CreateBoard`) in the form, the details entered by the user should be added to a database on Firebase and the corresponding board should be shown on the home page.
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/create_board.png)
+
+### User Story #2
 
 User should be able to view all his boards.
 
 #### Details
 
-The homepage which can be opened using the URL ```https://localhost:8080``` should show a list of all the boards that are created by the user. If there are no boards created by the user, then the following message should be shown on the screen:
+The homepage which can be opened using the URL ```https://localhost:3000``` should show a list of all the boards that are created by the user. 
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/home_page.PNG)
+
+
+If there are no boards created by the user, then the following message should be shown on the screen:
 ```
 You haven't created any boards. Kindly click on the 'Create Board' button in the navigation bar to create a board.
 ```
 
+
 On clicking a board, the user should be directed to the details of that particular board.
 
-<br />
-
-### User Story #2
-
-User should be able to create a new board.
-
-#### Details
-
-You should create a component which shows a form to create a board. This form should be available as a 'new page' in SPA context, that is, on typing in the URL ```https://localhost:8080/createboard```, it should open the page with the form. There should also be a button on the navigation bar which will open this page.
-
-The form should ask for the following inputs from the user:
-- Name of the board.
-- Team members who will be a part of this board. (Member names should be separated by commas)
-- Type of board (e.g. Design board, Testing board, etc.) [This should be an optional field]
-
-On clicking the <kbd>Create Board</kbd> button in the form, the details entered by the user should be added to a database on Firebase and the corresponding board should be shown on the home page.
-
-<br />
+|Home Page|On clicking 'Design' board|
+|---|---|
+|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/home_page.PNG)|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/boards_page.PNG)|
 
 ### User Story #3
 
-User should be able to view all the columns and cards inside his created board.
+User should be able to create a new column inside a board.
 
 #### Details
 
-When the user clicks on a particular board, he/she should be directed to a board details page where he/she can view the columns and cards. When the user clicks on a card, he/she should be able to see the following:
+The user should be able to create a new column by clicking on the **Add a Column** element
+
+|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/create_column.PNG)|
+
+
+On clicking it, a modal should open with the form. The form should ask for the following input from the user:
+- Name of the column(`input`element with id `column_name` and type `text`)
+
+
+|![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/add_column.PNG)|
+
+On hitting <kbd>Add Column</kbd>(`button` element with id `CreateColumn`), a new column should now be shown in the board details page.
+
+
+### User Story #4
+
+User should be able to view all the columns inside his created board.
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/boards_page.PNG)
+
+#### Details
+
+When the user clicks on a particular board, he/she should be directed to a board details page where he/she can view the columns and cards. 
+
+### User Story #5
+
+User should be able to create a new card in any column.
+
+#### Details
+
+Inside every column, there should be `'Add a card'` element. The user should be able to create a new card by clicking on the **Add a card** element
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/create_card.PNG)
+
+
+On clicking it, a modal should open with the form. The form should ask for the following input from the user:
+
+- Title of the card(`input`element with id `title` and type `text`)
+
+- Members that should be a part of this card (this should be a dropdown from which the users can multi-select the members with)
+
+- Description(`input`element with id `description` and type `text`)
+- Due Date (`input`element with id `due_date` and type `date`)
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/add_card.PNG)
+
+
+On clicking <kbd>Add Card</kbd>(`button` element with id `CreateCard`), the card should be added to the corresponding column.
+
+
+### User Story #6
+
+User should be able to view all the columns inside his created board.
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/cards_page.PNG)
+
+
+#### Details
+
+When the user clicks on a card, he/she should be able to see the following:
 - Title
 - Subtitle which should have the board name.
 - Description (if any)
@@ -110,38 +174,12 @@ When the user clicks on a particular board, he/she should be directed to a board
 
 Additionally, every card should have an ```Edit``` option as a button. Once the user clicks on Edit, a form pre-filled with the current information should be shown to the user for editing.
 
-<br />
 
-### User Story #4
 
-User should be able to create a new column inside a board.
-
-#### Details
-
-The user should be able to create a new column by clicking on the **Add Column** button as shown in the diagram below. On clicking the button, a modal should open which asks the user to enter a name for the column. On hitting **Create**, a new column should now be shown in the board details page.
-
-<br />
-
-### User Story #5
-
-User should be able to create a new card in any board.
-
-#### Details
-
-Inside every column, there should be 'Add Card' button which will open up a modal with a form containing the following input boxes:
-
-- Title of the card
-- Members that should be a part of this card (this should be a dropdown from which the users can multi-select the members)
-- Description
-- Due Date
-
-On clicking <kbd>Add Card</kbd> button, the modal should vanish and the card should be added to the corresponding column.
-
-<br />
-
-### User Story #6
+### User Story #7
 
 User should be able to drag and drop a card from one column to another.
+
 
 #### Details
 
@@ -155,11 +193,25 @@ User should be able to archive and he should be able to delete a column or even 
 
 #### Details
 
-Buttons for deleting should be appropriately placed on every card/column/board, allowing the user to delete it. On deletion, the same should be reflected on Firebase and inside the application.
+Buttons for deleting should be appropriately placed for every board allowing the user to delete it. 
+
+Deleting board button should have text: `Delete Board`
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/delete_boards.PNG)
+
+On deletion, the same should be reflected on Firebase and inside the application.
 
 
+---
 
 The above functionalities are the minimum expected of you. You are free to add as much personalization as you want in terms of style.
+
+
+### Stretch Goals:
+
+- Add delete card/column functionality
+
+- Add login/signup functionality
 
 
 
