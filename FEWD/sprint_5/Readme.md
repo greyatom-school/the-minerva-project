@@ -58,7 +58,6 @@ As part of coding assessment, you will also be modifying your 'Build my Burger' 
 
 If you are stuck in between, you can refer to the complete solution of the project [here](https://drive.google.com/file/d/1BiFcjVIviF3ZGB25ax00dAbd7PBjwpvb/view?usp=sharing)
 
-# Update LINK
 
 
 - 'Weather Application'
@@ -80,27 +79,40 @@ In this app, we will be using [Open Weather's](https://openweathermap.org/api) A
 If you are stuck in between, you can refer to the complete solution of the project [here](https://drive.google.com/file/d/1BiFcjVIviF3ZGB25ax00dAbd7PBjwpvb/view?usp=sharing)
 
 
-# Update LINK
+---
 
---
+- Sprint Project: Team Collaboration App
 
-- Sprint Project: [Financial Portfolio Tracker](5.%20Project)
-
-At the end of this sprint, you will be creating a work management app.It helps a software development team to keep track of the various tasks being handled during a sprint and the status of each task.
-
-If you are not aware about Trello, it’s a team collaborative platform created by Atlassian.  For more information on Trello, visit this link: https://trello.com/
-
-In the end-of-sprint project, you will be creating a replica of the Trello board.
+At the end of this sprint, you will be creating a team collaboration app.It helps a software development team to keep track of the various tasks being handled during a sprint and the status of each task.
 
 
-![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/FP1.png)
 
 
-By the end of the sprint, you should be able to build a Finance Portfolio Tracker with the following functionalities:
+## Web application mock up
 
-- Adding a stock(from the given list of companies)
+Home Page
 
-- Viewing your stocks compared to the current price(Fetched by an API)
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/home_page.PNG)
+
+
+Board Page
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/boards_page.PNG)
+
+Card view
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/cards_page.PNG)
+
+
+By the end of the sprint, you should be able to build a Team Colloboration App with the following functionalities:
+
+- Adding/Deleting a board
+
+- Adding/Deleting a column
+
+- Adding/Deleting a card
+
+- View of created boards
 
 
 *Note: This project will be evaluated. To understand how to go about it, kindly watch this [video walkthrough](https://vimeo.com/383940265/d48675eeed)*
