@@ -98,46 +98,59 @@ By the end of the sprint, you should be able to build a Finance Portfolio Tracke
 
 **End to End Development Workflow**
 
-- [Organization & team structure in a web development product team](1.%20End%20to%20end%20development%20workflow/4.1.1%20Organization%20and%20team%20structure%20in%20a%20web%20development%20product%20team.md)
-- [Software Development Life Cycle (SDLC)](1.%20End%20to%20end%20development%20workflow/4.1.2%20Software%20Development%20Life%20Cycle%20(SDLC).md)
-- [Phase 1 & 2: Requirement Gathering + Low-fidelity & high-fidelity product designs (UX)](1.%20End%20to%20end%20development%20workflow/4.1.3%20Requirement%20Gathering%20%2B%20UX_UI%20Design.md)
-- [Phase 3: Proof of Concept + Contract discussions](1.%20End%20to%20end%20development%20workflow/4.1.4%20Proof%20of%20Concepts%20%2B%20Contract%20Discussions.md)
-- [Phase 4 & 5: Development + Testing](1.%20End%20to%20end%20development%20workflow/4.1.5%20Development%20and%20Testing.md)
-- [Phase 6 & 7: Deployment + Maintenance](1.%20End%20to%20end%20development%20workflow/4.1.6%20Deployment%20%26%20Maintenance.md)
-- [Wrap Up](1.%20End%20to%20end%20development%20workflow/Wrap%20up.md) 
+- [Organization & team structure in a web development product team](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/1.%20End%20to%20end%20development%20workflow/1.1%20-%20Organization%20and%20team%20structure%20in%20a%20web%20development%20product%20team.md)
+
+- [Software Development Life Cycle (SDLC)](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/1.%20End%20to%20end%20development%20workflow/1.2%20-%20Software%20Development%20Life%20Cycle%20(SDLC).md)
+
+- [Phase 1 & 2: Requirement Gathering + Low-fidelity & high-fidelity product designs (UX)](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/1.%20End%20to%20end%20development%20workflow/1.3%20-%20Requirement%20Gathering%20%2B%20UX_UI%20Design.md)
+
+- [Phase 3: Proof of Concept + Contract discussions](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/1.%20End%20to%20end%20development%20workflow/1.4%20-%20Proof%20of%20Concepts%20%2B%20Contract%20Discussions.md)
+
+- [Phase 4 & 5: Development + Testing](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/1.%20End%20to%20end%20development%20workflow/1.5%20-%20Development%20and%20Testing.md)
+
+
+- [Phase 6 & 7: Deployment + Maintenance](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/1.%20End%20to%20end%20development%20workflow/1.6%20-%20Deployment%20%26%20Maintenance.md)
 
 **Introduction to ReactJS**
 
-- [History of front-end development](2.%20Introduction%20to%20ReactJS/4.2.1%20History%20of%20Front-end%20Development.md)
-- [Single Page Applications(SPAs)](2.%20Introduction%20to%20ReactJS/4.2.2%20Single%20Page%20Applications%20(SPAs).md)
-- [What', 'How' and 'Why' of React](2.%20Introduction%20to%20ReactJS/4.2.3%20Introduction%20to%20ReactJS.md)
-- [Introduction to JSX](2.%20Introduction%20to%20ReactJS/4.2.4%20Introduction%20to%20JSX.md)
-- [Writing the first React code](2.%20Introduction%20to%20ReactJS/4.2.5%20The%20First%20ReactJS%20Code.md)
-- [Wrap Up](2.%20Introduction%20to%20ReactJS/Wrap%20Up.md)
+- [History of front-end development](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/2.%20Introduction%20to%20ReactJS/2.1%20-%20History%20of%20Front-end%20Development.md)
+- [Single Page Applications(SPAs)](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/2.%20Introduction%20to%20ReactJS/2.2%20-%20Single%20Page%20Applications%20(SPAs).md)
 
+- [What', 'How' and 'Why' of React](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/2.%20Introduction%20to%20ReactJS/2.3%20-%20Introduction%20to%20ReactJS.md)
 
+- [Introduction to JSX](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/2.%20Introduction%20to%20ReactJS/2.4%20-%20Introduction%20to%20JSX.md)
+
+- [Writing the first React code](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/2.%20Introduction%20to%20ReactJS/2.5%20-%20The%20First%20ReactJS%20Code.md)
 
 
 **Foundations of ReactJS**
 
-- [Adding React to a website](3.%20Foundations%20of%20ReactJS/4.3.1%20Adding%20React%20to%20a%20website.md)
-- [Introducing Create React App (CRA)](3.%20Foundations%20of%20ReactJS/4.3.2%20Introducing%20Create%20React%20App.md)
-- [Components and their types](3.%20Foundations%20of%20ReactJS/4.3.3%20Components%20and%20their%20types.md)
-- [States & Component life-cycle](3.%20Foundations%20of%20ReactJS/4.3.4%20States%20and%20Component%20Lifecycle.md)
-- [Event handling in React](3.%20Foundations%20of%20ReactJS/4.3.6%20Event%20Handling%20in%20React.md)
-- [Conditional rendering and rendering lists in React](3.%20Foundations%20of%20ReactJS/4.3.7%20Conditional%20rendering%20and%20rendering%20lists%20in%20React.md)
-- [Prop types](3.%20Foundations%20of%20ReactJS/4.3.8%20PropTypes%20in%20React.md)
-- [Control vs uncontrolled elements](3.%20Foundations%20of%20ReactJS/4.3.9%20Controlled%20vs%20uncontrolled%20elements.md)
-- [Reaching out to the web](3.%20Foundations%20of%20ReactJS/4.3.10%20Reaching%20out%20to%20the%20web.md)
-- [Wrap Up](3.%20Foundations%20of%20ReactJS/Wrap%20up.md)
+- [Adding React to a website](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/3.%20Foundations%20of%20ReactJS/3.1%20-%20Adding%20React%20to%20a%20website.md)
+
+- [Introducing Create React App (CRA)](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/3.%20Foundations%20of%20ReactJS/3.2%20-%20Introducing%20Create%20React%20App.md)
+
+- [Components and their types](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/3.%20Foundations%20of%20ReactJS/3.3%20-%20Components%20and%20their%20types.md)
+
+- [States & Component life-cycle](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/3.%20Foundations%20of%20ReactJS/3.4%20-%20States%20and%20Component%20Lifecycle.md)
+
+- [Event handling in React](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/3.%20Foundations%20of%20ReactJS/3.5%20-%20Event%20Handling%20in%20React.md)
+
+- [Conditional rendering and rendering lists in React](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/3.%20Foundations%20of%20ReactJS/3.6%20-%20Conditional%20rendering%20and%20rendering%20lists%20in%20React.md)
+- [Prop types](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/3.%20Foundations%20of%20ReactJS/3.7%20-%20PropTypes%20in%20React.md)
+
+- [Control vs uncontrolled elements](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/3.%20Foundations%20of%20ReactJS/3.8%20-%20Controlled%20vs%20uncontrolled%20elements.md)
+
+- [Reaching out to the web](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/3.%20Foundations%20of%20ReactJS/3.9%20-%20Reaching%20out%20to%20the%20web.md)
+
 
 
 **Deployment of Web Apps**
 
-- [Introduction to web deployment](4.%20Deployment%20of%20web%20apps/4.4.1%20Introduction%20to%20Web%20Application%20Deployment.md)
-- [Introduction to Webpack](4.%20Deployment%20of%20web%20apps/4.4.2%20Introduction%20to%20Webpack.md)
-- [Deploying React application to Firebase](4.%20Deployment%20of%20web%20apps/4.4.3%20Deploying%20React%20application%20to%20Firebase.md)
-- [Wrap Up](4.%20Deployment%20of%20web%20apps/Wrap%20up.md)
+- [Introduction to web deployment](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/4.%20Deployment%20of%20web%20apps/4.1%20-%20Introduction%20to%20Web%20Application%20Deployment.md)
+
+- [Introduction to Webpack](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/4.%20Deployment%20of%20web%20apps/4.2%20-%20Introduction%20to%20Webpack.md)
+
+- [Deploying React application to Firebase](https://raw.githubusercontent.com/greyatom-school/the-minerva-project/master/FEWD/sprint_4/4.%20Deployment%20of%20web%20apps/4.3%20-%20Deploying%20React%20application%20to%20Firebase.md)
 
 
 

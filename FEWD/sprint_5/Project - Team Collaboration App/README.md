@@ -1,8 +1,25 @@
-# **Project - Team Collaboration App**
+# **Project - Team Collaboration App(Pro-Organiser)**
 
 ## Overview
 
 Use react-router, CSS modules and the advanced concepts of React that you have learnt in the Sprint 5 to create a Team Collaboration App.
+
+
+## Web application mock up
+
+Home Page
+
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/home_page.PNG)
+
+
+Board Page
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/boards_page.PNG)
+
+Card view
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/cards_page.PNG)
+
 
 
 
@@ -34,20 +51,17 @@ To complete the project successfully, ensure that you complete the following pre
   If you are not aware about [HTML5's drag and drop functionality](https://www.youtube.com/watch?v=qZLOTO4wLto), do read up on it before beginning this project. You should be able to drag an element from any part of the HTML and drop it at another designated point.
 
 
-## Web application mock up
+- External pre-requisite 5:
 
-Home Page
+  Since you will be creating a web application using React, we recommend you to install all the dependencies before you begin coding on your local machine. Ensure that the package.json has all the correct dependencies installed. Once all the dependencies are installed, calculate the number of components to be used and the hierarchy to be involved in it. Try to use reusable components as much as possible. 
+
+  Accordingly, create the folder structure corresponding to the components you listed and add placeholder JS files in it.
+  ***
+  **As boilerplate, we are only providing you this readme file.**
+
+  **The only requirement is ensure that irrespective of your method, you  set the default port value=3000(If you are using Create-React-App, that will be taken care of automatically, for other setups, make the necessary changes accordingly). Otherwise test cases will get stuck.**
 
 
-![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/home_page.PNG)
-
-
-Board Page
-![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/boards_page.PNG)
-
-Card view
-
-![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/cards_page.PNG)
 
 
 ## User Stories
@@ -56,8 +70,6 @@ Card view
 ### User Story #1
 
 User should be able to create a new board.
-
-#ADD IMAGE
 
 #### Details
 
@@ -187,7 +199,7 @@ Using the principles of HTML5's drag and drop functionality, the user should be 
 
 <br />
 
-### User Story #7
+### User Story #8
 
 User should be able to archive and he should be able to delete a column or even a board.
 
