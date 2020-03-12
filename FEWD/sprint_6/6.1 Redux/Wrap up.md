@@ -9,6 +9,7 @@ In this concept, we learn about Redux and how it revolutionizes our concept of s
 ## Key take-aways
 
 - The biggest problem with state in a small application is that if you have a multi-level and multi-hierarchy React application, you have a lot of intermediary components which don't need the state but have to pass the state as props till it reaches the final components.
+
 - Redux, a stand-alone project, in conjunction with React can help resolve the issue of state in React, by introducing a global state where every component need to pass props, but the final component can simply access the global store and fetch the latest state or update the latest state.
 - Redux is primarily made of three pieces - **store**, **actions**, and **reducers**.
 - The **store** is where the global repository of the state. The individual components or the React application can *subscribe* to the store to access the latest state.
