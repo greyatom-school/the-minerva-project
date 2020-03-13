@@ -1,4 +1,4 @@
-# **Conecpt Quiz**
+# **Concept Quiz**
 
 1. What do we mean by ```connect(null, mapDispatchToProps)(myComponent)```?
 

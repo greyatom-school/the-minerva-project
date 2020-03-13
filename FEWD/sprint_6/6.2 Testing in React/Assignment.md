@@ -13,8 +13,7 @@ You will be using Test-Driven Development (TDD) to create the Login Component.
 
 
 
-## Complete the following tasks:
-
+## Coding Assignment
 
 ![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/images/assignment_532c.PNG)
 
