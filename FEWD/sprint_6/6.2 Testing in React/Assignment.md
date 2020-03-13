@@ -15,6 +15,12 @@ You will be using Test-Driven Development (TDD) to create the Login Component.
 
 ## Complete the following tasks:
 
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/images/assignment_532c.PNG)
+
+
 1. Recreate the Create Board component using TDD. Ensure there are test cases to check whether a title exists, the create button exists and if there are exctly three inputs in the component. Your test cases are not limited to the above and feel free to add more test cases to the above.
 
 2. While you create the above component with TDD, also ensure that you add test cases to the Boards component. Your test cases should have but not limited to testing the existence of title, the presence of an error message, checking the visibility of the same, the existence of cards and so on.
+
+If you are stuck in between, you can refer to the complete solution of the project [here](https://drive.google.com/file/d/1Vz5sE-WSGU0IXFlJ1NydmQ9lMdXGlhlu/view?usp=sharing)

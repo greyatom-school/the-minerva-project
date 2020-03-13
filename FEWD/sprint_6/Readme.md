@@ -4,8 +4,6 @@
 
 In the previous concept, you were introduced to a host of concepts in advanced React like Fragments, HOCs, Error Boundaries, CSS Modules. Moreover, you also learnt how to create the MPA effect in an SPA using react-router. In this concept, we will move a step further and resolve the problems faced by passing props from parents to nth-child and vice-versa by introducing Redux - a stand-alone library that in conjunction with React gives you the concept of a global store. We will then move to creating applications and components using TDD - Test Driven Development with Jest and Enzyme. Finally, we will finish the concept by learning about optimization in React.
 
-<br />
-
 ## Learning Objectives
 
 In this sprint, we will be concentrating on learning a few more important concepts in React. However, to comprehend the concepts you will be learning in this sprint, you need to be thorough with the following:
@@ -24,7 +22,6 @@ In this sprint, we will be concentrating on learning a few more important concep
 
 If you are still not comfortable with these concepts, have a quick glance at the above mentioned topics in Sprint 4 and Sprint 5. 
 
-<br />
 
 At the end of this sprint, you will learn the following:
 
@@ -42,48 +39,48 @@ At the end of this sprint, you will learn the following:
 
 ## What will you be able to build?
 
-At the end of this sprint, you will be converting the Pro-Organizer application (a Trello-inspiration) that you've created int he Sprint 5 to a React+Redux application. It will allow you easier and better control over the component state and data. You will add a couple of new features and you will be using TDD to create this.
 
-<br />
+- 'Weather Application'
 
-## Knowledge Check - Quiz
+You will also be modifying your 'Weather Application'(Sprint 5) as coding assessment using the new concepts you will learn in this sprint.
 
-1. Which of the following method is used for adding a new page to the component using the ```history``` prop?
+- 'Home' page
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/images/assignment_532c.PNG)
 
-        a. pop()
-        b. push() [Correct answer]
-        c. add()
 
-<br />
 
-2. Can we create CSS modules by adding ```.module.css``` extension on our stylesheet files?
 
-        a. Yes. [Correct answer]
-        b. No.
+In this app, you will be:
+- Implementing "Principles of Redux" to optimise the app further
+- Recreate app component using Test Driven Development(TDD)
 
-<br />
 
-3. Which of the following is a short-hand for React Fragments?
+If you are stuck in between, you can refer to the complete solution of the project [here](https://drive.google.com/file/d/1Vz5sE-WSGU0IXFlJ1NydmQ9lMdXGlhlu/view?usp=sharing)
 
-        a. <Frag>
-        b. <> [Correct answer]
-        c. <Fr>
 
-<br />
+---
 
-4. ```
-    const [counter, setCounter] = useState(0);
-    ```
-    What does the ```(0)``` in the code signify?
+- Sprint Project: Team Collaboration App
 
-        a. A boolena value representing the activeness of the variable.
-        b. The argument to be passed to the function in the second argument.
-        c. The value to be set for the first argument in the variable. [Correct answer]
+At the end of this sprint, you will be converting the Pro-Organizer application that you've created in the Sprint 5 to a React+Redux application. It will allow you easier and better control over the component state and data. You will add a couple of new features and you will be using TDD to create this.
 
-<br />
 
-5. The ```exact``` attribute is to match the component to the URL. - True or False?
 
-        a. True.
-        b. False. [Correct answer]
+## Web application mock up
+
+Home Page
+
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/home_page.PNG)
+
+
+
+
+
+# Details to be added
+
+By the end of the sprint, you should be able to build a Team Colloboration App with the following functionalities:
+
+
+*Note: This project will be evaluated. To understand how to go about it, kindly watch this [video walkthrough](https://vimeo.com/383940265/d48675eeed)*
 
