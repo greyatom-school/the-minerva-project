@@ -64,6 +64,7 @@ If you are stuck in between, you can refer to the complete solution of the proje
 
 At the end of this sprint, you will be converting the Pro-Organizer application that you've created in the Sprint 5 to a React+Redux application. It will allow you easier and better control over the component state and data. You will add a couple of new features and you will be using TDD to create this.
 
+You will also be adding optimisation techniques to the same
 
 
 ## Web application mock up
@@ -74,13 +75,59 @@ Home Page
 ![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/home_page.PNG)
 
 
+Board Page
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/boards_page.PNG)
 
+Card view
 
-
-# Details to be added
-
-By the end of the sprint, you should be able to build a Team Colloboration App with the following functionalities:
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App/images/cards_page.PNG)
 
 
 *Note: This project will be evaluated. To understand how to go about it, kindly watch this [video walkthrough](https://vimeo.com/383940265/d48675eeed)*
 
+
+## Associated Concepts
+
+**Redux**	
+
+
+- [Introduction to Redux](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.1%20Redux/1.1%20-%20Introduction%20to%20Redux.md)
+
+- [Understanding Redux flow](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.1%20Redux/1.2%20-%20The%20flow%20of%20Redux.md)
+
+- [Connecting Redux to React](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.1%20Redux/1.3%20-%20Connecting%20Redux%20to%20React.md)
+
+- [Multiple reducers and combineReducers](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.1%20Redux/1.4%20-%20Multiple%20reducers%20and%20combineReducers.md)
+
+- [Asynchronous actions in Redux](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.1%20Redux/1.5%20-%20Asynchronous%20actions%20in%20Redux.md)
+
+- [Optimization in Redux](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.1%20Redux/1.6%20-%20Optimization%20in%20Redux.md)
+
+**Testing in React**
+
+- [Introduction to Testing in React](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.2%20Testing%20in%20React/2.1%20-%20Introduction%20to%20Testing%20in%20React.md)
+
+- [TDD vs BDD](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.2%20Testing%20in%20React/2.2%20-%20TDD%20vs%20BDD.md)
+
+- [Jest and Enzyme](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.2%20Testing%20in%20React/2.3%20-%20Jest%20and%20Enzyme.md)
+
+
+**Optimisation in React**	
+
+- [Why optimization?](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.3%20Optimization%20in%20React/3.1%20-%20Why%20optimization.md)
+
+- [Minification and Bundling](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.3%20Optimization%20in%20React/3.2%20-%20Minification%20and%20Bundling.md)
+
+- [Code Splitting and React Lazy](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.3%20Optimization%20in%20React/3.3%20-%20Code%20Splitting%20and%20React%20Lazy.md)
+
+- [Large lists and react.window](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.3%20Optimization%20in%20React/3.4%20-%20Large%20lists%20and%20react.window.md)
+
+- [Precaching in create-react-app](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.3%20Optimization%20in%20React/3.5%20-%20Precaching%20in%20create-react-app.md)
+
+- [Pre-render routes using react-snap](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.3%20Optimization%20in%20React/3.6%20-%20Pre-render%20routes%20using%20react-snap.md)
+
+- [Web app manifests](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.3%20Optimization%20in%20React/3.7%20-%20Web%20app%20manifests.md)
+
+- [Accessibility Auditing](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.3%20Optimization%20in%20React/3.8%20-%20Accessibility%20Audit.md)
+
+- [Server Side Rendering](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.3%20Optimization%20in%20React/3.9%20-%20Server%20Side%20Rendering.md)
