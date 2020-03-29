@@ -131,3 +131,9 @@ Card view
 - [Accessibility Auditing](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.3%20Optimization%20in%20React/3.8%20-%20Accessibility%20Audit.md)
 
 - [Server Side Rendering](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_6/6.3%20Optimization%20in%20React/3.9%20-%20Server%20Side%20Rendering.md)
+
+## Projects for further practice
+• https://www.reddit.com/r/reactjs/comments/496db2/large_open_source_reactredux_projects/
+
+
+• https://medium.com/better-programming/https-medium-com-mayank-gupta-6-88-21-performance-optimizations-techniques-for-react-d15fa52c2349
