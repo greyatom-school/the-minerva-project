@@ -102,7 +102,7 @@ After this sprint, you will have an understanding of
 - Advanced Javascript
 - DOM Events and AJAX
 
-### Concepts
+### Associated Concepts
 ***Concept 1:***  [Basics of Javascript Programming](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_3/1.Basics%20of%20Javascript%20programming)
 
 ***Concept 2:***  [Ajax and DOM Events](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_3/2.%20Ajax%20and%20DOM%20Events)
@@ -147,7 +147,7 @@ After this sprint, you will have an understanding of
 
 ***Concept 4:*** [Foundations of ReactJS](sprint_4/4.%20Deployment%20of%20web%20apps)
 
-**Project:** [Create a Financial Portfolio Tracker](sprint_4/5.%20Project)
+**Project:** [Financial Portfolio Tracker](sprint_4/5.%20Project)
 
 <hr>
 
@@ -173,9 +173,17 @@ After this sprint, you will have an understanding of
 - Strict Mode
 - Uncontrolled Components
 - Why use a Router?
-- Why use Redux?
 
-### Concepts
+
+**Associated Concepts:**
+
+***Concept 1:*** [Advanced React Concepts](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_5/5.1%20Advanced%20React%20Concepts)
+
+***Concept 2:*** [Styling in React](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_5/5.2%20Styling%20in%20React)
+
+***Concept 3:*** [React Router](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_5/5.3%20React%20Router)
+
+**Project:** [Team Collaboration App](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_5/Project%20-%20Team%20Collaboration%20App)
 
 <hr>
 
@@ -185,15 +193,22 @@ Now that you are creating full-fledged web apps it is time to test your apps and
 
 ### Learning Outcomes
 After this sprint, you will have an understanding of
+- Why use Redux?
 - Need for testing
 - Different types of testing
 - Unit testing using JEST
 - Test Driven Development
 - Optimizing your product for the web
 
-### Concepts
+**Associated Concepts:**
 
-<hr>
+***Concept 1:*** [Redux](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_6/6.1%20Redux)
+
+***Concept 2:*** [Testing in React](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_6/6.2%20Testing%20in%20React)
+
+***Concept 3:*** [Optimisation in React](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_6/6.3%20Optimization%20in%20React)
+
+**Project:** [Team Collaboration App(With Redux)](https://github.com/greyatom-school/the-minerva-project/tree/master/FEWD/sprint_6/Project%20-%20Team%20Collaboration%20App%20With%20Redux)
 
 
 
