@@ -63,8 +63,25 @@ Solve the following coding challenges:
 6. [Find the longest common prefix string amongst an array of strings](https://leetcode.com/problems/longest-common-prefix/)
 
 
-After solving submit your solutions in this [form](https://forms.gle/Ge2sWnFtr7Zary8Z6) with the `Week no.` option selected as "Week 1". 
+After solving submit your solutions in this [form](https://forms.gle/Ge2sWnFtr7Zary8Z6) with the `Week no.` option selected as `"Week 1"` 
+
+# Week 2
+
+Solve the following coding challenges:
 
 
 
+1. [Given a binary tree, return the zigzag level order traversal of its nodes' values.](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+
+2. [Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum](https://leetcode.com/problems/maximum-subarray/)
+
+3. [If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+4. [Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
+5. [Given an array nums and a value val, remove all instances of that value in-place](https://leetcode.com/problems/remove-element/)
+
+6. [Given a linked list, remove the n-th node from the end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+
+After solving submit your solutions in this [form](https://forms.gle/Ge2sWnFtr7Zary8Z6) with the `Week no.` option selected as `"Week 2"` 
 
