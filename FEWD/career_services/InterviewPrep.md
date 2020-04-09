@@ -33,29 +33,38 @@ Let's see how we can prepare for them by dealing with them one by one.
 
 This round involves solving coding challenges that test your programming language as well as algorithmic thinking.
 
-## What you must do?
-
-- Solve [coding challenges(min. 10)](https://edabit.com/challenges/javascript) to improve your JS coding. Focus particularly on the coding questions of easy and medium difficulty.
-
-- Solve [OOPs questions](https://www.techgig.com/practice/java/object-oriented-programming) to understand the importance of it. 
-(Note: The questions are expected to be solved in Java but feel free to use JavaScript as well)
-
-- Practice top [coding interview questions of HTML/CSS](https://www.testdome.com/d/html-css-interview-questions/3) and [coding interview questions of JS](https://www.testdome.com/d/javascript-interview-questions/2) 
-
-
-- Practice basic [Data Structures and Algorithm questions](https://exercism.io/my/tracks/javascript). Focus on the "algorithms" and "data structures" topic(You can filter it on the site). Increase your expertise by solving more complicated [DS & A problems](https://www.spoj.com/problems/tag/datastructures)
-
-## *Interview Round*
-
-This round involves either telephonic/in person interview where the interviwer will test your critical thinking and problem solving questions
 
 ## What you must do?
 
+Every week, solve the seven coding challenges(minimum) given below.
+After solving them, you need to submit the screenshots of the solution
 
-- Go through a compiled list of [front end interview questions](https://edabit.com/challenges/javascript). Try to first answer the questions without looking at the solutions, then refer to the solutions to understand the optimum way to answer them.
+
+Understand [how to submit the solution screenshot]()
+
+
+# Week 1
+
+Solve the following coding challenges:
+
+1. [Given an array of integers, return indices of the two numbers such that they add up to a specific target](https://leetcode.com/problems/two-sum/)
+
+2. [Search an element in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+
+
+3. [Find two lines, which together with x-axis forms a container, such that the container contains the most water](https://leetcode.com/problems/container-with-most-water/)
+
+
+4. [Given a non-empty, singly linked list with head node head, return a middle node of linked list](https://leetcode.com/problems/middle-of-the-linked-list/)
+
+5. [Given a binary tree, find its maximum depth](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+
+
+6. [Find the longest common prefix string amongst an array of strings](https://leetcode.com/problems/longest-common-prefix/)
+
+
+After solving submit your solutions in this [form](https://forms.gle/Ge2sWnFtr7Zary8Z6) with the `Week no.` option selected as "Week 1". 
 
 
 
-- Understand [how to approach DS questions](https://www.youtube.com/watch?v=9iELB1VzZWA) for web developer interviews. Briefly go through [DS tutorial](https://www.youtube.com/watch?v=t2CEgPsws3U) to imbibe important DS concepts
 
-## Additional References
