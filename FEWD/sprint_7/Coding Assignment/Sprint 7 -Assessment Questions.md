@@ -1,4 +1,4 @@
-# Sprint 7 Coding Project
+# Sprint 7 Assessment
 
 ## Overview
 Breaking away from tradition, the sprint 7 project consists of several competetive coding challenges that require a certain level of algorithmic thinking. You must submit the screenshot of the solution in the Google Form below.
