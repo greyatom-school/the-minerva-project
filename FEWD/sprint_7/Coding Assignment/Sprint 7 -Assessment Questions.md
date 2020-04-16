@@ -8,7 +8,7 @@ Breaking away from tradition, the sprint 7 project consists of several competeti
 Solve the coding challenges given below as part of your sprint 7 project.
 After solving them, you need to submit the screenshots of the solution
 
-Understand [how to submit the solutions]()
+Understand [how to submit the solution](https://github.com/greyatom-school/the-minerva-project/blob/master/FEWD/sprint_7/Coding%20Assignment/Submit_Instructions.md)
 
 
 ## Searching and Sorting
