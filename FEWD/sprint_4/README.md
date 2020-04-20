@@ -10,13 +10,13 @@ We will understand how exactly does ReactJS simplify the life of front-end devel
 
 ## Pre requisites
  
- React is a purely front-end development framework, it�s absolutely essential for you to ensure that the following pre-requisites are ensured.
+ React is a purely front-end development framework, it's absolutely essential for you to ensure that the following pre-requisites are ensured.
 
 -	HTML + CSS fundamental knowledge is absolutely essential. If you need to revise the concepts again, revisit Sprint 1 for HTML and CSS basics.
 
--	You don�t need to be a JavaScript expert to excel in this course! However, basic fundamental knowledge of JavaScript is absolutely crucial to begin this course. If you need to brush up your JS skills again, revisit Sprint 3 for foundations of JavaScript.
+-	You don't need to be a JavaScript expert to excel in this course! However, basic fundamental knowledge of JavaScript is absolutely crucial to begin this course. If you need to brush up your JS skills again, revisit Sprint 3 for foundations of JavaScript.
 
--	ES6 + JS knowledge is highly beneficial, but not a must-have. If you need to run through the ES6 basics, pay more attention to ES6 basics, arrow functions, let and const, and import-export modules of Sprint 3 � Foundations of JavaScript.
+-	ES6 + JS knowledge is highly beneficial, but not a must-have. If you need to run through the ES6 basics, pay more attention to ES6 basics, arrow functions, let and const, and import-export modules of Sprint 3's Foundations of JavaScript.
 
 
 ## Learning Outcomes
@@ -41,7 +41,7 @@ As part of coding assessment, you will be re-creating the 'Personal Profile' pag
 
 ![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/profile.PNG)
 
-In order to get you more familiar with the �React� way of coding, we will revisit the personal profile page you created in Sprint 0 and recreate it entirely using React
+In order to get you more familiar with the React way of coding, we will revisit the personal profile page you created in Sprint 0 and recreate it entirely using React
 
 *Note: You can use the code you wrote for Sprint 0 here*
 
@@ -156,11 +156,11 @@ By the end of the sprint, you should be able to build a Finance Portfolio Tracke
 
 
 ## Projects for further practice
-� https://github.com/ahfarmer/calculator
+- https://github.com/ahfarmer/calculator
 
-� http://react-clock-basic.drminnaar.me/
+- http://react-clock-basic.drminnaar.me/
 
-� https://dev.to/drminnaar/11-react-examples-2e6d
+- https://dev.to/drminnaar/11-react-examples-2e6d
  
 
  
