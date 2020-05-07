@@ -12,20 +12,20 @@ Understand [how to submit the solution screenshot](https://github.com/greyatom-s
 
 ## Trees
 1. There is a folder on your Desktop. It has two other folders. Each of the two has two more. Assume that each folder is a node in a binary tree and the data in the node is the name of the folder. Write a program to find a particular folder given its name.<br>
-![](img/tree.png)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_8/Coding%20Assignment/img/tree.png)
 <pre>
 Input : 4
 Output : YES
 </pre>
 2. In an organization, the CEO directs two people. Both those people directs two more forming a binary tree structre. Assuming that each employee is a node in a tree, find the max number of people needed for a CEO to issue an order to the employee at the lowest level.<br>
-![](img/tree_2.gif)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_8/Coding%20Assignment/img/tree_2.gif)
 <pre>
 Output : 3
 </pre>
 
 3. Find a pair with given sum in BST
 Given a  BST and a sum, find if there is a pair with given sum.<br>
-![](img/tree_3.png)
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_8/Coding%20Assignment/img/tree_3.png)
 <pre>
 Input : 33
 Output : True
@@ -45,7 +45,10 @@ Input : 2
 Output : 7
 Please see below diagram for explanation.
 </pre>
-![](img/street.png)
+
+![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_8/Coding%20Assignment/img/street.png
+)
+
 
 5. Minimum Number of Platforms Required for a Railway/Bus Station<br>
 Given arrival and departure times of all trains that reach a railway station, the task is to find the minimum number of platforms required for the railway station so that no train waits.

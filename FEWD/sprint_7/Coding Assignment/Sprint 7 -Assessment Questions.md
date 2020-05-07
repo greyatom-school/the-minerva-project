@@ -53,7 +53,9 @@ Input: 20->4->15->35->40
 Output: 40->35->15->4->20
 </pre></code>
 8. In a game of chinese whisper, a message is passed from one person to another in a row till the last. However the same person should not receive the message twice. Assume that the players are nodes in a linked list and check whether the condition is violated.<br>
-Input: ![](img/Linked-List-Loop.gif)<br>
+
+Input: ![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_8/Coding%20Assignment/img/Linked-List-Loop.gif)<br>
+
 Output: Loop Exists
 
 ## Submission
