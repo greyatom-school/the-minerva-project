@@ -1,0 +1,17 @@
+{
+  "name": "socialmedia",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "dotenv": "^8.2.0",
+    "dotenv-safe": "^8.2.0",
+    "express": "~4.16.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.11"
+  }
+}
