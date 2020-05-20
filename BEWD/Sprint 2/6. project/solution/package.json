@@ -1,0 +1,27 @@
+{
+  "name": "node-server",
+  "version": "1.6.16-0",
+  "description": "API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=4096 server.js",
+    "start:nodemon": "nodemon --max-old-space-size=4096 ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/stompit": "^0.26.0",
+    "async": "^2.6.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-fileupload": "^1.1.6",
+    "fs": "0.0.1-security",
+    "request": "^2.88.0",
+    "stompit": "^0.26.0",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
