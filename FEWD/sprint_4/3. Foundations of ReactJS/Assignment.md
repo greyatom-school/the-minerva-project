@@ -39,3 +39,9 @@ On clicking of this button, the modal should close and a message should be shown
 
 ![](https://github.com/greyatom-school/the-minerva-project/raw/master/FEWD/sprint_4/images/BMB8.PNG)
 
+
+
+*Note: This assessment is added for learning purposes and therefore not formally evaluated*
+
+If you are stuck in between, you can refer to the complete solution of the project [here](https://drive.google.com/file/d/1wOrV_oPT4hpIN889gDBVrIkS8eJUsP4i/view?usp=sharing)
+
