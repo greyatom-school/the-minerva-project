@@ -1,4 +1,4 @@
-# Concept 6: Redux, Testing and Optimization
+# Sprint 6: Redux, Testing and Optimization
 
 ## Introduction
 
