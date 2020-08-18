@@ -1,4 +1,4 @@
-# Concept 5: Advanced React
+# Sprint 5: Advanced React
 
 ## Introduction
 
